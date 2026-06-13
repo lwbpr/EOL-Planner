@@ -27,6 +27,11 @@ function getStringValue(value: string | string[] | undefined) {
   return Array.isArray(value) ? value[0] : value;
 }
 
+function getArrayValue(value: string | string[] | undefined) {
+  if (Array.isArray(value)) return value;
+  return value ? [value] : [];
+}
+
 function isTownSlug(value: string | undefined): value is TownSlug {
   return TOWNS.some((item) => item.slug === value);
 }
@@ -35,7 +40,9 @@ function normalizePayload(params: Record<string, string | string[] | undefined>)
   const stage = getStringValue(params.stage);
   const careSetting = getStringValue(params.care_setting);
   const town = getStringValue(params.town);
-  const need = getStringValue(params.need);
+  const needs = getArrayValue(params.need).filter((value): value is IntakeNeed =>
+    validNeeds.has(value as IntakeNeed),
+  );
   const notes = getStringValue(params.notes);
 
   return {
@@ -44,7 +51,7 @@ function normalizePayload(params: Record<string, string | string[] | undefined>)
       ? (careSetting as CareSetting)
       : "hogar",
     town: isTownSlug(town) ? town : TOWNS[0].slug,
-    need: validNeeds.has(need as IntakeNeed) ? (need as IntakeNeed) : "hospicio",
+    needs: needs.length ? needs : ["hospicio"],
     notes,
   };
 }
@@ -115,10 +122,10 @@ export default async function ResultsPage({
           </div>
           <div className="rounded-3xl bg-[var(--success-soft)] p-4">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--success-strong)]">
-              Necesidad principal
+              Necesidades seleccionadas
             </p>
             <p className="mt-2 text-lg font-semibold capitalize text-[var(--success-strong)]">
-              {payload.need.replaceAll("_", " ")}
+              {payload.needs.map((need) => need.replaceAll("_", " ")).join(", ")}
             </p>
           </div>
         </div>
@@ -282,7 +289,7 @@ export default async function ResultsPage({
               </p>
               <p className="mt-2 text-sm leading-7 text-[var(--muted-strong)]">
                 Intenta cambiar el pueblo, abrir el directorio completo o
-                ajustar la necesidad principal para explorar más recursos.
+                ajustar las necesidades seleccionadas para explorar más recursos.
               </p>
             </div>
           )}

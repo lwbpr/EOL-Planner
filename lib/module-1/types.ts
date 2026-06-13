@@ -64,6 +64,6 @@ export type IntakePayload = {
   stage: IntakeStage;
   care_setting: CareSetting;
   town: TownSlug;
-  need: IntakeNeed;
+  needs: IntakeNeed[];
   notes?: string;
 };

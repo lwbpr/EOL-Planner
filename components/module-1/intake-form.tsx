@@ -6,19 +6,19 @@ import { TOWNS, type CareSetting, type IntakeNeed, type IntakeStage } from "@/li
 
 const stages: Array<{ value: IntakeStage; label: string; hint: string }> = [
   {
-    value: "murio",
-    label: "La persona ya murió",
-    hint: "Necesitamos orientación inmediata, gestiones o apoyo para la familia.",
-  },
-  {
-    value: "final_de_vida",
-    label: "Está en proceso de final de vida",
-    hint: "Estamos cuidando ahora mismo o evaluando opciones de cuidado.",
-  },
-  {
     value: "planificando",
     label: "Estamos planificando con anticipación",
     hint: "Queremos entender opciones, documentos y próximos pasos.",
+  },
+  {
+    value: "final_de_vida",
+    label: "Estamos acompañando a una persona en proceso final de vida",
+    hint: "Estamos cuidando ahora mismo o evaluando opciones de cuidado.",
+  },
+  {
+    value: "murio",
+    label: "La persona ya murió",
+    hint: "Necesitamos orientación inmediata, gestiones o apoyo para la familia.",
   },
 ];
 
@@ -74,9 +74,10 @@ export function IntakeForm() {
         onSubmit={(event) => {
           event.preventDefault();
           const formData = new FormData(event.currentTarget);
-          const query = new URLSearchParams(
-            Object.fromEntries(formData.entries()) as Record<string, string>,
-          );
+          const query = new URLSearchParams();
+          for (const [key, value] of formData.entries()) {
+            query.append(key, String(value));
+          }
           router.push(`/resultados?${query.toString()}`);
         }}
       >
@@ -172,7 +173,7 @@ export function IntakeForm() {
                 >
                   <input
                     className="mt-1 h-4 w-4 accent-[var(--accent-strong)]"
-                    type="radio"
+                    type="checkbox"
                     name="need"
                     value={need.value}
                     defaultChecked={need.value === "hospicio"}
