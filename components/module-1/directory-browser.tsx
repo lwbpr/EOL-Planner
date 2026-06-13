@@ -23,6 +23,59 @@ function normalizeUrl(url?: string) {
   return `https://${url}`;
 }
 
+const REGION_LABELS: Record<string, string> = {
+  central: "Central",
+  este: "Este",
+  "este-central": "Este central",
+  metro: "Metro",
+  norte: "Norte",
+  oeste: "Oeste",
+  online: "En línea",
+  sur: "Sur",
+};
+
+function getDetailValue(resource: ResourceItem, key: string) {
+  return resource.details?.[key];
+}
+
+function toList(value: unknown) {
+  if (Array.isArray(value)) {
+    return Array.from(
+      new Set(
+        value
+          .map((item) => String(item).trim())
+          .filter(Boolean),
+      ),
+    );
+  }
+
+  if (typeof value === "string" && value.trim()) {
+    return [value.trim()];
+  }
+
+  return [];
+}
+
+function toText(value: unknown) {
+  return typeof value === "string" && value.trim() ? value.trim() : null;
+}
+
+function formatRegionList(resource: ResourceItem) {
+  const labels = Array.from(
+    new Set(
+      resource.regions
+        .map((region) => REGION_LABELS[region] ?? region)
+        .filter(Boolean),
+    ),
+  );
+
+  if (resource.town && !labels.includes(resource.town)) {
+    labels.unshift(resource.town);
+  }
+
+  return labels;
+}
+
 type DirectoryBrowserProps = {
   directoryCounts: DirectoryCounts;
   resourceDirectory: ResourceItem[];
@@ -230,7 +283,114 @@ export function DirectoryBrowser({
                     {resource.description || resource.summary}
                   </p>
 
-                  {resource.services.length ? (
+                  {resource.category === "doula" ? (
+                    <div className="mt-4 grid gap-4 md:grid-cols-2">
+                      <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+                        <p className="font-semibold text-[var(--ink)]">Roles</p>
+                        <p className="mt-2 leading-7">
+                          {toText(getDetailValue(resource, "role")) || resource.summary}
+                        </p>
+                      </div>
+
+                      <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+                        <p className="font-semibold text-[var(--ink)]">Formación</p>
+                        <p className="mt-2 leading-7">
+                          {toText(getDetailValue(resource, "training")) || "No especificada"}
+                        </p>
+                      </div>
+
+                      <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+                        <p className="font-semibold text-[var(--ink)]">Contacto</p>
+                        <div className="mt-3 flex flex-wrap gap-2">
+                          {resource.phone ? (
+                            <a
+                              href={`tel:${resource.phone}`}
+                              className="rounded-full border border-[var(--line)] bg-[var(--surface)] px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+                            >
+                              {resource.phone}
+                            </a>
+                          ) : null}
+                          {resource.email ? (
+                            <a
+                              href={`mailto:${resource.email}`}
+                              className="rounded-full border border-[var(--line)] bg-[var(--surface)] px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+                            >
+                              {resource.email}
+                            </a>
+                          ) : null}
+                          {website ? (
+                            <a
+                              href={website}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="rounded-full border border-[var(--line)] bg-[var(--surface)] px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+                            >
+                              Sitio web
+                            </a>
+                          ) : null}
+                          {resource.socials?.map((social) => (
+                            <a
+                              key={social}
+                              href={normalizeUrl(social) ?? social}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="rounded-full border border-[var(--line)] bg-[var(--surface)] px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+                            >
+                              Redes
+                            </a>
+                          ))}
+                        </div>
+                      </div>
+
+                      <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+                        <p className="font-semibold text-[var(--ink)]">
+                          Áreas de Enfoque/Especialidad
+                        </p>
+                        <div className="mt-3 flex flex-wrap gap-2">
+                          {toList(getDetailValue(resource, "topics")).length
+                            ? toList(getDetailValue(resource, "topics")).map((topic) => (
+                                <span
+                                  key={`${resource.id}-${topic}`}
+                                  className="rounded-full bg-[var(--accent-soft)] px-3 py-1 text-xs text-[var(--accent-strong)]"
+                                >
+                                  {topic}
+                                </span>
+                              ))
+                            : resource.services.slice(0, 8).map((service) => (
+                                <span
+                                  key={`${resource.id}-${service}`}
+                                  className="rounded-full bg-[var(--accent-soft)] px-3 py-1 text-xs text-[var(--accent-strong)]"
+                                >
+                                  {service}
+                                </span>
+                              ))}
+                        </div>
+                      </div>
+
+                      <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+                        <p className="font-semibold text-[var(--ink)]">Regiones de Servicio</p>
+                        <div className="mt-3 flex flex-wrap gap-2">
+                          {formatRegionList(resource).map((region) => (
+                            <span
+                              key={`${resource.id}-${region}`}
+                              className="rounded-full bg-[var(--surface)] px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+                            >
+                              {region}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+
+                      <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)] md:col-span-2">
+                        <p className="font-semibold text-[var(--ink)]">Sobre mí</p>
+                        <p className="mt-2 leading-7">
+                          {toText(getDetailValue(resource, "about")) ||
+                            resource.description ||
+                            "No se añadió una descripción personal todavía."}
+                        </p>
+                      </div>
+                    </div>
+                  ) : resource.services.length ? (
                     <div className="mt-4 flex flex-wrap gap-2">
                       {resource.services.slice(0, 6).map((service) => (
                         <span
@@ -243,44 +403,46 @@ export function DirectoryBrowser({
                     </div>
                   ) : null}
 
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    {resource.phone ? (
-                      <a
-                        href={`tel:${resource.phone}`}
-                        className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
-                      >
-                        {resource.phone}
-                      </a>
-                    ) : null}
-                    {resource.email ? (
-                      <a
-                        href={`mailto:${resource.email}`}
-                        className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
-                      >
-                        {resource.email}
-                      </a>
-                    ) : null}
-                    {website ? (
-                      <a
-                        href={website}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
-                      >
-                        Sitio web
-                      </a>
-                    ) : null}
-                    {!website && sourceUrl ? (
-                      <a
-                        href={sourceUrl}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
-                      >
-                        Fuente
-                      </a>
-                    ) : null}
-                  </div>
+                  {resource.category !== "doula" ? (
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      {resource.phone ? (
+                        <a
+                          href={`tel:${resource.phone}`}
+                          className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+                        >
+                          {resource.phone}
+                        </a>
+                      ) : null}
+                      {resource.email ? (
+                        <a
+                          href={`mailto:${resource.email}`}
+                          className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+                        >
+                          {resource.email}
+                        </a>
+                      ) : null}
+                      {website ? (
+                        <a
+                          href={website}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+                        >
+                          Sitio web
+                        </a>
+                      ) : null}
+                      {!website && sourceUrl ? (
+                        <a
+                          href={sourceUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+                        >
+                          Fuente
+                        </a>
+                      ) : null}
+                    </div>
+                  ) : null}
 
                   {(resource.coverage || resource.organization) ? (
                     <div className="mt-4 grid gap-3 md:grid-cols-2">

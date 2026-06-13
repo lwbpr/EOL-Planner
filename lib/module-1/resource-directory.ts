@@ -41,6 +41,37 @@ function buildCounts(resources: ResourceItem[]): DirectoryCounts {
 
 export const FALLBACK_DIRECTORY_COUNTS = buildCounts(FALLBACK_RESOURCE_DIRECTORY);
 
+const TOWN_ALIASES: Record<string, { town: string; townSlug: string; region: string }> = {
+  "hato-rey": {
+    town: "San Juan",
+    townSlug: "san-juan",
+    region: "metro",
+  },
+  "rio-piedras": {
+    town: "San Juan",
+    townSlug: "san-juan",
+    region: "metro",
+  },
+};
+
+function canonicalizeTown(resource: ResourceItem): ResourceItem {
+  const alias =
+    (resource.townSlug && TOWN_ALIASES[resource.townSlug]) ||
+    (resource.town && TOWN_ALIASES[resource.town.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").replace(/\s+/g, "-")]);
+
+  if (!alias) return resource;
+
+  return {
+    ...resource,
+    town: alias.town,
+    townSlug: alias.townSlug,
+    region: alias.region,
+    regions: resource.regions.includes(alias.region)
+      ? resource.regions
+      : [alias.region, ...resource.regions],
+  };
+}
+
 function normalizeSupabaseResource(record: Record<string, unknown>): ResourceItem {
   return {
     id: String(record.id),
@@ -80,7 +111,7 @@ export async function getResourceDirectory() {
   const supabase = getSupabaseServerClient();
 
   if (!supabase) {
-    return FALLBACK_RESOURCE_DIRECTORY;
+    return FALLBACK_RESOURCE_DIRECTORY.map((resource) => canonicalizeTown(resource));
   }
 
   const { data, error } = await supabase
@@ -91,10 +122,10 @@ export async function getResourceDirectory() {
     .order("name", { ascending: true });
 
   if (error || !data || data.length === 0) {
-    return FALLBACK_RESOURCE_DIRECTORY;
+    return FALLBACK_RESOURCE_DIRECTORY.map((resource) => canonicalizeTown(resource));
   }
 
-  return data.map((record) => normalizeSupabaseResource(record));
+  return data.map((record) => canonicalizeTown(normalizeSupabaseResource(record)));
 }
 
 export async function getDirectoryCounts() {

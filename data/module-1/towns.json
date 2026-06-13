@@ -1,182 +1,80 @@
 [
-  {
-    "slug": "adjuntas",
-    "name": "Adjuntas",
-    "region": "central"
-  },
-  {
-    "slug": "aguada",
-    "name": "Aguada",
-    "region": "oeste"
-  },
-  {
-    "slug": "aguadilla",
-    "name": "Aguadilla",
-    "region": "oeste"
-  },
-  {
-    "slug": "aibonito",
-    "name": "Aibonito",
-    "region": "central"
-  },
-  {
-    "slug": "arecibo",
-    "name": "Arecibo",
-    "region": "norte"
-  },
-  {
-    "slug": "anasco",
-    "name": "Añasco",
-    "region": "oeste"
-  },
-  {
-    "slug": "bayamon",
-    "name": "Bayamón",
-    "region": "metro"
-  },
-  {
-    "slug": "cabo-rojo",
-    "name": "Cabo Rojo",
-    "region": "oeste"
-  },
-  {
-    "slug": "caguas",
-    "name": "Caguas",
-    "region": "este-central"
-  },
-  {
-    "slug": "canovanas",
-    "name": "Canóvanas",
-    "region": "este"
-  },
-  {
-    "slug": "carolina",
-    "name": "Carolina",
-    "region": "metro"
-  },
-  {
-    "slug": "catano",
-    "name": "Cataño",
-    "region": "metro"
-  },
-  {
-    "slug": "cayey",
-    "name": "Cayey",
-    "region": "central"
-  },
-  {
-    "slug": "comerio",
-    "name": "Comerio",
-    "region": "central"
-  },
-  {
-    "slug": "corozal",
-    "name": "Corozal",
-    "region": "central"
-  },
-  {
-    "slug": "guaynabo",
-    "name": "Guaynabo",
-    "region": "metro"
-  },
-  {
-    "slug": "hatillo",
-    "name": "Hatillo",
-    "region": "norte"
-  },
-  {
-    "slug": "hato-rey",
-    "name": "Hato Rey",
-    "region": "metro"
-  },
-  {
-    "slug": "humacao",
-    "name": "Humacao",
-    "region": "este"
-  },
-  {
-    "slug": "isabela",
-    "name": "Isabela",
-    "region": "oeste"
-  },
-  {
-    "slug": "juana-diaz",
-    "name": "Juana Díaz",
-    "region": "sur"
-  },
-  {
-    "slug": "lares",
-    "name": "Lares",
-    "region": "central"
-  },
-  {
-    "slug": "manati",
-    "name": "Manatí",
-    "region": "norte"
-  },
-  {
-    "slug": "mayaguez",
-    "name": "Mayagüez",
-    "region": "oeste"
-  },
-  {
-    "slug": "morovis",
-    "name": "Morovis",
-    "region": "central"
-  },
-  {
-    "slug": "naranjito",
-    "name": "Naranjito",
-    "region": "central"
-  },
-  {
-    "slug": "ponce",
-    "name": "Ponce",
-    "region": "sur"
-  },
-  {
-    "slug": "rio-grande",
-    "name": "Río Grande",
-    "region": "este"
-  },
-  {
-    "slug": "rio-piedras",
-    "name": "Río Piedras",
-    "region": "metro"
-  },
-  {
-    "slug": "sabana-grande",
-    "name": "Sabana Grande",
-    "region": "oeste"
-  },
-  {
-    "slug": "san-german",
-    "name": "San Germán",
-    "region": "oeste"
-  },
-  {
-    "slug": "san-juan",
-    "name": "San Juan",
-    "region": "metro"
-  },
-  {
-    "slug": "san-lorenzo",
-    "name": "San Lorenzo",
-    "region": "este-central"
-  },
-  {
-    "slug": "vega-alta",
-    "name": "Vega Alta",
-    "region": "norte"
-  },
-  {
-    "slug": "vega-baja",
-    "name": "Vega Baja",
-    "region": "norte"
-  },
-  {
-    "slug": "villalba",
-    "name": "Villalba",
-    "region": "central"
-  }
+  { "slug": "adjuntas", "name": "Adjuntas", "region": "central" },
+  { "slug": "aguada", "name": "Aguada", "region": "oeste" },
+  { "slug": "aguadilla", "name": "Aguadilla", "region": "oeste" },
+  { "slug": "aguas-buenas", "name": "Aguas Buenas", "region": "central" },
+  { "slug": "aibonito", "name": "Aibonito", "region": "central" },
+  { "slug": "anasco", "name": "Añasco", "region": "oeste" },
+  { "slug": "arecibo", "name": "Arecibo", "region": "norte" },
+  { "slug": "arroyo", "name": "Arroyo", "region": "sur" },
+  { "slug": "barceloneta", "name": "Barceloneta", "region": "norte" },
+  { "slug": "barranquitas", "name": "Barranquitas", "region": "central" },
+  { "slug": "bayamon", "name": "Bayamón", "region": "metro" },
+  { "slug": "cabo-rojo", "name": "Cabo Rojo", "region": "oeste" },
+  { "slug": "caguas", "name": "Caguas", "region": "este-central" },
+  { "slug": "camuy", "name": "Camuy", "region": "norte" },
+  { "slug": "canovanas", "name": "Canóvanas", "region": "este" },
+  { "slug": "carolina", "name": "Carolina", "region": "metro" },
+  { "slug": "catano", "name": "Cataño", "region": "metro" },
+  { "slug": "cayey", "name": "Cayey", "region": "central" },
+  { "slug": "ceiba", "name": "Ceiba", "region": "este" },
+  { "slug": "ciales", "name": "Ciales", "region": "central" },
+  { "slug": "cidra", "name": "Cidra", "region": "central" },
+  { "slug": "coamo", "name": "Coamo", "region": "central" },
+  { "slug": "comerio", "name": "Comerío", "region": "central" },
+  { "slug": "corozal", "name": "Corozal", "region": "central" },
+  { "slug": "culebra", "name": "Culebra", "region": "este" },
+  { "slug": "dorado", "name": "Dorado", "region": "norte" },
+  { "slug": "fajardo", "name": "Fajardo", "region": "este" },
+  { "slug": "florida", "name": "Florida", "region": "norte" },
+  { "slug": "guanica", "name": "Guánica", "region": "sur" },
+  { "slug": "guayama", "name": "Guayama", "region": "sur" },
+  { "slug": "guayanilla", "name": "Guayanilla", "region": "sur" },
+  { "slug": "guaynabo", "name": "Guaynabo", "region": "metro" },
+  { "slug": "gurabo", "name": "Gurabo", "region": "este-central" },
+  { "slug": "hatillo", "name": "Hatillo", "region": "norte" },
+  { "slug": "hormigueros", "name": "Hormigueros", "region": "oeste" },
+  { "slug": "humacao", "name": "Humacao", "region": "este" },
+  { "slug": "isabela", "name": "Isabela", "region": "oeste" },
+  { "slug": "jayuya", "name": "Jayuya", "region": "central" },
+  { "slug": "juana-diaz", "name": "Juana Díaz", "region": "sur" },
+  { "slug": "juncos", "name": "Juncos", "region": "este-central" },
+  { "slug": "lajas", "name": "Lajas", "region": "oeste" },
+  { "slug": "lares", "name": "Lares", "region": "central" },
+  { "slug": "las-marias", "name": "Las Marías", "region": "oeste" },
+  { "slug": "las-piedras", "name": "Las Piedras", "region": "este-central" },
+  { "slug": "loiza", "name": "Loíza", "region": "este" },
+  { "slug": "luquillo", "name": "Luquillo", "region": "este" },
+  { "slug": "manati", "name": "Manatí", "region": "norte" },
+  { "slug": "maricao", "name": "Maricao", "region": "oeste" },
+  { "slug": "maunabo", "name": "Maunabo", "region": "sur" },
+  { "slug": "mayaguez", "name": "Mayagüez", "region": "oeste" },
+  { "slug": "moca", "name": "Moca", "region": "oeste" },
+  { "slug": "morovis", "name": "Morovis", "region": "central" },
+  { "slug": "naguabo", "name": "Naguabo", "region": "este" },
+  { "slug": "naranjito", "name": "Naranjito", "region": "central" },
+  { "slug": "orocovis", "name": "Orocovis", "region": "central" },
+  { "slug": "patillas", "name": "Patillas", "region": "sur" },
+  { "slug": "penuelas", "name": "Peñuelas", "region": "sur" },
+  { "slug": "ponce", "name": "Ponce", "region": "sur" },
+  { "slug": "quebradillas", "name": "Quebradillas", "region": "norte" },
+  { "slug": "rincon", "name": "Rincón", "region": "oeste" },
+  { "slug": "rio-grande", "name": "Río Grande", "region": "este" },
+  { "slug": "sabana-grande", "name": "Sabana Grande", "region": "oeste" },
+  { "slug": "salinas", "name": "Salinas", "region": "sur" },
+  { "slug": "san-german", "name": "San Germán", "region": "oeste" },
+  { "slug": "san-juan", "name": "San Juan", "region": "metro" },
+  { "slug": "san-lorenzo", "name": "San Lorenzo", "region": "este-central" },
+  { "slug": "san-sebastian", "name": "San Sebastián", "region": "oeste" },
+  { "slug": "santa-isabel", "name": "Santa Isabel", "region": "sur" },
+  { "slug": "toa-alta", "name": "Toa Alta", "region": "metro" },
+  { "slug": "toa-baja", "name": "Toa Baja", "region": "metro" },
+  { "slug": "trujillo-alto", "name": "Trujillo Alto", "region": "metro" },
+  { "slug": "utuado", "name": "Utuado", "region": "central" },
+  { "slug": "vega-alta", "name": "Vega Alta", "region": "norte" },
+  { "slug": "vega-baja", "name": "Vega Baja", "region": "norte" },
+  { "slug": "vieques", "name": "Vieques", "region": "este" },
+  { "slug": "villalba", "name": "Villalba", "region": "central" },
+  { "slug": "yabucoa", "name": "Yabucoa", "region": "este" },
+  { "slug": "yauco", "name": "Yauco", "region": "sur" }
 ]
