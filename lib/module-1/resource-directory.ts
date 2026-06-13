@@ -7,8 +7,8 @@ export const FALLBACK_RESOURCE_DIRECTORY = fallbackDirectory as ResourceItem[];
 export const CATEGORY_LABELS: Record<ResourceCategory, string> = {
   doula: "Doulas de Final de Vida",
   apoyo_complementario: "Otros apoyos complementarios",
-  hospicio: "Hospicios",
-  servicio_funebre: "Servicios fúnebres",
+  hospicio: "Hospicios y Cuidados Paliativos",
+  servicio_funebre: "Servicios Fúnebres",
 };
 
 export function getCategoryLabel(category: ResourceCategory) {
