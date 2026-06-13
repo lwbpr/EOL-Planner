@@ -60,13 +60,7 @@ export function DirectoryBrowser({
       <section className="rounded-[2rem] border border-white/50 bg-white/80 p-8 shadow-[0_24px_80px_rgba(71,60,53,0.1)] backdrop-blur">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--muted)]">
-              Directorio de recursos
-            </p>
-            <h1 className="mt-3 font-display text-4xl text-[var(--ink)]">
-              Recursos de final de vida en Puerto Rico
-            </h1>
-            <p className="mt-4 max-w-3xl text-base leading-8 text-[var(--muted-strong)]">
+            <p className="max-w-3xl text-base leading-8 text-[var(--muted-strong)]">
               Escoge una categoría general o abre todos los recursos y luego
               filtra por pueblo para ver solo lo que haga sentido para esa
               búsqueda.
@@ -186,8 +180,8 @@ export function DirectoryBrowser({
               Todavía no hay recursos desplegados.
             </p>
             <p className="mt-2 text-sm leading-7 text-[var(--muted-strong)]">
-              Pulsa `Doulas de Final de Vida`, `Hospicios y Cuidados
-              Paliativos`, `Servicios Fúnebres` o `Todos los recursos` para
+              Pulsa Doulas de Final de Vida, Hospicios y Cuidados Paliativos,
+              Servicios Fúnebres o Todos los recursos para
               abrir el listado.
             </p>
           </div>
