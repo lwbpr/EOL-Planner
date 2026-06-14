@@ -166,6 +166,30 @@ export function DirectoryBrowser({
 }: DirectoryBrowserProps) {
   const [activeFilter, setActiveFilter] = useState<DirectoryFilter>("none");
   const [selectedTown, setSelectedTown] = useState("all");
+  const [selectedRegion, setSelectedRegion] = useState("all");
+
+  const doulaRegionOptions = useMemo(() => {
+    const slugs = Array.from(
+      new Set(
+        resourceDirectory
+          .filter((resource) => resource.category === "doula")
+          .flatMap((resource) => {
+            const regions = resource.regions.length ? resource.regions : [];
+            return resource.region && !regions.includes(resource.region)
+              ? [resource.region, ...regions]
+              : regions;
+          })
+          .filter(Boolean),
+      ),
+    ).sort((left, right) =>
+      (REGION_LABELS[left] ?? left).localeCompare(REGION_LABELS[right] ?? right, "es"),
+    );
+
+    return slugs.map((slug) => ({
+      slug,
+      label: REGION_LABELS[slug] ?? slug,
+    }));
+  }, [resourceDirectory]);
 
   const filteredResources = useMemo(() => {
     if (activeFilter === "none") return [];
@@ -175,10 +199,15 @@ export function DirectoryBrowser({
         activeFilter === "all" ? true : resource.category === activeFilter;
       const matchesTown =
         selectedTown === "all" ? true : resource.townSlug === selectedTown;
+      const matchesRegion =
+        activeFilter === "doula" && selectedRegion !== "all"
+          ? resource.category === "doula" &&
+            (resource.region === selectedRegion || resource.regions.includes(selectedRegion))
+          : true;
 
-      return matchesCategory && matchesTown;
+      return matchesCategory && matchesTown && matchesRegion;
     });
-  }, [activeFilter, resourceDirectory, selectedTown]);
+  }, [activeFilter, resourceDirectory, selectedRegion, selectedTown]);
 
   const activeLabel =
     activeFilter === "all"
@@ -199,7 +228,7 @@ export function DirectoryBrowser({
             </p>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-2">
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_auto]">
             <label className="space-y-2">
               <span className="text-sm font-semibold text-[var(--ink)]">
                 Filtrar por pueblo
@@ -218,12 +247,33 @@ export function DirectoryBrowser({
               </select>
             </label>
 
+            {activeFilter === "doula" ? (
+              <label className="space-y-2">
+                <span className="text-sm font-semibold text-[var(--ink)]">
+                  Filtrar doulas por región de servicio
+                </span>
+                <select
+                  value={selectedRegion}
+                  onChange={(event) => setSelectedRegion(event.target.value)}
+                  className="w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm text-[var(--ink)] outline-none transition focus:border-[var(--accent-strong)]"
+                >
+                  <option value="all">Todas las regiones</option>
+                  {doulaRegionOptions.map((region) => (
+                    <option key={region.slug} value={region.slug}>
+                      {region.label}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            ) : null}
+
             <div className="flex items-end">
               <button
                 type="button"
                 onClick={() => {
                   setActiveFilter("none");
                   setSelectedTown("all");
+                  setSelectedRegion("all");
                 }}
                 className="inline-flex w-full items-center justify-center rounded-full border border-[var(--line-strong)] px-5 py-3 text-sm font-semibold text-[var(--ink)] transition hover:bg-[var(--surface-soft)]"
               >
@@ -236,7 +286,10 @@ export function DirectoryBrowser({
         <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           <button
             type="button"
-            onClick={() => setActiveFilter("all")}
+            onClick={() => {
+              setActiveFilter("all");
+              setSelectedRegion("all");
+            }}
             className={`rounded-3xl border p-5 text-left transition ${
               activeFilter === "all"
                 ? "border-[var(--accent-strong)] bg-[var(--accent-soft)]"
@@ -258,7 +311,12 @@ export function DirectoryBrowser({
             <button
               key={category}
               type="button"
-              onClick={() => setActiveFilter(category)}
+              onClick={() => {
+                setActiveFilter(category);
+                if (category !== "doula") {
+                  setSelectedRegion("all");
+                }
+              }}
               className={`rounded-3xl border p-5 text-left transition ${
                 activeFilter === category
                   ? "border-[var(--accent-strong)] bg-[var(--accent-soft)]"
@@ -292,9 +350,13 @@ export function DirectoryBrowser({
             </h2>
             <p className="mt-2 text-sm leading-7 text-[var(--muted-strong)]">
               {activeLabel
-                ? selectedTown === "all"
-                  ? "Mostrando resultados para todo Puerto Rico."
-                  : "Mostrando resultados para el pueblo seleccionado."
+                ? activeFilter === "doula" && selectedRegion !== "all"
+                  ? selectedTown === "all"
+                    ? "Mostrando doulas de la región de servicio seleccionada."
+                    : "Mostrando doulas para el pueblo y la región de servicio seleccionados."
+                  : selectedTown === "all"
+                    ? "Mostrando resultados para todo Puerto Rico."
+                    : "Mostrando resultados para el pueblo seleccionado."
                 : "De primeras el directorio queda cerrado para que la persona abra solo la categoría que necesita."}
             </p>
           </div>
