@@ -63,13 +63,27 @@ export default async function Home() {
               <p className="text-2xl font-semibold text-[var(--ink)]">
                 {directoryCounts.total}
               </p>
-              <p className="mt-1 text-sm text-[var(--muted)]">recursos reales integrados</p>
+              <p className="mt-1 text-sm text-[var(--muted)]">recursos integrados</p>
+            </div>
+            <div className="rounded-3xl border border-[var(--line)] bg-white/80 p-4">
+              <p className="text-2xl font-semibold text-[var(--ink)]">
+                {directoryCounts.byCategory.doula}
+              </p>
+              <p className="mt-1 text-sm text-[var(--muted)]">doulas en el directorio</p>
             </div>
             <div className="rounded-3xl border border-[var(--line)] bg-white/80 p-4">
               <p className="text-2xl font-semibold text-[var(--ink)]">
                 {directoryCounts.byCategory.hospicio}
               </p>
               <p className="mt-1 text-sm text-[var(--muted)]">hospicios en el directorio</p>
+            </div>
+            <div className="rounded-3xl border border-[var(--line)] bg-white/80 p-4">
+              <p className="text-2xl font-semibold text-[var(--ink)]">
+                {directoryCounts.byCategory.servicio_funebre}
+              </p>
+              <p className="mt-1 text-sm text-[var(--muted)]">
+                servicios fúnebres en el directorio
+              </p>
             </div>
           </div>
           <ul className="mt-6 space-y-4 text-sm leading-7 text-[var(--muted-strong)]">
