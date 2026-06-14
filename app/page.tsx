@@ -88,8 +88,6 @@ export default async function Home() {
           </div>
           <ul className="mt-6 space-y-4 text-sm leading-7 text-[var(--muted-strong)]">
             <li>Incluye doulas, hospicios y servicios fúnebres.</li>
-            <li>Usa los tres spreadsheets compartidos como base del primer directorio real.</li>
-            <li>Permite recomendar por necesidad, municipio y etapa del proceso.</li>
           </ul>
           <div className="mt-8 flex flex-col gap-3">
             <Link
