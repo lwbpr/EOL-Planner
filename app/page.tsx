@@ -10,17 +10,14 @@ export default async function Home() {
       <section className="grid gap-8 rounded-[2rem] border border-white/50 bg-white/75 p-8 shadow-[0_24px_80px_rgba(71,60,53,0.12)] backdrop-blur md:grid-cols-[1.1fr_0.9fr] md:p-10">
         <div className="space-y-6">
           <div className="inline-flex rounded-full border border-[var(--line)] bg-[var(--surface-soft)] px-4 py-1 text-sm font-semibold text-[var(--accent-strong)]">
-            Coordinador de Final de Vida
+            Orientador Digital para Procesos de Final de Vida
           </div>
           <div className="space-y-4">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[var(--muted)]">
-              Orientador digital para Puerto Rico
-            </p>
             <h1 className="max-w-3xl font-display text-4xl leading-tight text-[var(--ink)] md:text-6xl">
-              Ayuda práctica, clara y localizada para momentos de final de vida.
+              Ayuda práctica, clara y personalizada para el final de la vida.
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-[var(--muted-strong)]">
-              Estsección ayuda a una persona o familia a ubicarse,
+              Esta sección ayuda a personas o familias a ubicarse,
               entender próximos pasos y ver los recursos más relevantes según su
               situación, su pueblo y el tipo de apoyo que necesita.
             </p>
