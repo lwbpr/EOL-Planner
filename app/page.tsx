@@ -20,8 +20,8 @@ export default async function Home() {
               Ayuda práctica, clara y localizada para momentos de final de vida.
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-[var(--muted-strong)]">
-              Este primer módulo ayuda a una persona o familia a ubicarse rápido,
-              entender qué hacer ahora y ver los recursos más relevantes según su
+              Estsección ayuda a una persona o familia a ubicarse,
+              entender próximos pasos y ver los recursos más relevantes según su
               situación, su pueblo y el tipo de apoyo que necesita.
             </p>
           </div>
@@ -31,7 +31,7 @@ export default async function Home() {
                 1. Ubica tu situación
               </p>
               <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
-                Contesta unas pocas preguntas en español y sin lenguaje técnico.
+                Contesta unas pocas preguntas y en lenguaje sencillo.
               </p>
             </div>
             <div className="rounded-3xl border border-[var(--line)] bg-[var(--surface)] p-4">
@@ -39,8 +39,8 @@ export default async function Home() {
                 2. Recibe orientación útil
               </p>
               <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
-                Ve los próximos pasos, advertencias y apoyos que hacen sentido
-                para tu caso.
+                Evalúa las sugerencias de próximos pasos, advertencias y apoyos según hagan sentido
+                para tu situación.
               </p>
             </div>
             <div className="rounded-3xl border border-[var(--line)] bg-[var(--surface)] p-4">
@@ -48,7 +48,7 @@ export default async function Home() {
                 3. Encuentra recursos cercanos
               </p>
               <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
-                El directorio aparece dentro del flujo, no como una lista fría.
+                Encuentra recursos puntuales del directorio filtrados a partir de tus respuestas.
               </p>
             </div>
           </div>
@@ -63,26 +63,26 @@ export default async function Home() {
               <p className="text-2xl font-semibold text-[var(--ink)]">
                 {directoryCounts.total}
               </p>
-              <p className="mt-1 text-sm text-[var(--muted)]">recursos integrados</p>
+              <p className="mt-1 text-sm text-[var(--muted)]">Todos los recursos</p>
             </div>
             <div className="rounded-3xl border border-[var(--line)] bg-white/80 p-4">
               <p className="text-2xl font-semibold text-[var(--ink)]">
                 {directoryCounts.byCategory.doula}
               </p>
-              <p className="mt-1 text-sm text-[var(--muted)]">doulas en el directorio</p>
+              <p className="mt-1 text-sm text-[var(--muted)]">Doulas de Final de Vida</p>
             </div>
             <div className="rounded-3xl border border-[var(--line)] bg-white/80 p-4">
               <p className="text-2xl font-semibold text-[var(--ink)]">
                 {directoryCounts.byCategory.hospicio}
               </p>
-              <p className="mt-1 text-sm text-[var(--muted)]">hospicios en el directorio</p>
+              <p className="mt-1 text-sm text-[var(--muted)]">\Hospicios</p>
             </div>
             <div className="rounded-3xl border border-[var(--line)] bg-white/80 p-4">
               <p className="text-2xl font-semibold text-[var(--ink)]">
                 {directoryCounts.byCategory.servicio_funebre}
               </p>
               <p className="mt-1 text-sm text-[var(--muted)]">
-                servicios fúnebres en el directorio
+                Servicios Fúnebres
               </p>
             </div>
           </div>
