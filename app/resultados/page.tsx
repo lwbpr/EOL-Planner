@@ -13,7 +13,7 @@ export default async function Home() {
             Orientador Digital para Procesos de Final de Vida
           </div>
           <div className="space-y-4">
-            <h1 className="max-w-3xl font-display text-4xl leading-tight text-[var(--ink)] md:text-3xl">
+            <h1 className="max-w-3xl font-display text-4xl leading-tight text-[var(--ink)] md:text-6xl">
               Ayuda práctica y personalizada para el final de la vida.
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-[var(--muted-strong)]">
