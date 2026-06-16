@@ -14,7 +14,7 @@ export default async function Home() {
           </div>
           <div className="space-y-4">
             <h1 className="max-w-3xl font-display text-4xl leading-tight text-[var(--ink)] md:text-6xl">
-              Ayuda práctica, clara y personalizada para el final de la vida.
+              Ayuda práctica y personalizada para el final de la vida.
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-[var(--muted-strong)]">
               Esta sección ayuda a personas o familias a ubicarse,
@@ -96,10 +96,6 @@ export default async function Home() {
             <div className="rounded-3xl border border-dashed border-[var(--line-strong)] bg-white/70 p-5">
               <p className="text-sm font-semibold text-[var(--ink)]">
                 Siguiente capa del producto
-              </p>
-              <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
-              El próximo paso es mover este directorio a Supabase para poder
-              curarlo, ampliarlo y actualizarlo sin editar código.
               </p>
             </div>
           </div>
