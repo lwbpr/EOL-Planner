@@ -72,7 +72,7 @@ export default async function Home() {
               <p className="text-2xl font-semibold text-[var(--ink)]">
                 {directoryCounts.byCategory.hospicio}
               </p>
-              <p className="mt-1 text-sm text-[var(--muted)]">\Hospicios</p>
+              <p className="mt-1 text-sm text-[var(--muted)]">Hospicios</p>
             </div>
             <div className="rounded-3xl border border-[var(--line)] bg-white/80 p-4">
               <p className="text-2xl font-semibold text-[var(--ink)]">
@@ -93,7 +93,6 @@ export default async function Home() {
             >
               Ver directorio completo
             </Link>
-            </div>
           </div>
         </aside>
       </section>
