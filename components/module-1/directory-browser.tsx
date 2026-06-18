@@ -17,6 +17,10 @@ type DirectoryCounts = {
 };
 
 type DirectoryFilter = "none" | "all" | ResourceCategory;
+type HospiceScoreItem = {
+  label: string;
+  value: string;
+};
 
 function normalizeUrl(url?: string) {
   if (!url) return null;
@@ -153,6 +157,351 @@ function SectionHeading({
       <SectionIcon path={iconPath} />
       <p className="text-sm font-semibold">{title}</p>
     </div>
+  );
+}
+
+const HOSPICE_SCORE_LABELS: Record<string, string> = {
+  "Hospice Visits in the Last Days of Life": "Visitas en los últimos días de vida",
+  "Staffing Ratios": "Proporción de personal",
+  "Levels of Care": "Niveles de cuidado",
+  "CAHPS Definitely Recommend This Hospice": "Recomendación de familias usuarias",
+  "Stability": "Estabilidad",
+  "Accreditation": "Acreditación",
+  "Health Equity": "Equidad en salud",
+  "a fraud penalty": "Penalidad por fraude",
+  "fraud penalty": "Penalidad por fraude",
+};
+
+function formatScoreNumber(value: string) {
+  return value.replace(/\.00$/, "");
+}
+
+function translateBoolean(value: unknown) {
+  const text = toText(value)?.toLowerCase();
+  if (text === "yes") return "Sí";
+  if (text === "no") return "No";
+  return toText(value);
+}
+
+function translateOwnership(value: unknown) {
+  const text = toText(value)?.toLowerCase();
+  if (text === "for-profit") return "Con fines de lucro";
+  if (text === "non-profit") return "Sin fines de lucro";
+  if (text === "government") return "Gubernamental";
+  return toText(value);
+}
+
+function translateUrbanRural(value: unknown) {
+  const text = toText(value)?.toLowerCase();
+  if (text === "urban") return "Urbano";
+  if (text === "rural") return "Rural";
+  return toText(value);
+}
+
+function translateFacilityType(value: unknown) {
+  const text = toText(value)?.toLowerCase();
+  if (text === "freestanding") return "Instalación independiente";
+  if (text === "hospital based") return "Basado en hospital";
+  if (text === "home health agency based") return "Vinculado a agencia de salud en el hogar";
+  return toText(value);
+}
+
+function translateDailySize(value: unknown) {
+  const text = toText(value);
+  if (!text) return null;
+
+  return text
+    .replace("Extra Small", "Extra pequeño")
+    .replace("Small", "Pequeño")
+    .replace("Medium", "Mediano")
+    .replace("Large", "Grande")
+    .replace("Extra Large", "Extra grande")
+    .replace("pts/day", "pacientes por día");
+}
+
+function getHospiceCoverageList(resource: ResourceItem) {
+  const coverage = resource.coverage;
+  if (!coverage) return [];
+
+  const normalized = coverage.replace(/^Puerto Rico:\s*/i, "").trim();
+  return normalized
+    .split(",")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function parseHospiceScoreBreakdown(resource: ResourceItem): HospiceScoreItem[] {
+  const qualityText = toText(getDetailValue(resource, "qualityScoreCalculation"));
+  if (!qualityText) return [];
+
+  const matches = Array.from(
+    qualityText.matchAll(
+      /(\d+(?:\.\d+)?)\s*\/\s*(-?\d+(?:\.\d+)?)\s*points\s+(?:on|as)\s+(.*?)(?=;|\.|$)/g,
+    ),
+  );
+
+  return matches.map((match) => {
+    const score = formatScoreNumber(match[1]);
+    const maxScore = formatScoreNumber(match[2]);
+    const rawLabel = match[3].trim();
+    const label = HOSPICE_SCORE_LABELS[rawLabel] ?? rawLabel;
+
+    return {
+      label,
+      value: `${score} / ${maxScore}`,
+    };
+  });
+}
+
+function buildHospiceSummary(resource: ResourceItem) {
+  const totalScore = toText(getDetailValue(resource, "qualityScore")) ?? "No disponible";
+  const breakdown = parseHospiceScoreBreakdown(resource);
+
+  if (!breakdown.length) {
+    return `Puntuación total ${totalScore}.`;
+  }
+
+  return `Puntuación total ${totalScore}. Pulsa para ver el desglose completo y la información institucional.`;
+}
+
+function HospiceCard({
+  resource,
+  website,
+  sourceUrl,
+}: {
+  resource: ResourceItem;
+  website: string | null;
+  sourceUrl: string | null;
+}) {
+  const totalScore = toText(getDetailValue(resource, "qualityScore")) ?? "No disponible";
+  const breakdown = parseHospiceScoreBreakdown(resource);
+  const servedTowns = getHospiceCoverageList(resource);
+  const ceoAdministrator = toText(getDetailValue(resource, "ceoAdministrator"));
+  const numberServedDaily = translateDailySize(getDetailValue(resource, "numberServedDaily"));
+  const ownership = translateOwnership(getDetailValue(resource, "ownership"));
+  const medicareCertified = translateBoolean(getDetailValue(resource, "medicareCertified"));
+  const yearCertification = toText(getDetailValue(resource, "yearMedicareCertification"));
+  const inpatientFacility = translateBoolean(getDetailValue(resource, "hospiceInpatientFacility"));
+  const urbanOrRural = translateUrbanRural(getDetailValue(resource, "urbanOrRural"));
+  const facilityType = translateFacilityType(getDetailValue(resource, "facilityType"));
+
+  return (
+    <details className="rounded-[1.75rem] border border-[var(--line)] bg-[var(--surface)] p-5 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="cursor-pointer list-none">
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+                {CATEGORY_LABELS[resource.category]}
+              </p>
+              <h3 className="mt-2 text-xl font-semibold text-[var(--ink)]">
+                {resource.name}
+              </h3>
+              <p className="mt-2 text-sm text-[var(--muted-strong)]">
+                {resource.town || "Municipio no especificado"}
+                {resource.address ? ` · ${resource.address}` : ""}
+              </p>
+            </div>
+            <div className="flex items-center gap-3">
+              {resource.verification ? (
+                <span className="rounded-full bg-white px-3 py-1 text-xs font-semibold text-[var(--accent-strong)]">
+                  {resource.verification}
+                </span>
+              ) : null}
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[var(--line)] bg-white text-[var(--accent-strong)] transition group-open:rotate-180">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-5 w-5"
+                  aria-hidden="true"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </span>
+            </div>
+          </div>
+
+          <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+            <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+              <p className="font-semibold text-[var(--ink)]">Puntuación total</p>
+              <p className="mt-2 text-2xl font-semibold text-[var(--accent-strong)]">
+                {totalScore}
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+              <p className="font-semibold text-[var(--ink)]">Información de contacto</p>
+              <div className="mt-2 space-y-1 leading-6">
+                {resource.phone ? <p>{resource.phone}</p> : null}
+                {resource.email ? <p className="break-all">{resource.email}</p> : null}
+                {website ? (
+                  <p className="break-all">{website.replace(/^https?:\/\//, "")}</p>
+                ) : null}
+                {!resource.phone && !resource.email && !website ? (
+                  <p>No disponible</p>
+                ) : null}
+              </div>
+            </div>
+
+            <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+              <p className="font-semibold text-[var(--ink)]">Cobertura</p>
+              <p className="mt-2 leading-6">
+                {resource.coverage || "Cobertura no especificada"}
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+              <p className="font-semibold text-[var(--ink)]">Resumen</p>
+              <p className="mt-2 leading-6">{buildHospiceSummary(resource)}</p>
+            </div>
+          </div>
+        </div>
+      </summary>
+
+      <div className="mt-5 grid gap-4">
+        <div className="rounded-[1.5rem] border border-[rgba(201,120,66,0.12)] bg-[var(--accent-soft)]/55 p-5">
+          <SectionHeading
+            title="Desglose de puntuación"
+            iconPath="M4 19h16M7 16V8M12 16V5M17 16v-3"
+          />
+          <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+            <div className="rounded-2xl bg-white/90 p-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--muted)]">
+                Puntuación total
+              </p>
+              <p className="mt-2 text-2xl font-semibold text-[var(--accent-strong)]">
+                {totalScore}
+              </p>
+            </div>
+            {breakdown.map((item) => (
+              <div key={`${resource.id}-${item.label}`} className="rounded-2xl bg-white/90 p-4">
+                <p className="text-sm font-semibold leading-6 text-[var(--ink)]">
+                  {item.label}
+                </p>
+                <p className="mt-2 text-base font-semibold text-[var(--accent-strong)]">
+                  {item.value}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="grid gap-4 lg:grid-cols-2">
+          <div className="rounded-[1.5rem] border border-[var(--line)] bg-white/90 p-5">
+            <SectionHeading
+              title="Información institucional"
+              iconPath="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M15 9h.01M9 13h.01M15 13h.01"
+            />
+            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              <div className="rounded-2xl bg-[var(--surface-soft)] p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Administrador / Director / CEO</p>
+                <p className="mt-2">{ceoAdministrator || "No disponible"}</p>
+              </div>
+              <div className="rounded-2xl bg-[var(--surface-soft)] p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Tamaño</p>
+                <p className="mt-2">{numberServedDaily || "No disponible"}</p>
+              </div>
+              <div className="rounded-2xl bg-[var(--surface-soft)] p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Tipo de propiedad</p>
+                <p className="mt-2">{ownership || "No disponible"}</p>
+              </div>
+              <div className="rounded-2xl bg-[var(--surface-soft)] p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Certificado por Medicare</p>
+                <p className="mt-2">{medicareCertified || "No disponible"}</p>
+              </div>
+              <div className="rounded-2xl bg-[var(--surface-soft)] p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Año de certificación Medicare</p>
+                <p className="mt-2">{yearCertification || "No disponible"}</p>
+              </div>
+              <div className="rounded-2xl bg-[var(--surface-soft)] p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Facilidad de internado de hospicio</p>
+                <p className="mt-2">{inpatientFacility || "No disponible"}</p>
+              </div>
+              <div className="rounded-2xl bg-[var(--surface-soft)] p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Ubicación</p>
+                <p className="mt-2">{urbanOrRural || "No disponible"}</p>
+              </div>
+              <div className="rounded-2xl bg-[var(--surface-soft)] p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Tipo de facilidad</p>
+                <p className="mt-2">{facilityType || "No disponible"}</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid gap-4">
+            <div className="rounded-[1.5rem] border border-[var(--line)] bg-white/90 p-5">
+              <SectionHeading
+                title="Municipios a los que sirve"
+                iconPath="M12 21s-6-5.33-6-11a6 6 0 1 1 12 0c0 5.67-6 11-6 11Zm0-8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+              />
+              <div className="mt-4 flex flex-wrap gap-2">
+                {(servedTowns.length ? servedTowns : ["No especificados"]).map((town) => (
+                  <span
+                    key={`${resource.id}-${town}`}
+                    className="rounded-full border border-[var(--line)] bg-[var(--surface-soft)] px-3 py-1.5 text-xs font-semibold text-[var(--ink)]"
+                  >
+                    {town}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-[1.5rem] border border-[var(--line)] bg-white/90 p-5">
+              <SectionHeading
+                title="Enlaces y contacto"
+                iconPath="M21 8.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8.5M21 8.5V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1.5M21 8.5l-9 6-9-6"
+              />
+              <div className="mt-4 flex flex-wrap gap-2 text-sm">
+                {resource.phone ? (
+                  <a
+                    href={`tel:${resource.phone}`}
+                    className="rounded-full border border-[var(--line)] bg-white px-3 py-2 font-semibold text-[var(--ink)]"
+                  >
+                    {resource.phone}
+                  </a>
+                ) : null}
+                {resource.email ? (
+                  <a
+                    href={`mailto:${resource.email}`}
+                    className="rounded-full border border-[var(--line)] bg-white px-3 py-2 font-semibold text-[var(--ink)]"
+                  >
+                    Correo
+                  </a>
+                ) : null}
+                {website ? (
+                  <a
+                    href={website}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-full border border-[var(--line)] bg-white px-3 py-2 font-semibold text-[var(--ink)]"
+                  >
+                    Sitio web
+                  </a>
+                ) : null}
+                {!website && sourceUrl ? (
+                  <a
+                    href={sourceUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-full border border-[var(--line)] bg-white px-3 py-2 font-semibold text-[var(--ink)]"
+                  >
+                    Fuente
+                  </a>
+                ) : null}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-xs uppercase tracking-[0.16em] text-[var(--muted)]">
+          Fuente: {resource.sourceLabel}
+        </p>
+      </div>
+    </details>
   );
 }
 
@@ -408,6 +757,14 @@ export function DirectoryBrowser({
               const regionItems = formatRegionList(resource);
 
               return (
+                resource.category === "hospicio" ? (
+                  <HospiceCard
+                    key={resource.id}
+                    resource={resource}
+                    website={website}
+                    sourceUrl={sourceUrl}
+                  />
+                ) : (
                 <article
                   key={resource.id}
                   className="rounded-[1.75rem] border border-[var(--line)] bg-[var(--surface)] p-5"
@@ -683,6 +1040,7 @@ export function DirectoryBrowser({
                     Fuente: {resource.sourceLabel}
                   </p>
                 </article>
+                )
               );
             })}
           </div>
