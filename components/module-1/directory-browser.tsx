@@ -6,6 +6,7 @@ import { TOWNS, type ResourceCategory, type ResourceItem } from "@/lib/module-1/
 
 const CATEGORY_ORDER: ResourceCategory[] = [
   "doula",
+  "apoyo_complementario",
   "hospicio",
   "servicio_funebre",
 ];
@@ -198,7 +199,9 @@ export function DirectoryBrowser({
       const matchesCategory =
         activeFilter === "all" ? true : resource.category === activeFilter;
       const matchesTown =
-        selectedTown === "all" ? true : resource.townSlug === selectedTown;
+        selectedTown === "all"
+          ? true
+          : !resource.townSlug || resource.townSlug === selectedTown;
       const matchesRegion =
         activeFilter === "doula" && selectedRegion !== "all"
           ? resource.category === "doula" &&
@@ -283,7 +286,7 @@ export function DirectoryBrowser({
           </div>
         </div>
 
-        <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-5">
           <button
             type="button"
             onClick={() => {
@@ -375,8 +378,8 @@ export function DirectoryBrowser({
             </p>
             <p className="mt-2 text-sm leading-7 text-[var(--muted-strong)]">
               Pulsa Doulas de Final de Vida, Hospicios y Cuidados Paliativos,
-              Servicios Fúnebres o Todos los recursos para
-              abrir el listado.
+              Otros apoyos complementarios, Servicios Fúnebres o Todos los
+              recursos para abrir el listado.
             </p>
           </div>
         ) : filteredResources.length === 0 ? (

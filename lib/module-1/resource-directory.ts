@@ -1,4 +1,5 @@
 import fallbackDirectory from "@/data/module-1/resource-directory.json";
+import { getLiveDoulaResources } from "@/lib/module-1/live-doulas";
 import { getSupabaseServerClient } from "@/lib/supabase/server";
 import type { ResourceCategory, ResourceItem } from "@/lib/module-1/types";
 
@@ -107,11 +108,21 @@ function normalizeSupabaseResource(record: Record<string, unknown>): ResourceIte
   };
 }
 
+async function mergeLiveDoulas(resources: ResourceItem[]) {
+  const liveDoulas = await getLiveDoulaResources();
+  if (!liveDoulas?.length) {
+    return resources.map((resource) => canonicalizeTown(resource));
+  }
+
+  const withoutSheetDoulas = resources.filter((resource) => resource.source !== "doulas_live");
+  return [...withoutSheetDoulas, ...liveDoulas].map((resource) => canonicalizeTown(resource));
+}
+
 export async function getResourceDirectory() {
   const supabase = getSupabaseServerClient();
 
   if (!supabase) {
-    return FALLBACK_RESOURCE_DIRECTORY.map((resource) => canonicalizeTown(resource));
+    return mergeLiveDoulas(FALLBACK_RESOURCE_DIRECTORY);
   }
 
   const { data, error } = await supabase
@@ -122,10 +133,10 @@ export async function getResourceDirectory() {
     .order("name", { ascending: true });
 
   if (error || !data || data.length === 0) {
-    return FALLBACK_RESOURCE_DIRECTORY.map((resource) => canonicalizeTown(resource));
+    return mergeLiveDoulas(FALLBACK_RESOURCE_DIRECTORY);
   }
 
-  return data.map((record) => canonicalizeTown(normalizeSupabaseResource(record)));
+  return mergeLiveDoulas(data.map((record) => normalizeSupabaseResource(record)));
 }
 
 export async function getDirectoryCounts() {

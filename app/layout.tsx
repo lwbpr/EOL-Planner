@@ -13,9 +13,9 @@ const newsreader = Newsreader({
 });
 
 export const metadata: Metadata = {
-  title: "Coordinador de Final de Vida",
+  title: "Directorio de Final de Vida | AMORir",
   description:
-    "Orientador digital para Puerto Rico con rutas guiadas, pasos prácticos y recursos contextualizados para momentos de final de vida.",
+    "Directorio integrado de recursos de final de vida en Puerto Rico, con doulas, hospicios y servicios fúnebres.",
 };
 
 export default function RootLayout({

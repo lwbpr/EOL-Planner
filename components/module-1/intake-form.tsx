@@ -2,6 +2,7 @@
 
 import { useMemo } from "react";
 import { useRouter } from "next/navigation";
+import { intakePayloadToQuery, normalizeIntakePayload, type RawIntakeInput } from "@/lib/module-1/intake";
 import { TOWNS, type CareSetting, type IntakeNeed, type IntakeStage } from "@/lib/module-1/types";
 
 const stages: Array<{ value: IntakeStage; label: string; hint: string }> = [
@@ -66,6 +67,28 @@ export function IntakeForm() {
   const router = useRouter();
   const defaultTown = useMemo(() => TOWNS[0], []);
 
+  function saveIntake(input: RawIntakeInput) {
+    const payload = normalizeIntakePayload(input);
+    const body = JSON.stringify(payload);
+
+    if (typeof navigator !== "undefined" && typeof navigator.sendBeacon === "function") {
+      const beaconBody = new Blob([body], { type: "application/json" });
+      navigator.sendBeacon("/api/intake", beaconBody);
+      return payload;
+    }
+
+    void fetch("/api/intake", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body,
+      keepalive: true,
+    });
+
+    return payload;
+  }
+
   return (
     <section className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
       <form
@@ -74,11 +97,24 @@ export function IntakeForm() {
         onSubmit={(event) => {
           event.preventDefault();
           const formData = new FormData(event.currentTarget);
-          const query = new URLSearchParams();
+          const input: RawIntakeInput = {};
+
           for (const [key, value] of formData.entries()) {
-            query.append(key, String(value));
+            const stringValue = String(value);
+            const currentValue = input[key];
+
+            if (currentValue === undefined) {
+              input[key] = stringValue;
+              continue;
+            }
+
+            input[key] = Array.isArray(currentValue)
+              ? [...currentValue, stringValue]
+              : [currentValue, stringValue];
           }
-          router.push(`/resultados?${query.toString()}`);
+
+          const payload = saveIntake(input);
+          router.push(`/resultados?${intakePayloadToQuery(payload)}`);
         }}
       >
         <div className="mb-6">

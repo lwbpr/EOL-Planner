@@ -6247,5 +6247,1043 @@
       "nivelDetalle": "Alto",
       "notas": "Incluida por ofrecer servicios fúnebres y cremación."
     }
+  },
+  {
+    "id": "apoyo-oppea",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "OPPEA",
+    "town": "Puerto Rico",
+    "organization": "OPPEA",
+    "description": "Oficina del Procurador de las Personas de Edad Avanzada; agencia principal de orientación, defensa de derechos y coordinación de servicios.",
+    "summary": "Defensa de derechos y orientación",
+    "services": [
+      "orientación",
+      "defensa de derechos",
+      "coordinación de servicios"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "(787) 721-6121",
+    "website": "https://www.oppea.pr.gov/",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.oppea.pr.gov/"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Rights",
+      "sourceSubcategory": "Ombudsman",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Directorio de Oficinas / Programas OPPEA",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Portal oficial activo con teléfonos regionales y servicios vigentes.",
+      "phoneSecondary": "Ponce (787) 841-1180; Guayama (787) 866-6971; Mayagüez (787) 986-7105",
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-oppea-contactos",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "OPPEA Contactos",
+    "town": "Puerto Rico",
+    "organization": "OPPEA",
+    "description": "Página oficial con oficinas de San Juan, Ponce, Guayama y Mayagüez y números actualizados.",
+    "summary": "Contacto oficial",
+    "services": [
+      "contacto institucional",
+      "oficinas regionales"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "(787) 721-6121",
+    "website": "https://www.oppea.pr.gov/contactenos",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.oppea.pr.gov/contactenos"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Rights",
+      "sourceSubcategory": "Contact",
+      "sourceInOppea2022": "No",
+      "originalSection": "N/A",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Incluye dirección física de oficinas satélite y múltiples extensiones / teléfonos.",
+      "phoneSecondary": "1-800-981-4899; 1-800-981-0056",
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-oppea-oficina-de-asuntos-legales",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "OPPEA – Oficina de Asuntos Legales",
+    "town": "Puerto Rico",
+    "organization": "OPPEA",
+    "description": "Atiende asuntos legales, referidos y orientación sobre derechos de personas adultas mayores.",
+    "summary": "Orientación legal y querellas",
+    "services": [
+      "orientación legal",
+      "querellas",
+      "referidos"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "(787) 721-6121",
+    "email": "asuntoslegales@oppea.pr.gov",
+    "website": "https://www.oppea.pr.gov/oficinas/oficina-de-asuntos-legales",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.oppea.pr.gov/oficinas/oficina-de-asuntos-legales"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Rights",
+      "sourceSubcategory": "Legal / complaints",
+      "sourceInOppea2022": "No",
+      "originalSection": "Asuntos Legales / Programas",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "La página oficial identifica correo y cuadro telefónico vigente.",
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-oppea-oficina-de-oficiales-examinadores",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "OPPEA – Oficina de Oficiales Examinadores",
+    "town": "Puerto Rico",
+    "organization": "OPPEA",
+    "description": "Recepción de querellas y foro administrativo.",
+    "summary": "Querellas administrativas",
+    "services": [
+      "querellas administrativas"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "email": "foro@oppea.pr.gov",
+    "website": "https://www.oppea.pr.gov/procuradorias/oficina-de-oficiales-examinadores",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.oppea.pr.gov/procuradorias/oficina-de-oficiales-examinadores"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Rights",
+      "sourceSubcategory": "Administrative complaints",
+      "sourceInOppea2022": "No",
+      "originalSection": "Programas OPPEA",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "La página indica correo oficial y PO Box para querellas.",
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-oppea-directorio-de-servicios-actual",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "OPPEA – Directorio de servicios actual",
+    "town": "Puerto Rico",
+    "organization": "OPPEA",
+    "description": "Buscador/directorio vigente por municipio dentro del portal oficial.",
+    "summary": "Directorio oficial por municipio",
+    "services": [
+      "búsqueda por municipio",
+      "directorio de servicios"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar",
+      "cuidado_en_casa"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "(787) 721-6121",
+    "website": "https://www.oppea.pr.gov/directorio-de-servicios-copy",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.oppea.pr.gov/directorio-de-servicios-copy"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Services",
+      "sourceSubcategory": "Current directory",
+      "sourceInOppea2022": "No",
+      "originalSection": "N/A",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Importante para validar o sustituir entradas del PDF 2022 municipio por municipio.",
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-adfan-administracion-de-servicios-a-personas-de-edad-avanzada-y-adultos-con-impedimentos",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "ADFAN – Administración de Servicios a Personas de Edad Avanzada y Adultos con Impedimentos",
+    "town": "Puerto Rico",
+    "organization": "ADFAN",
+    "description": "Programa del Departamento de la Familia con servicios de protección, información, referidos y apoyo.",
+    "summary": "Protección y referidos",
+    "services": [
+      "protección",
+      "información",
+      "referidos"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar",
+      "cuidado_en_casa"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "(787) 294-4900",
+    "website": "https://adfan.pr.gov/AdministracionesAuxiliares/ServiciosEdadAvanzada/Pages/default.aspx",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://adfan.pr.gov/AdministracionesAuxiliares/ServiciosEdadAvanzada/Pages/default.aspx"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Family services",
+      "sourceSubcategory": "Older adults services",
+      "sourceInOppea2022": "No",
+      "originalSection": "Directorio por Agencias",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Página oficial vigente con información programática actual.",
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-departamento-de-la-familia",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "Departamento de la Familia",
+    "town": "Puerto Rico",
+    "organization": "Departamento de la Familia",
+    "description": "Agencia con servicios a poblaciones vulnerables y contacto central actualizado.",
+    "summary": "Agencia principal de servicios",
+    "services": [
+      "orientación",
+      "servicios a poblaciones vulnerables"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar",
+      "cuidado_en_casa"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "(787) 294-4900",
+    "website": "https://www.familia.pr.gov/",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.familia.pr.gov/"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Family services",
+      "sourceSubcategory": "Main agency",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Directorio por Agencias",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Portal oficial vigente con dirección y cuadro telefónico actual.",
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-adfan-lineas-de-maltrato-y-orientacion",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "ADFAN – líneas de maltrato y orientación",
+    "town": "Puerto Rico",
+    "organization": "ADFAN",
+    "description": "Líneas oficiales de maltrato y orientación del Departamento de la Familia.",
+    "summary": "Maltrato y orientación",
+    "services": [
+      "maltrato",
+      "negligencia",
+      "orientación"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar",
+      "cuidado_en_casa"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "(787) 749-1333",
+    "website": "https://adfan.pr.gov/Pages/default.aspx",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://adfan.pr.gov/Pages/default.aspx"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Family services",
+      "sourceSubcategory": "Abuse reporting",
+      "sourceInOppea2022": "No",
+      "originalSection": "Líneas de Ayuda",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Recurso clave para maltrato, negligencia y orientación.",
+      "phoneSecondary": "1-800-981-8333; (787) 977-8022; 1-888-359-7777",
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-registro-de-centros-licenciados-y-certificados-para-adultos-mayores-y-adultos-con-impedimentos",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "Registro de Centros Licenciados y Certificados para Adultos Mayores y Adultos con Impedimentos",
+    "town": "Puerto Rico",
+    "organization": "ADFAN",
+    "description": "Listado oficial de centros licenciados/certificados para cotejar hogares, centros diurnos y capacidad.",
+    "summary": "Verificación de hogares y centros",
+    "services": [
+      "verificación de hogares",
+      "verificación de centros diurnos"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar",
+      "cuidado_en_casa"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "website": "https://adfan.pr.gov/AdministracionesAuxiliares/ServiciosEdadAvanzada/Pages/default.aspx",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://adfan.pr.gov/AdministracionesAuxiliares/ServiciosEdadAvanzada/Pages/default.aspx"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Registry",
+      "sourceSubcategory": "Licensed centers registry",
+      "sourceInOppea2022": "No",
+      "originalSection": "N/A",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "La página oficial refiere un registro actualizado; útil para verificación institucional.",
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-registro-de-cuidadores-informales",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "Registro de Cuidadores Informales",
+    "town": "Puerto Rico",
+    "organization": "Departamento de la Familia",
+    "description": "Portal oficial sobre registro y servicios para personas cuidadoras.",
+    "summary": "Apoyo a personas cuidadoras",
+    "services": [
+      "apoyo a cuidadoras",
+      "registro",
+      "servicios"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar",
+      "cuidado_en_casa"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "(787) 294-4900",
+    "website": "https://cuidadoresinformales.familia.pr.gov/servicios",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://cuidadoresinformales.familia.pr.gov/servicios"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Caregiver support",
+      "sourceSubcategory": "Caregiver registry",
+      "sourceInOppea2022": "No",
+      "originalSection": "N/A",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Útil para apoyo a cuidadoras y coordinación comunitaria.",
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-puerto-rico-ship",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "Puerto Rico SHIP",
+    "town": "Puerto Rico",
+    "organization": "Puerto Rico SHIP",
+    "description": "Programa oficial de consejería imparcial sobre Medicare.",
+    "summary": "Consejería sobre Medicare",
+    "services": [
+      "consejería sobre Medicare"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "website": "https://www.shiphelp.org/ships/puerto-rico/",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.shiphelp.org/ships/puerto-rico/"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Medicare / Insurance",
+      "sourceSubcategory": "Counseling",
+      "sourceInOppea2022": "No",
+      "originalSection": "Programas OPPEA / Seguros",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Directorio oficial nacional SHIP activo para Puerto Rico.",
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-2-1-1-puerto-rico",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "2-1-1 Puerto Rico",
+    "town": "Puerto Rico",
+    "organization": "United Way Puerto Rico",
+    "description": "Servicio gratuito y confidencial de información y referido de United Way.",
+    "summary": "Información y referidos multiservicio",
+    "services": [
+      "información",
+      "referidos comunitarios"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar",
+      "cuidado_en_casa"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "211",
+    "website": "https://www.211pr.org/",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.211pr.org/"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Referral / Navigation",
+      "sourceSubcategory": "Community referrals",
+      "sourceInOppea2022": "No",
+      "originalSection": "N/A",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Base de datos investigable y canal de referido multiservicio.",
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-sistema-9-1-1",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "Sistema 9-1-1",
+    "town": "Puerto Rico",
+    "description": "Número de emergencias.",
+    "summary": "Emergencias",
+    "services": [
+      "emergencias"
+    ],
+    "needs": [
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "911",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.pr.gov/"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Emergency",
+      "sourceSubcategory": "Emergency",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Líneas de Ayuda",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Número de emergencia vigente.",
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-988-suicide-and-crisis-lifeline",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "988 Suicide & Crisis Lifeline",
+    "town": "Puerto Rico / EE.UU.",
+    "organization": "988 Lifeline",
+    "description": "Línea 24/7 para crisis emocional y suicidio.",
+    "summary": "Crisis emocional y suicidio",
+    "services": [
+      "crisis emocional",
+      "suicidio",
+      "apoyo 24/7"
+    ],
+    "needs": [
+      "acompanamiento",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "988",
+    "website": "https://988lifeline.org/",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://988lifeline.org/"
+    ],
+    "coverage": "Puerto Rico / EE.UU.",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Mental health / crisis",
+      "sourceSubcategory": "Hotline",
+      "sourceInOppea2022": "No",
+      "originalSection": "N/A",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "No aparecía claramente en el directorio 2022; hoy es esencial.",
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-linea-pas-de-assmca",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "Línea PAS de ASSMCA",
+    "town": "Puerto Rico",
+    "organization": "ASSMCA",
+    "description": "Apoyo en salud mental y uso de sustancias.",
+    "summary": "Salud mental y sustancias",
+    "services": [
+      "salud mental",
+      "uso de sustancias",
+      "apoyo 24/7"
+    ],
+    "needs": [
+      "acompanamiento",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "1-800-981-0023",
+    "website": "https://prevencionsuicidio.salud.pr.gov/en/directorio/",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://prevencionsuicidio.salud.pr.gov/en/directorio/"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Mental health / crisis",
+      "sourceSubcategory": "Hotline",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Líneas de Ayuda",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "La Comisión para la Prevención del Suicidio en PR la publica como línea vigente.",
+      "phoneSecondary": "988",
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-seguro-social",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "Seguro Social",
+    "town": "Puerto Rico / EE.UU.",
+    "organization": "Social Security Administration",
+    "description": "Administración del Seguro Social.",
+    "summary": "Beneficios federales",
+    "services": [
+      "beneficios",
+      "orientación",
+      "gestiones"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "1-800-772-1213",
+    "website": "https://www.ssa.gov/",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.ssa.gov/"
+    ],
+    "coverage": "Puerto Rico / EE.UU.",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Benefits / income",
+      "sourceSubcategory": "Federal benefits",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Líneas de Ayuda / Programas",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Recurso esencial para beneficios y gestiones.",
+      "phoneSecondary": "TTY 1-800-325-0778",
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-rama-judicial-de-puerto-rico",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "Rama Judicial de Puerto Rico",
+    "town": "Puerto Rico",
+    "organization": "Rama Judicial de Puerto Rico",
+    "description": "Portal principal de tribunales y servicios judiciales.",
+    "summary": "Tribunales y servicios judiciales",
+    "services": [
+      "tribunales",
+      "servicios judiciales"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "website": "https://www.ramajudicial.pr/",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.ramajudicial.pr/"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Legal",
+      "sourceSubcategory": "Courts",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Asuntos Legales",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Sustituye parcialmente listados viejos de salas y regiones que requieren confirmación individual.",
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-servicios-legales-de-puerto-rico",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "Servicios Legales de Puerto Rico",
+    "town": "Puerto Rico",
+    "organization": "Servicios Legales de Puerto Rico",
+    "description": "Servicios legales civiles para personas elegibles.",
+    "summary": "Asistencia legal civil",
+    "services": [
+      "asistencia legal civil"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "website": "https://www.slpr.org/",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.slpr.org/"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Legal",
+      "sourceSubcategory": "Civil legal aid",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Asuntos Legales",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Entidad activa con oficinas regionales.",
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-sociedad-para-asistencia-legal-de-puerto-rico",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "Sociedad para Asistencia Legal de Puerto Rico",
+    "town": "Puerto Rico",
+    "organization": "Sociedad para Asistencia Legal de Puerto Rico",
+    "description": "Acceso a justicia para personas indigentes.",
+    "summary": "Defensa legal para personas indigentes",
+    "services": [
+      "defensa legal"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "website": "https://www.salpr.org/",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.salpr.org/"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Legal",
+      "sourceSubcategory": "Criminal / defense",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Asuntos Legales",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Portal activo con oficinas y personal.",
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-pro-bono-inc",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "Pro-Bono, Inc.",
+    "town": "Puerto Rico",
+    "organization": "Pro-Bono, Inc.",
+    "description": "Servicios legales gratuitos y orientación para personas elegibles.",
+    "summary": "Orientación legal gratuita",
+    "services": [
+      "orientación legal gratuita",
+      "referidos"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "1-800-981-5801",
+    "website": "https://www.probonopr.org/",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.probonopr.org/"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Legal",
+      "sourceSubcategory": "Pro bono",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Asuntos Legales",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Organización activa con oficinas regionales.",
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
+    }
+  },
+  {
+    "id": "apoyo-oficina-del-procurador-del-paciente-opp",
+    "category": "apoyo_complementario",
+    "source": "older_adults_verified_directory",
+    "name": "Oficina del Procurador del Paciente (OPP)",
+    "town": "Puerto Rico",
+    "organization": "Oficina del Procurador del Paciente",
+    "description": "Orienta y atiende reclamaciones sobre derechos de pacientes.",
+    "summary": "Derechos del paciente",
+    "services": [
+      "derechos del paciente",
+      "reclamaciones"
+    ],
+    "needs": [
+      "documentos",
+      "apoyo_familiar"
+    ],
+    "stages": [
+      "murio",
+      "final_de_vida",
+      "planificando"
+    ],
+    "careSettings": [
+      "hogar",
+      "hospital",
+      "hospicio",
+      "otro"
+    ],
+    "phone": "(787) 977-0909",
+    "website": "https://www.opp.pr.gov/",
+    "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
+    "sourceUrls": [
+      "https://www.opp.pr.gov/"
+    ],
+    "coverage": "Puerto Rico",
+    "verification": "Alto",
+    "details": {
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Patient rights",
+      "sourceSubcategory": "Health advocacy",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Directorio por Agencias",
+      "verifiedAsOf": "2026-03-26",
+      "currentSourceNotes": "Portal oficial vigente con oficinas satélite.",
+      "phoneSecondary": "1-800-981-0031",
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
+    }
   }
 ]

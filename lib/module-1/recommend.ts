@@ -19,12 +19,12 @@ const STAGE_LABELS: Record<IntakePayload["stage"], string> = {
 };
 
 const NEED_CATEGORY_PRIORITY: Record<keyof typeof NEED_LABELS, ResourceCategory[]> = {
-  hospicio: ["hospicio", "doula", "servicio_funebre"],
-  cuidado_en_casa: ["hospicio", "doula", "servicio_funebre"],
-  documentos: ["servicio_funebre", "doula", "hospicio"],
-  funeraria_memorial: ["servicio_funebre", "doula", "hospicio"],
-  acompanamiento: ["doula", "hospicio", "servicio_funebre"],
-  apoyo_familiar: ["doula", "hospicio", "servicio_funebre"],
+  hospicio: ["hospicio", "doula", "apoyo_complementario", "servicio_funebre"],
+  cuidado_en_casa: ["hospicio", "doula", "apoyo_complementario", "servicio_funebre"],
+  documentos: ["servicio_funebre", "apoyo_complementario", "doula", "hospicio"],
+  funeraria_memorial: ["servicio_funebre", "doula", "apoyo_complementario", "hospicio"],
+  acompanamiento: ["doula", "apoyo_complementario", "hospicio", "servicio_funebre"],
+  apoyo_familiar: ["doula", "apoyo_complementario", "hospicio", "servicio_funebre"],
 };
 
 function getTownRecord(town: TownSlug) {

@@ -49,10 +49,23 @@ create table if not exists intake_sessions (
   stage text not null,
   care_setting text not null,
   need text not null,
+  needs text[] not null default '{}',
   town_slug text not null,
   notes text,
+  source text not null default 'web_intake',
   created_at timestamptz not null default now()
 );
+
+alter table intake_sessions
+  add column if not exists needs text[] not null default '{}';
+
+alter table intake_sessions
+  add column if not exists source text not null default 'web_intake';
+
+update intake_sessions
+set needs = array[need]
+where coalesce(array_length(needs, 1), 0) = 0
+  and need is not null;
 
 alter table resources enable row level security;
 alter table towns enable row level security;
