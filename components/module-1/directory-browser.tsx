@@ -37,6 +37,17 @@ function normalizePhone(phone?: string) {
   return digits || null;
 }
 
+function normalizeFilterKey(value: string) {
+  return value
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+}
+
 function getWhatsAppUrl(phone?: string) {
   const normalized = normalizePhone(phone);
   return normalized ? `https://wa.me/${normalized}` : null;
@@ -226,6 +237,13 @@ function translateBoolean(value: unknown) {
   return toText(value);
 }
 
+function getHospiceBooleanValue(resource: ResourceItem, key: string) {
+  const text = toText(getDetailValue(resource, key))?.toLowerCase();
+  if (text === "yes") return "yes";
+  if (text === "no") return "no";
+  return null;
+}
+
 function translateOwnership(value: unknown) {
   const text = toText(value)?.toLowerCase();
   if (text === "for-profit") return "Con fines de lucro";
@@ -271,6 +289,41 @@ function getHospiceCoverageList(resource: ResourceItem) {
     .split(",")
     .map((item) => item.trim())
     .filter(Boolean);
+}
+
+function getHospiceCoverageOptions(resources: ResourceItem[]) {
+  const optionMap = new Map<string, string>();
+
+  for (const resource of resources) {
+    if (resource.category !== "hospicio") continue;
+
+    const coverageItems = getHospiceCoverageList(resource);
+    const fallbackTown = resource.town ? [resource.town] : [];
+
+    for (const label of [...coverageItems, ...fallbackTown]) {
+      const key = normalizeFilterKey(label);
+      if (key && !optionMap.has(key)) {
+        optionMap.set(key, label);
+      }
+    }
+  }
+
+  return Array.from(optionMap.entries())
+    .map(([value, label]) => ({ value, label }))
+    .sort((left, right) => left.label.localeCompare(right.label, "es"));
+}
+
+function matchesHospiceScoreRange(resource: ResourceItem, range: string) {
+  if (range === "all") return true;
+
+  const score = parseHospiceTotalScore(resource);
+  if (range === "no-score") return score === null;
+  if (score === null) return false;
+  if (range === "80-plus") return score >= 80;
+  if (range === "60-79") return score >= 60 && score < 80;
+  if (range === "under-60") return score < 60;
+
+  return true;
 }
 
 function parseHospiceScoreBreakdown(resource: ResourceItem): HospiceScoreItem[] {
@@ -981,6 +1034,9 @@ export function DirectoryBrowser({
   const [activeFilter, setActiveFilter] = useState<DirectoryFilter>("none");
   const [selectedTown, setSelectedTown] = useState("all");
   const [selectedRegion, setSelectedRegion] = useState("all");
+  const [selectedHospiceScoreRange, setSelectedHospiceScoreRange] = useState("all");
+  const [selectedHospiceMedicare, setSelectedHospiceMedicare] = useState("all");
+  const [selectedHospiceInpatient, setSelectedHospiceInpatient] = useState("all");
   const [openResourceId, setOpenResourceId] = useState<string | null>(null);
 
   const doulaRegionOptions = useMemo(() => {
@@ -1006,6 +1062,11 @@ export function DirectoryBrowser({
     }));
   }, [resourceDirectory]);
 
+  const hospiceCoverageOptions = useMemo(
+    () => getHospiceCoverageOptions(resourceDirectory),
+    [resourceDirectory],
+  );
+
   const filteredResources = useMemo(() => {
     if (activeFilter === "none") return [];
 
@@ -1016,17 +1077,53 @@ export function DirectoryBrowser({
         const matchesTown =
           selectedTown === "all"
             ? true
-            : !resource.townSlug || resource.townSlug === selectedTown;
+            : activeFilter === "hospicio"
+              ? resource.category === "hospicio" &&
+                [
+                  ...getHospiceCoverageList(resource),
+                  ...(resource.town ? [resource.town] : []),
+                ].some((item) => normalizeFilterKey(item) === selectedTown)
+              : !resource.townSlug || resource.townSlug === selectedTown;
         const matchesRegion =
           activeFilter === "doula" && selectedRegion !== "all"
             ? resource.category === "doula" &&
               (resource.region === selectedRegion || resource.regions.includes(selectedRegion))
             : true;
+        const matchesHospiceScore =
+          activeFilter === "hospicio" && resource.category === "hospicio"
+            ? matchesHospiceScoreRange(resource, selectedHospiceScoreRange)
+            : true;
+        const matchesHospiceMedicare =
+          activeFilter === "hospicio" && resource.category === "hospicio"
+            ? selectedHospiceMedicare === "all" ||
+              getHospiceBooleanValue(resource, "medicareCertified") === selectedHospiceMedicare
+            : true;
+        const matchesHospiceInpatient =
+          activeFilter === "hospicio" && resource.category === "hospicio"
+            ? selectedHospiceInpatient === "all" ||
+              getHospiceBooleanValue(resource, "hospiceInpatientFacility") ===
+                selectedHospiceInpatient
+            : true;
 
-        return matchesCategory && matchesTown && matchesRegion;
+        return (
+          matchesCategory &&
+          matchesTown &&
+          matchesRegion &&
+          matchesHospiceScore &&
+          matchesHospiceMedicare &&
+          matchesHospiceInpatient
+        );
       }),
     );
-  }, [activeFilter, resourceDirectory, selectedRegion, selectedTown]);
+  }, [
+    activeFilter,
+    resourceDirectory,
+    selectedHospiceInpatient,
+    selectedHospiceMedicare,
+    selectedHospiceScoreRange,
+    selectedRegion,
+    selectedTown,
+  ]);
 
   const activeLabel =
     activeFilter === "all"
@@ -1048,22 +1145,30 @@ export function DirectoryBrowser({
             </p>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_auto]">
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
             <label className="space-y-2">
               <span className="text-sm font-semibold text-[var(--ink)]">
-                Filtrar por pueblo
+                {activeFilter === "hospicio" ? "Cobertura o pueblo" : "Filtrar por pueblo"}
               </span>
               <select
                 value={selectedTown}
                 onChange={(event) => setSelectedTown(event.target.value)}
                 className="w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm text-[var(--ink)] outline-none transition focus:border-[var(--accent-strong)]"
               >
-                <option value="all">Todos los pueblos</option>
-                {TOWNS.map((town) => (
-                  <option key={town.slug} value={town.slug}>
-                    {town.name}
-                  </option>
-                ))}
+                <option value="all">
+                  {activeFilter === "hospicio" ? "Toda la cobertura" : "Todos los pueblos"}
+                </option>
+                {(activeFilter === "hospicio"
+                  ? hospiceCoverageOptions.map((option) => (
+                      <option key={option.value} value={option.value}>
+                        {option.label}
+                      </option>
+                    ))
+                  : TOWNS.map((town) => (
+                      <option key={town.slug} value={town.slug}>
+                        {town.name}
+                      </option>
+                    )))}
               </select>
             </label>
 
@@ -1087,6 +1192,59 @@ export function DirectoryBrowser({
               </label>
             ) : null}
 
+            {activeFilter === "hospicio" ? (
+              <label className="space-y-2">
+                <span className="text-sm font-semibold text-[var(--ink)]">
+                  Rango de puntuación
+                </span>
+                <select
+                  value={selectedHospiceScoreRange}
+                  onChange={(event) => setSelectedHospiceScoreRange(event.target.value)}
+                  className="w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm text-[var(--ink)] outline-none transition focus:border-[var(--accent-strong)]"
+                >
+                  <option value="all">Todas las puntuaciones</option>
+                  <option value="80-plus">80 o más</option>
+                  <option value="60-79">60 a 79</option>
+                  <option value="under-60">Menos de 60</option>
+                  <option value="no-score">Sin puntuación disponible</option>
+                </select>
+              </label>
+            ) : null}
+
+            {activeFilter === "hospicio" ? (
+              <label className="space-y-2">
+                <span className="text-sm font-semibold text-[var(--ink)]">
+                  Certificado por Medicare
+                </span>
+                <select
+                  value={selectedHospiceMedicare}
+                  onChange={(event) => setSelectedHospiceMedicare(event.target.value)}
+                  className="w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm text-[var(--ink)] outline-none transition focus:border-[var(--accent-strong)]"
+                >
+                  <option value="all">Todos</option>
+                  <option value="yes">Sí</option>
+                  <option value="no">No</option>
+                </select>
+              </label>
+            ) : null}
+
+            {activeFilter === "hospicio" ? (
+              <label className="space-y-2">
+                <span className="text-sm font-semibold text-[var(--ink)]">
+                  Internado de hospicio
+                </span>
+                <select
+                  value={selectedHospiceInpatient}
+                  onChange={(event) => setSelectedHospiceInpatient(event.target.value)}
+                  className="w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm text-[var(--ink)] outline-none transition focus:border-[var(--accent-strong)]"
+                >
+                  <option value="all">Todos</option>
+                  <option value="yes">Sí</option>
+                  <option value="no">No</option>
+                </select>
+              </label>
+            ) : null}
+
             <div className="flex items-end">
               <button
                 type="button"
@@ -1094,6 +1252,9 @@ export function DirectoryBrowser({
                   setActiveFilter("none");
                   setSelectedTown("all");
                   setSelectedRegion("all");
+                  setSelectedHospiceScoreRange("all");
+                  setSelectedHospiceMedicare("all");
+                  setSelectedHospiceInpatient("all");
                   setOpenResourceId(null);
                 }}
                 className="inline-flex w-full items-center justify-center rounded-full border border-[var(--line-strong)] px-5 py-3 text-sm font-semibold text-[var(--ink)] transition hover:bg-[var(--surface-soft)]"
@@ -1109,7 +1270,11 @@ export function DirectoryBrowser({
             type="button"
             onClick={() => {
               setActiveFilter("all");
+              setSelectedTown("all");
               setSelectedRegion("all");
+              setSelectedHospiceScoreRange("all");
+              setSelectedHospiceMedicare("all");
+              setSelectedHospiceInpatient("all");
               setOpenResourceId(null);
             }}
             className={`rounded-3xl border p-5 text-left transition ${
@@ -1135,8 +1300,14 @@ export function DirectoryBrowser({
               type="button"
               onClick={() => {
                 setActiveFilter(category);
+                setSelectedTown("all");
                 if (category !== "doula") {
                   setSelectedRegion("all");
+                }
+                if (category !== "hospicio") {
+                  setSelectedHospiceScoreRange("all");
+                  setSelectedHospiceMedicare("all");
+                  setSelectedHospiceInpatient("all");
                 }
                 setOpenResourceId(null);
               }}
