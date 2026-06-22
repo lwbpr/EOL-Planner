@@ -636,36 +636,54 @@ function DirectoryResourceCard({
             </div>
           </div>
 
-          <div className="grid gap-3 md:grid-cols-2">
-            <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
-              <p className="font-semibold text-[var(--ink)]">Resumen</p>
-              <p className="mt-2 leading-6">{resource.description || resource.summary}</p>
-            </div>
+          {resource.category === "doula" ? (
+            <div className="grid gap-3 md:grid-cols-2">
+              <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Ubicación</p>
+                <p className="mt-2 leading-6">
+                  {resource.town || "Municipio no especificado"}
+                </p>
+              </div>
 
-            <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
-              <p className="font-semibold text-[var(--ink)]">Vista rápida</p>
-              <div className="mt-2 flex flex-wrap gap-2">
-                {(resource.category === "doula"
-                  ? regionItems.slice(0, 4)
-                  : resource.services.slice(0, 4)
-                ).map((item) => (
-                  <span
-                    key={`${resource.id}-preview-${item}`}
-                    className="rounded-full bg-[var(--accent-soft)] px-3 py-1 text-xs font-semibold text-[var(--accent-strong)]"
-                  >
-                    {item}
-                  </span>
-                ))}
-                {!(
-                  resource.category === "doula"
-                    ? regionItems.length
-                    : resource.services.length
-                ) ? (
-                  <span className="text-sm leading-6">Pulsa para ver más detalles.</span>
-                ) : null}
+              <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Roles</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {(roleItems.length ? roleItems : [resource.summary]).map((role) => (
+                    <span
+                      key={`${resource.id}-summary-role-${role}`}
+                      className="rounded-full bg-[var(--accent-soft)] px-3 py-1 text-xs font-semibold text-[var(--accent-strong)]"
+                    >
+                      {role}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
+          ) : (
+            <div className="grid gap-3 md:grid-cols-2">
+              <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Resumen</p>
+                <p className="mt-2 leading-6">{resource.description || resource.summary}</p>
+              </div>
+
+              <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Vista rápida</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {resource.services.slice(0, 4).map((item) => (
+                    <span
+                      key={`${resource.id}-preview-${item}`}
+                      className="rounded-full bg-[var(--accent-soft)] px-3 py-1 text-xs font-semibold text-[var(--accent-strong)]"
+                    >
+                      {item}
+                    </span>
+                  ))}
+                  {!resource.services.length ? (
+                    <span className="text-sm leading-6">Pulsa para ver más detalles.</span>
+                  ) : null}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </summary>
 
