@@ -24,6 +24,7 @@ type HospiceScoreItem = {
 };
 
 const HOSPICE_QUALITY_INFO_HREF = "/directorio/metodologia-puntuacion-hospicios";
+const HOSPICE_CHOOSING_INFO_HREF = "/directorio/como-elegir-cuidados-de-hospicio";
 
 function normalizeUrl(url?: string) {
   if (!url) return null;
@@ -1363,26 +1364,51 @@ export function DirectoryBrowser({
         </div>
 
         {activeLabel && showHospiceQualityIntro ? (
-          <div className="mt-6 rounded-[1.75rem] border border-[rgba(201,120,66,0.18)] bg-[var(--accent-soft)]/55 p-6">
-            <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-              <div className="max-w-3xl">
-                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--accent-strong)]">
-                  Cómo leer esta puntuación
-                </p>
-                <p className="mt-3 text-sm leading-7 text-[var(--muted-strong)]">
-                  La puntuación total resume ocho métricas de calidad publicadas por
-                  National Hospice Analytics con datos de Medicare/CMS. Sirve como
-                  orientación inicial para comparar hospicios, pero no sustituye una
-                  conversación directa sobre servicios, cobertura, disponibilidad y
-                  necesidades de la persona y su familia.
-                </p>
+          <div className="mt-6 grid gap-4 xl:grid-cols-2">
+            <div className="rounded-[1.75rem] border border-[rgba(201,120,66,0.18)] bg-[var(--accent-soft)]/55 p-6">
+              <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+                <div className="max-w-3xl">
+                  <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--accent-strong)]">
+                    Cómo leer la puntuación de calidad de hospicio
+                  </p>
+                  <p className="mt-3 text-sm leading-7 text-[var(--muted-strong)]">
+                    La puntuación total resume ocho métricas de calidad publicadas por
+                    National Hospice Analytics con datos de Medicare/CMS. Sirve como
+                    orientación inicial para comparar hospicios, pero no sustituye una
+                    conversación directa sobre servicios, cobertura, disponibilidad y
+                    necesidades de la persona y su familia.
+                  </p>
+                </div>
+                <Link
+                  href={HOSPICE_QUALITY_INFO_HREF}
+                  className="inline-flex items-center justify-center rounded-full border border-[rgba(201,120,66,0.28)] bg-white px-5 py-3 text-sm font-semibold text-[var(--accent-strong)] transition hover:bg-[var(--surface-soft)]"
+                >
+                  ¿Cómo se calcula esta puntuación?
+                </Link>
               </div>
-              <Link
-                href={HOSPICE_QUALITY_INFO_HREF}
-                className="inline-flex items-center justify-center rounded-full border border-[rgba(201,120,66,0.28)] bg-white px-5 py-3 text-sm font-semibold text-[var(--accent-strong)] transition hover:bg-[var(--surface-soft)]"
-              >
-                ¿Cómo se calcula esta puntuación?
-              </Link>
+            </div>
+
+            <div className="rounded-[1.75rem] border border-[rgba(64,99,74,0.18)] bg-[var(--success-soft)]/80 p-6">
+              <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+                <div className="max-w-3xl">
+                  <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--success-strong)]">
+                    Cómo elegir cuidados de hospicios adecuados para usted
+                  </p>
+                  <p className="mt-3 text-sm leading-7 text-[var(--muted-strong)]">
+                    Aunque los hospicios certificados por Medicare ofrecen los
+                    mismos servicios básicos, pueden variar en disponibilidad fuera
+                    de horario, apoyos a la familia, acreditación y otros elementos
+                    importantes para su situación. Revise una guía breve para saber
+                    qué comparar y qué preguntas hacer.
+                  </p>
+                </div>
+                <Link
+                  href={HOSPICE_CHOOSING_INFO_HREF}
+                  className="inline-flex items-center justify-center rounded-full border border-[rgba(64,99,74,0.24)] bg-white px-5 py-3 text-sm font-semibold text-[var(--success-strong)] transition hover:bg-[var(--surface-soft)]"
+                >
+                  Ver guía para elegir hospicio
+                </Link>
+              </div>
             </div>
           </div>
         ) : null}
