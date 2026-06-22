@@ -336,7 +336,7 @@ function HospiceCard({
     <details
       open={isOpen}
       onToggle={(event) => onToggle(event.currentTarget.open)}
-      className="rounded-[1.75rem] border border-[var(--line)] bg-[var(--surface)] p-5 [&_summary::-webkit-details-marker]:hidden"
+      className="group rounded-[1.75rem] border border-[var(--line)] bg-[var(--surface)] p-5 [&_summary::-webkit-details-marker]:hidden"
     >
       <summary className="cursor-pointer list-none">
         <div className="flex flex-col gap-4">
@@ -569,6 +569,358 @@ function HospiceCard({
   );
 }
 
+function DirectoryResourceCard({
+  resource,
+  website,
+  sourceUrl,
+  isOpen,
+  onToggle,
+}: {
+  resource: ResourceItem;
+  website: string | null;
+  sourceUrl: string | null;
+  isOpen: boolean;
+  onToggle: (nextOpen: boolean) => void;
+}) {
+  const whatsappUrl = getWhatsAppUrl(resource.phone);
+  const roleItems = splitDetailText(getDetailValue(resource, "role"));
+  const trainingItems = splitDetailText(getDetailValue(resource, "training"));
+  const topicItems = toList(getDetailValue(resource, "topics"));
+  const aboutText =
+    toText(getDetailValue(resource, "about")) ||
+    resource.description ||
+    "No se añadió una descripción personal todavía.";
+  const regionItems = formatRegionList(resource);
+
+  return (
+    <details
+      open={isOpen}
+      onToggle={(event) => onToggle(event.currentTarget.open)}
+      className="group rounded-[1.75rem] border border-[var(--line)] bg-[var(--surface)] p-5 [&_summary::-webkit-details-marker]:hidden"
+    >
+      <summary className="cursor-pointer list-none">
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+                {CATEGORY_LABELS[resource.category]}
+              </p>
+              <h3 className="mt-2 text-xl font-semibold text-[var(--ink)]">
+                {resource.name}
+              </h3>
+              <p className="mt-2 text-sm text-[var(--muted-strong)]">
+                {resource.town || "Municipio no especificado"}
+                {resource.address ? ` · ${resource.address}` : ""}
+              </p>
+            </div>
+            <div className="flex items-center gap-3">
+              {resource.verification ? (
+                <span className="rounded-full bg-white px-3 py-1 text-xs font-semibold text-[var(--accent-strong)]">
+                  {resource.verification}
+                </span>
+              ) : null}
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[var(--line)] bg-white text-[var(--accent-strong)] transition group-open:rotate-180">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-5 w-5"
+                  aria-hidden="true"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </span>
+            </div>
+          </div>
+
+          <div className="grid gap-3 md:grid-cols-2">
+            <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+              <p className="font-semibold text-[var(--ink)]">Resumen</p>
+              <p className="mt-2 leading-6">{resource.description || resource.summary}</p>
+            </div>
+
+            <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+              <p className="font-semibold text-[var(--ink)]">Vista rápida</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {(resource.category === "doula"
+                  ? regionItems.slice(0, 4)
+                  : resource.services.slice(0, 4)
+                ).map((item) => (
+                  <span
+                    key={`${resource.id}-preview-${item}`}
+                    className="rounded-full bg-[var(--accent-soft)] px-3 py-1 text-xs font-semibold text-[var(--accent-strong)]"
+                  >
+                    {item}
+                  </span>
+                ))}
+                {!(
+                  resource.category === "doula"
+                    ? regionItems.length
+                    : resource.services.length
+                ) ? (
+                  <span className="text-sm leading-6">Pulsa para ver más detalles.</span>
+                ) : null}
+              </div>
+            </div>
+          </div>
+        </div>
+      </summary>
+
+      <div className="mt-5">
+        <p className="text-sm leading-7 text-[var(--muted-strong)]">
+          {resource.description || resource.summary}
+        </p>
+
+        {resource.category === "doula" ? (
+          <div className="mt-5 grid gap-4">
+            <div className="rounded-[1.6rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-5">
+              <SectionHeading
+                title="Sobre mí"
+                iconPath="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 9a7 7 0 0 1 14 0"
+              />
+              <p className="mt-3 text-base leading-8 text-[var(--ink)]">
+                {aboutText}
+              </p>
+            </div>
+
+            <div className="grid gap-4 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)]">
+              <div className="grid gap-4">
+                <div className="rounded-[1.5rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-4 text-sm text-[var(--muted-strong)]">
+                  <SectionHeading
+                    title="Roles"
+                    iconPath="M16 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M9 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"
+                  />
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {(roleItems.length ? roleItems : [resource.summary]).map((role) => (
+                      <span
+                        key={`${resource.id}-role-${role}`}
+                        className="rounded-full bg-[var(--accent-soft)] px-3 py-1.5 text-xs font-semibold text-[var(--accent-strong)]"
+                      >
+                        {role}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="rounded-[1.5rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-4 text-sm text-[var(--muted-strong)]">
+                  <SectionHeading
+                    title="Contacto"
+                    iconPath="M21 8.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8.5M21 8.5V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1.5M21 8.5l-9 6-9-6"
+                  />
+                  <div className="mt-3 space-y-2 text-sm text-[var(--ink)]">
+                    {resource.phone ? (
+                      <div className="flex items-center gap-3 rounded-2xl bg-white/80 px-3 py-2">
+                        <SectionIcon
+                          path="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.78.63 2.62a2 2 0 0 1-.45 2.11L8 9.91a16 16 0 0 0 6.09 6.09l1.46-1.24a2 2 0 0 1 2.11-.45c.84.3 1.72.51 2.62.63A2 2 0 0 1 22 16.92z"
+                          className="h-4 w-4 text-[var(--accent)]"
+                        />
+                        <a href={`tel:${resource.phone}`} className="break-all leading-6">
+                          {resource.phone}
+                        </a>
+                      </div>
+                    ) : null}
+                    {resource.email ? (
+                      <div className="flex items-center gap-3 rounded-2xl bg-white/80 px-3 py-2">
+                        <SectionIcon
+                          path="M4 4h16v16H4zM4 7l8 6 8-6"
+                          className="h-4 w-4 text-[var(--accent)]"
+                        />
+                        <a href={`mailto:${resource.email}`} className="break-all leading-6">
+                          {resource.email}
+                        </a>
+                      </div>
+                    ) : null}
+                    {website ? (
+                      <div className="flex items-center gap-3 rounded-2xl bg-white/80 px-3 py-2">
+                        <SectionIcon
+                          path="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 0c2.5 2.7 4 6.2 4 10s-1.5 7.3-4 10c-2.5-2.7-4-6.2-4-10s1.5-7.3 4-10Zm-9.5 10h19"
+                          className="h-4 w-4 text-[var(--accent)]"
+                        />
+                        <a href={website} target="_blank" rel="noreferrer" className="break-all leading-6">
+                          {website.replace(/^https?:\/\//, "")}
+                        </a>
+                      </div>
+                    ) : null}
+                    {resource.socials?.map((social) => (
+                      <div
+                        key={social}
+                        className="flex items-center gap-3 rounded-2xl bg-white/80 px-3 py-2"
+                      >
+                        <SectionIcon
+                          path="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm10.5 9.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0ZM18 6.5h.01"
+                          className="h-4 w-4 text-[var(--accent)]"
+                        />
+                        <a
+                          href={normalizeUrl(social) ?? social}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="break-all leading-6"
+                        >
+                          {getSocialLabel(social)}
+                        </a>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="mt-4 flex flex-wrap gap-3">
+                    {resource.email ? (
+                      <a
+                        href={`mailto:${resource.email}`}
+                        className="inline-flex items-center justify-center rounded-full bg-[var(--accent)] px-4 py-2.5 text-sm font-semibold text-white transition hover:brightness-95"
+                      >
+                        Enviar correo
+                      </a>
+                    ) : null}
+                    {whatsappUrl ? (
+                      <a
+                        href={whatsappUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center justify-center rounded-full bg-[#25d366] px-4 py-2.5 text-sm font-semibold text-white transition hover:brightness-95"
+                      >
+                        WhatsApp
+                      </a>
+                    ) : null}
+                  </div>
+                </div>
+
+                <div className="rounded-[1.5rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-4 text-sm text-[var(--muted-strong)]">
+                  <SectionHeading
+                    title="Regiones de Servicio"
+                    iconPath="M12 21s-6-5.33-6-11a6 6 0 1 1 12 0c0 5.67-6 11-6 11Zm0-8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                  />
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {regionItems.map((region) => (
+                      <span
+                        key={`${resource.id}-${region}`}
+                        className="rounded-full border border-[rgba(64,99,74,0.12)] bg-white/85 px-3 py-1.5 text-xs font-semibold text-[var(--ink)]"
+                      >
+                        {region}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid gap-4">
+                <div className="rounded-[1.5rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-4 text-sm text-[var(--muted-strong)]">
+                  <SectionHeading
+                    title="Formación"
+                    iconPath="M3 7l9-4 9 4-9 4-9-4Zm0 0v6l9 4 9-4V7M7 9.5v4.2"
+                  />
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {(trainingItems.length ? trainingItems : ["No especificada"]).map((training) => (
+                      <span
+                        key={`${resource.id}-training-${training}`}
+                        className="rounded-full border border-[rgba(201,120,66,0.12)] bg-white/90 px-3 py-1.5 text-xs font-semibold text-[var(--accent-strong)]"
+                      >
+                        {training}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="rounded-[1.5rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-4 text-sm text-[var(--muted-strong)]">
+                  <SectionHeading
+                    title="Áreas de Enfoque/Especialidad"
+                    iconPath="M4 6h16M4 12h16M4 18h10"
+                  />
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {(topicItems.length ? topicItems : resource.services.slice(0, 8)).map((topic) => (
+                      <span
+                        key={`${resource.id}-${topic}`}
+                        className="rounded-full bg-[var(--accent-soft)] px-3 py-1.5 text-xs font-semibold text-[var(--accent-strong)]"
+                      >
+                        {topic}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ) : resource.services.length ? (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {resource.services.slice(0, 6).map((service) => (
+              <span
+                key={`${resource.id}-${service}`}
+                className="rounded-full bg-[var(--accent-soft)] px-3 py-1 text-xs text-[var(--accent-strong)]"
+              >
+                {service}
+              </span>
+            ))}
+          </div>
+        ) : null}
+
+        {resource.category !== "doula" ? (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {resource.phone ? (
+              <a
+                href={`tel:${resource.phone}`}
+                className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+              >
+                {resource.phone}
+              </a>
+            ) : null}
+            {resource.email ? (
+              <a
+                href={`mailto:${resource.email}`}
+                className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+              >
+                {resource.email}
+              </a>
+            ) : null}
+            {website ? (
+              <a
+                href={website}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+              >
+                Sitio web
+              </a>
+            ) : null}
+            {!website && sourceUrl ? (
+              <a
+                href={sourceUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+              >
+                Fuente
+              </a>
+            ) : null}
+          </div>
+        ) : null}
+
+        {resource.coverage || resource.organization ? (
+          <div className="mt-4 grid gap-3 md:grid-cols-2">
+            {resource.coverage ? (
+              <div className="rounded-2xl bg-white p-3 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Cobertura</p>
+                <p className="mt-1">{resource.coverage}</p>
+              </div>
+            ) : null}
+            {resource.organization ? (
+              <div className="rounded-2xl bg-white p-3 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Organización</p>
+                <p className="mt-1">{resource.organization}</p>
+              </div>
+            ) : null}
+          </div>
+        ) : null}
+
+        <p className="mt-4 text-xs uppercase tracking-[0.16em] text-[var(--muted)]">
+          Fuente: {resource.sourceLabel}
+        </p>
+      </div>
+    </details>
+  );
+}
+
 type DirectoryBrowserProps = {
   directoryCounts: DirectoryCounts;
   resourceDirectory: ResourceItem[];
@@ -581,7 +933,7 @@ export function DirectoryBrowser({
   const [activeFilter, setActiveFilter] = useState<DirectoryFilter>("none");
   const [selectedTown, setSelectedTown] = useState("all");
   const [selectedRegion, setSelectedRegion] = useState("all");
-  const [openHospiceId, setOpenHospiceId] = useState<string | null>(null);
+  const [openResourceId, setOpenResourceId] = useState<string | null>(null);
 
   const doulaRegionOptions = useMemo(() => {
     const slugs = Array.from(
@@ -694,6 +1046,7 @@ export function DirectoryBrowser({
                   setActiveFilter("none");
                   setSelectedTown("all");
                   setSelectedRegion("all");
+                  setOpenResourceId(null);
                 }}
                 className="inline-flex w-full items-center justify-center rounded-full border border-[var(--line-strong)] px-5 py-3 text-sm font-semibold text-[var(--ink)] transition hover:bg-[var(--surface-soft)]"
               >
@@ -709,6 +1062,7 @@ export function DirectoryBrowser({
             onClick={() => {
               setActiveFilter("all");
               setSelectedRegion("all");
+              setOpenResourceId(null);
             }}
             className={`rounded-3xl border p-5 text-left transition ${
               activeFilter === "all"
@@ -736,6 +1090,7 @@ export function DirectoryBrowser({
                 if (category !== "doula") {
                   setSelectedRegion("all");
                 }
+                setOpenResourceId(null);
               }}
               className={`rounded-3xl border p-5 text-left transition ${
                 activeFilter === category
@@ -839,15 +1194,6 @@ export function DirectoryBrowser({
             {filteredResources.map((resource) => {
               const website = normalizeUrl(resource.website);
               const sourceUrl = normalizeUrl(resource.sourceUrls?.[0]);
-              const whatsappUrl = getWhatsAppUrl(resource.phone);
-              const roleItems = splitDetailText(getDetailValue(resource, "role"));
-              const trainingItems = splitDetailText(getDetailValue(resource, "training"));
-              const topicItems = toList(getDetailValue(resource, "topics"));
-              const aboutText =
-                toText(getDetailValue(resource, "about")) ||
-                resource.description ||
-                "No se añadió una descripción personal todavía.";
-              const regionItems = formatRegionList(resource);
 
               return (
                 resource.category === "hospicio" ? (
@@ -856,287 +1202,22 @@ export function DirectoryBrowser({
                     resource={resource}
                     website={website}
                     sourceUrl={sourceUrl}
-                    isOpen={openHospiceId === resource.id}
+                    isOpen={openResourceId === resource.id}
                     onToggle={(nextOpen) =>
-                      setOpenHospiceId(nextOpen ? resource.id : null)
+                      setOpenResourceId(nextOpen ? resource.id : null)
                     }
                   />
                 ) : (
-                <article
-                  key={resource.id}
-                  className="rounded-[1.75rem] border border-[var(--line)] bg-[var(--surface)] p-5"
-                >
-                  <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
-                    <div>
-                      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                        {CATEGORY_LABELS[resource.category]}
-                      </p>
-                      <h3 className="mt-2 text-xl font-semibold text-[var(--ink)]">
-                        {resource.name}
-                      </h3>
-                      <p className="mt-2 text-sm text-[var(--muted-strong)]">
-                        {resource.town || "Municipio no especificado"}
-                        {resource.address ? ` · ${resource.address}` : ""}
-                      </p>
-                    </div>
-                    {resource.verification ? (
-                      <span className="rounded-full bg-white px-3 py-1 text-xs font-semibold text-[var(--accent-strong)]">
-                        {resource.verification}
-                      </span>
-                    ) : null}
-                  </div>
-
-                  <p className="mt-3 text-sm leading-7 text-[var(--muted-strong)]">
-                    {resource.description || resource.summary}
-                  </p>
-
-                  {resource.category === "doula" ? (
-                    <div className="mt-5 grid gap-4">
-                      <div className="rounded-[1.6rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-5">
-                        <SectionHeading
-                          title="Sobre mí"
-                          iconPath="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 9a7 7 0 0 1 14 0"
-                        />
-                        <p className="mt-3 text-base leading-8 text-[var(--ink)]">
-                          {aboutText}
-                        </p>
-                      </div>
-
-                      <div className="grid gap-4 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)]">
-                        <div className="grid gap-4">
-                          <div className="rounded-[1.5rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-4 text-sm text-[var(--muted-strong)]">
-                            <SectionHeading
-                              title="Roles"
-                              iconPath="M16 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M9 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"
-                            />
-                            <div className="mt-3 flex flex-wrap gap-2">
-                              {(roleItems.length ? roleItems : [resource.summary]).map((role) => (
-                                <span
-                                  key={`${resource.id}-role-${role}`}
-                                  className="rounded-full bg-[var(--accent-soft)] px-3 py-1.5 text-xs font-semibold text-[var(--accent-strong)]"
-                                >
-                                  {role}
-                                </span>
-                              ))}
-                            </div>
-                          </div>
-
-                          <div className="rounded-[1.5rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-4 text-sm text-[var(--muted-strong)]">
-                            <SectionHeading
-                              title="Contacto"
-                              iconPath="M21 8.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8.5M21 8.5V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1.5M21 8.5l-9 6-9-6"
-                            />
-                            <div className="mt-3 space-y-2 text-sm text-[var(--ink)]">
-                              {resource.phone ? (
-                                <div className="flex items-center gap-3 rounded-2xl bg-white/80 px-3 py-2">
-                                  <SectionIcon
-                                    path="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.78.63 2.62a2 2 0 0 1-.45 2.11L8 9.91a16 16 0 0 0 6.09 6.09l1.46-1.24a2 2 0 0 1 2.11-.45c.84.3 1.72.51 2.62.63A2 2 0 0 1 22 16.92z"
-                                    className="h-4 w-4 text-[var(--accent)]"
-                                  />
-                                  <a href={`tel:${resource.phone}`} className="break-all leading-6">
-                                    {resource.phone}
-                                  </a>
-                                </div>
-                              ) : null}
-                              {resource.email ? (
-                                <div className="flex items-center gap-3 rounded-2xl bg-white/80 px-3 py-2">
-                                  <SectionIcon
-                                    path="M4 4h16v16H4zM4 7l8 6 8-6"
-                                    className="h-4 w-4 text-[var(--accent)]"
-                                  />
-                                  <a href={`mailto:${resource.email}`} className="break-all leading-6">
-                                    {resource.email}
-                                  </a>
-                                </div>
-                              ) : null}
-                              {website ? (
-                                <div className="flex items-center gap-3 rounded-2xl bg-white/80 px-3 py-2">
-                                  <SectionIcon
-                                    path="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 0c2.5 2.7 4 6.2 4 10s-1.5 7.3-4 10c-2.5-2.7-4-6.2-4-10s1.5-7.3 4-10Zm-9.5 10h19"
-                                    className="h-4 w-4 text-[var(--accent)]"
-                                  />
-                                  <a href={website} target="_blank" rel="noreferrer" className="break-all leading-6">
-                                    {website.replace(/^https?:\/\//, "")}
-                                  </a>
-                                </div>
-                              ) : null}
-                              {resource.socials?.map((social) => (
-                                <div
-                                  key={social}
-                                  className="flex items-center gap-3 rounded-2xl bg-white/80 px-3 py-2"
-                                >
-                                  <SectionIcon
-                                    path="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm10.5 9.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0ZM18 6.5h.01"
-                                    className="h-4 w-4 text-[var(--accent)]"
-                                  />
-                                  <a
-                                    href={normalizeUrl(social) ?? social}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="break-all leading-6"
-                                  >
-                                    {getSocialLabel(social)}
-                                  </a>
-                                </div>
-                              ))}
-                            </div>
-
-                            <div className="mt-4 flex flex-wrap gap-3">
-                              {resource.email ? (
-                                <a
-                                  href={`mailto:${resource.email}`}
-                                  className="inline-flex items-center justify-center rounded-full bg-[var(--accent)] px-4 py-2.5 text-sm font-semibold text-white transition hover:brightness-95"
-                                >
-                                  Enviar correo
-                                </a>
-                              ) : null}
-                              {whatsappUrl ? (
-                                <a
-                                  href={whatsappUrl}
-                                  target="_blank"
-                                  rel="noreferrer"
-                                  className="inline-flex items-center justify-center rounded-full bg-[#25d366] px-4 py-2.5 text-sm font-semibold text-white transition hover:brightness-95"
-                                >
-                                  WhatsApp
-                                </a>
-                              ) : null}
-                            </div>
-                          </div>
-
-                          <div className="rounded-[1.5rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-4 text-sm text-[var(--muted-strong)]">
-                            <SectionHeading
-                              title="Regiones de Servicio"
-                              iconPath="M12 21s-6-5.33-6-11a6 6 0 1 1 12 0c0 5.67-6 11-6 11Zm0-8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
-                            />
-                            <div className="mt-3 flex flex-wrap gap-2">
-                              {regionItems.map((region) => (
-                                <span
-                                  key={`${resource.id}-${region}`}
-                                  className="rounded-full border border-[rgba(64,99,74,0.12)] bg-white/85 px-3 py-1.5 text-xs font-semibold text-[var(--ink)]"
-                                >
-                                  {region}
-                                </span>
-                              ))}
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="grid gap-4">
-                          <div className="rounded-[1.5rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-4 text-sm text-[var(--muted-strong)]">
-                            <SectionHeading
-                              title="Formación"
-                              iconPath="M3 7l9-4 9 4-9 4-9-4Zm0 0v6l9 4 9-4V7M7 9.5v4.2"
-                            />
-                            <div className="mt-3 flex flex-wrap gap-2">
-                              {(trainingItems.length
-                                ? trainingItems
-                                : ["No especificada"]).map((training) => (
-                                <span
-                                  key={`${resource.id}-training-${training}`}
-                                  className="rounded-full border border-[rgba(201,120,66,0.12)] bg-white/90 px-3 py-1.5 text-xs font-semibold text-[var(--accent-strong)]"
-                                >
-                                  {training}
-                                </span>
-                              ))}
-                            </div>
-                          </div>
-
-                          <div className="rounded-[1.5rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-4 text-sm text-[var(--muted-strong)]">
-                            <SectionHeading
-                              title="Áreas de Enfoque/Especialidad"
-                              iconPath="M4 6h16M4 12h16M4 18h10"
-                            />
-                            <div className="mt-3 flex flex-wrap gap-2">
-                              {(topicItems.length ? topicItems : resource.services.slice(0, 8)).map(
-                                (topic) => (
-                                  <span
-                                    key={`${resource.id}-${topic}`}
-                                    className="rounded-full bg-[var(--accent-soft)] px-3 py-1.5 text-xs font-semibold text-[var(--accent-strong)]"
-                                  >
-                                    {topic}
-                                  </span>
-                                ),
-                              )}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  ) : resource.services.length ? (
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      {resource.services.slice(0, 6).map((service) => (
-                        <span
-                          key={`${resource.id}-${service}`}
-                          className="rounded-full bg-[var(--accent-soft)] px-3 py-1 text-xs text-[var(--accent-strong)]"
-                        >
-                          {service}
-                        </span>
-                      ))}
-                    </div>
-                  ) : null}
-
-                  {resource.category !== "doula" ? (
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      {resource.phone ? (
-                        <a
-                          href={`tel:${resource.phone}`}
-                          className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
-                        >
-                          {resource.phone}
-                        </a>
-                      ) : null}
-                      {resource.email ? (
-                        <a
-                          href={`mailto:${resource.email}`}
-                          className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
-                        >
-                          {resource.email}
-                        </a>
-                      ) : null}
-                      {website ? (
-                        <a
-                          href={website}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
-                        >
-                          Sitio web
-                        </a>
-                      ) : null}
-                      {!website && sourceUrl ? (
-                        <a
-                          href={sourceUrl}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-xs font-semibold text-[var(--ink)]"
-                        >
-                          Fuente
-                        </a>
-                      ) : null}
-                    </div>
-                  ) : null}
-
-                  {(resource.coverage || resource.organization) ? (
-                    <div className="mt-4 grid gap-3 md:grid-cols-2">
-                      {resource.coverage ? (
-                        <div className="rounded-2xl bg-white p-3 text-sm text-[var(--muted-strong)]">
-                          <p className="font-semibold text-[var(--ink)]">Cobertura</p>
-                          <p className="mt-1">{resource.coverage}</p>
-                        </div>
-                      ) : null}
-                      {resource.organization ? (
-                        <div className="rounded-2xl bg-white p-3 text-sm text-[var(--muted-strong)]">
-                          <p className="font-semibold text-[var(--ink)]">Organización</p>
-                          <p className="mt-1">{resource.organization}</p>
-                        </div>
-                      ) : null}
-                    </div>
-                  ) : null}
-
-                  <p className="mt-4 text-xs uppercase tracking-[0.16em] text-[var(--muted)]">
-                    Fuente: {resource.sourceLabel}
-                  </p>
-                </article>
+                  <DirectoryResourceCard
+                    key={resource.id}
+                    resource={resource}
+                    website={website}
+                    sourceUrl={sourceUrl}
+                    isOpen={openResourceId === resource.id}
+                    onToggle={(nextOpen) =>
+                      setOpenResourceId(nextOpen ? resource.id : null)
+                    }
+                  />
                 )
               );
             })}
