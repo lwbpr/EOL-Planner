@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import { CATEGORY_LABELS } from "@/lib/module-1/resource-directory";
 import { TOWNS, type ResourceCategory, type ResourceItem } from "@/lib/module-1/types";
@@ -21,6 +22,8 @@ type HospiceScoreItem = {
   label: string;
   value: string;
 };
+
+const HOSPICE_QUALITY_INFO_HREF = "/directorio/metodologia-puntuacion-hospicios";
 
 function normalizeUrl(url?: string) {
   if (!url) return null;
@@ -176,6 +179,46 @@ function formatScoreNumber(value: string) {
   return value.replace(/\.00$/, "");
 }
 
+function parseHospiceTotalScore(resource: ResourceItem) {
+  if (resource.category !== "hospicio") return null;
+
+  const rawScore = getDetailValue(resource, "qualityScore");
+  const scoreText =
+    typeof rawScore === "number"
+      ? String(rawScore)
+      : typeof rawScore === "string"
+        ? rawScore.trim()
+        : "";
+
+  if (!scoreText) return null;
+
+  const match = scoreText.match(/-?\d+(?:\.\d+)?/);
+  if (!match) return null;
+
+  const parsed = Number.parseFloat(match[0]);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function sortResourcesForDisplay(resources: ResourceItem[]) {
+  return resources
+    .map((resource, index) => ({ resource, index }))
+    .sort((left, right) => {
+      if (left.resource.category === "hospicio" && right.resource.category === "hospicio") {
+        const leftScore = parseHospiceTotalScore(left.resource);
+        const rightScore = parseHospiceTotalScore(right.resource);
+
+        if (leftScore !== null || rightScore !== null) {
+          if (leftScore === null) return 1;
+          if (rightScore === null) return -1;
+          if (rightScore !== leftScore) return rightScore - leftScore;
+        }
+      }
+
+      return left.index - right.index;
+    })
+    .map(({ resource }) => resource);
+}
+
 function translateBoolean(value: unknown) {
   const text = toText(value)?.toLowerCase();
   if (text === "yes") return "Sí";
@@ -268,10 +311,14 @@ function HospiceCard({
   resource,
   website,
   sourceUrl,
+  isOpen,
+  onToggle,
 }: {
   resource: ResourceItem;
   website: string | null;
   sourceUrl: string | null;
+  isOpen: boolean;
+  onToggle: (nextOpen: boolean) => void;
 }) {
   const totalScore = toText(getDetailValue(resource, "qualityScore")) ?? "No disponible";
   const breakdown = parseHospiceScoreBreakdown(resource);
@@ -286,7 +333,11 @@ function HospiceCard({
   const facilityType = translateFacilityType(getDetailValue(resource, "facilityType"));
 
   return (
-    <details className="rounded-[1.75rem] border border-[var(--line)] bg-[var(--surface)] p-5 [&_summary::-webkit-details-marker]:hidden">
+    <details
+      open={isOpen}
+      onToggle={(event) => onToggle(event.currentTarget.open)}
+      className="rounded-[1.75rem] border border-[var(--line)] bg-[var(--surface)] p-5 [&_summary::-webkit-details-marker]:hidden"
+    >
       <summary className="cursor-pointer list-none">
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
@@ -357,6 +408,13 @@ function HospiceCard({
             <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
               <p className="font-semibold text-[var(--ink)]">Resumen</p>
               <p className="mt-2 leading-6">{buildHospiceSummary(resource)}</p>
+              <Link
+                href={HOSPICE_QUALITY_INFO_HREF}
+                className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-[var(--accent-strong)] underline decoration-[rgba(201,120,66,0.35)] underline-offset-4"
+              >
+                ¿Cómo se interpreta esta puntuación?
+                <span aria-hidden="true">↗</span>
+              </Link>
             </div>
           </div>
         </div>
@@ -456,6 +514,12 @@ function HospiceCard({
                 iconPath="M21 8.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8.5M21 8.5V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1.5M21 8.5l-9 6-9-6"
               />
               <div className="mt-4 flex flex-wrap gap-2 text-sm">
+                <Link
+                  href={HOSPICE_QUALITY_INFO_HREF}
+                  className="rounded-full border border-[var(--line)] bg-[var(--surface-soft)] px-3 py-2 font-semibold text-[var(--accent-strong)]"
+                >
+                  Ver metodología de calidad
+                </Link>
                 {resource.phone ? (
                   <a
                     href={`tel:${resource.phone}`}
@@ -517,6 +581,7 @@ export function DirectoryBrowser({
   const [activeFilter, setActiveFilter] = useState<DirectoryFilter>("none");
   const [selectedTown, setSelectedTown] = useState("all");
   const [selectedRegion, setSelectedRegion] = useState("all");
+  const [openHospiceId, setOpenHospiceId] = useState<string | null>(null);
 
   const doulaRegionOptions = useMemo(() => {
     const slugs = Array.from(
@@ -544,21 +609,23 @@ export function DirectoryBrowser({
   const filteredResources = useMemo(() => {
     if (activeFilter === "none") return [];
 
-    return resourceDirectory.filter((resource) => {
-      const matchesCategory =
-        activeFilter === "all" ? true : resource.category === activeFilter;
-      const matchesTown =
-        selectedTown === "all"
-          ? true
-          : !resource.townSlug || resource.townSlug === selectedTown;
-      const matchesRegion =
-        activeFilter === "doula" && selectedRegion !== "all"
-          ? resource.category === "doula" &&
-            (resource.region === selectedRegion || resource.regions.includes(selectedRegion))
-          : true;
+    return sortResourcesForDisplay(
+      resourceDirectory.filter((resource) => {
+        const matchesCategory =
+          activeFilter === "all" ? true : resource.category === activeFilter;
+        const matchesTown =
+          selectedTown === "all"
+            ? true
+            : !resource.townSlug || resource.townSlug === selectedTown;
+        const matchesRegion =
+          activeFilter === "doula" && selectedRegion !== "all"
+            ? resource.category === "doula" &&
+              (resource.region === selectedRegion || resource.regions.includes(selectedRegion))
+            : true;
 
-      return matchesCategory && matchesTown && matchesRegion;
-    });
+        return matchesCategory && matchesTown && matchesRegion;
+      }),
+    );
   }, [activeFilter, resourceDirectory, selectedRegion, selectedTown]);
 
   const activeLabel =
@@ -567,6 +634,7 @@ export function DirectoryBrowser({
       : activeFilter === "none"
         ? null
         : CATEGORY_LABELS[activeFilter];
+  const showHospiceQualityIntro = activeFilter === "hospicio";
 
   return (
     <>
@@ -720,6 +788,31 @@ export function DirectoryBrowser({
           ) : null}
         </div>
 
+        {activeLabel && showHospiceQualityIntro ? (
+          <div className="mt-6 rounded-[1.75rem] border border-[rgba(201,120,66,0.18)] bg-[var(--accent-soft)]/55 p-6">
+            <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+              <div className="max-w-3xl">
+                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--accent-strong)]">
+                  Cómo leer esta puntuación
+                </p>
+                <p className="mt-3 text-sm leading-7 text-[var(--muted-strong)]">
+                  La puntuación total resume ocho métricas de calidad publicadas por
+                  National Hospice Analytics con datos de Medicare/CMS. Sirve como
+                  orientación inicial para comparar hospicios, pero no sustituye una
+                  conversación directa sobre servicios, cobertura, disponibilidad y
+                  necesidades de la persona y su familia.
+                </p>
+              </div>
+              <Link
+                href={HOSPICE_QUALITY_INFO_HREF}
+                className="inline-flex items-center justify-center rounded-full border border-[rgba(201,120,66,0.28)] bg-white px-5 py-3 text-sm font-semibold text-[var(--accent-strong)] transition hover:bg-[var(--surface-soft)]"
+              >
+                ¿Cómo se calcula esta puntuación?
+              </Link>
+            </div>
+          </div>
+        ) : null}
+
         {!activeLabel ? (
           <div className="mt-6 rounded-[1.75rem] border border-dashed border-[var(--line-strong)] bg-[var(--surface-soft)] p-6">
             <p className="text-sm font-semibold text-[var(--ink)]">
@@ -763,6 +856,10 @@ export function DirectoryBrowser({
                     resource={resource}
                     website={website}
                     sourceUrl={sourceUrl}
+                    isOpen={openHospiceId === resource.id}
+                    onToggle={(nextOpen) =>
+                      setOpenHospiceId(nextOpen ? resource.id : null)
+                    }
                   />
                 ) : (
                 <article
