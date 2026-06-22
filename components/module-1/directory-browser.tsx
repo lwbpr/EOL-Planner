@@ -637,12 +637,40 @@ function DirectoryResourceCard({
           </div>
 
           {resource.category === "doula" ? (
-            <div className="grid gap-3 md:grid-cols-2">
+            <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
               <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
                 <p className="font-semibold text-[var(--ink)]">Ubicación</p>
                 <p className="mt-2 leading-6">
                   {resource.town || "Municipio no especificado"}
                 </p>
+              </div>
+
+              <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Áreas de servicio</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {(regionItems.length ? regionItems : ["No especificadas"]).map((region) => (
+                    <span
+                      key={`${resource.id}-summary-region-${region}`}
+                      className="rounded-full border border-[rgba(64,99,74,0.12)] bg-[var(--surface-soft)] px-3 py-1 text-xs font-semibold text-[var(--ink)]"
+                    >
+                      {region}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
+                <p className="font-semibold text-[var(--ink)]">Contacto</p>
+                <div className="mt-2 space-y-1 leading-6">
+                  {resource.phone ? <p>{resource.phone}</p> : null}
+                  {resource.email ? <p className="break-all">{resource.email}</p> : null}
+                  {website ? (
+                    <p className="break-all">{website.replace(/^https?:\/\//, "")}</p>
+                  ) : null}
+                  {!resource.phone && !resource.email && !website ? (
+                    <p>No disponible</p>
+                  ) : null}
+                </div>
               </div>
 
               <div className="rounded-2xl bg-white p-4 text-sm text-[var(--muted-strong)]">
@@ -688,10 +716,6 @@ function DirectoryResourceCard({
       </summary>
 
       <div className="mt-5">
-        <p className="text-sm leading-7 text-[var(--muted-strong)]">
-          {resource.description || resource.summary}
-        </p>
-
         {resource.category === "doula" ? (
           <div className="mt-5 grid gap-4">
             <div className="rounded-[1.6rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-5">
@@ -860,7 +884,13 @@ function DirectoryResourceCard({
               </div>
             </div>
           </div>
-        ) : resource.services.length ? (
+        ) : (
+          <p className="text-sm leading-7 text-[var(--muted-strong)]">
+            {resource.description || resource.summary}
+          </p>
+        )}
+
+        {resource.category !== "doula" && resource.services.length ? (
           <div className="mt-4 flex flex-wrap gap-2">
             {resource.services.slice(0, 6).map((service) => (
               <span
