@@ -22,6 +22,7 @@ type SheetRow = {
   "Redes sociales:*"?: string;
   "*Regiones* "?: string;
   Formación?: string;
+  Credenciales?: string;
   Rol?: string;
   "*Temas/Áreas"?: string;
   "*Sobre ti*"?: string;
@@ -173,12 +174,16 @@ function buildDoulaResource(row: SheetRow): ResourceItem | null {
   const website = normalizeUrl(row["*Página web*"]);
   const socials = splitSocials(row["Redes sociales:*"]).map((item) => normalizeUrl(item) ?? item);
   const training = cleanValue(row.Formación);
+  const credentials = cleanValue(row.Credenciales);
   const role = cleanValue(row.Rol) ?? "Doula de Final de Vida";
   const topics = splitList(row["*Temas/Áreas"]);
   const about = cleanValue(row["*Sobre ti*"]);
   const submittedAt = cleanValue(row["Submitted At"]);
   const token = cleanValue(row.Token);
   const regions = parseRegions(row["*Regiones* "], town);
+  const trainingAndCredentials = Array.from(
+    new Set([training, credentials].filter((value): value is string => Boolean(value))),
+  );
 
   return {
     id: `doulas_live-${slugify(name)}`,
@@ -204,6 +209,8 @@ function buildDoulaResource(row: SheetRow): ResourceItem | null {
     sourceUrls: [LIVE_DOULAS_SOURCE_URL],
     details: {
       training,
+      credentials,
+      trainingCredentials: trainingAndCredentials,
       role,
       topics,
       about,

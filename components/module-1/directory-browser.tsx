@@ -584,7 +584,7 @@ function DirectoryResourceCard({
 }) {
   const whatsappUrl = getWhatsAppUrl(resource.phone);
   const roleItems = splitDetailText(getDetailValue(resource, "role"));
-  const trainingItems = splitDetailText(getDetailValue(resource, "training"));
+  const trainingItems = toList(getDetailValue(resource, "trainingCredentials"));
   const topicItems = toList(getDetailValue(resource, "topics"));
   const aboutText =
     toText(getDetailValue(resource, "about")) ||
@@ -850,7 +850,7 @@ function DirectoryResourceCard({
               <div className="grid gap-4">
                 <div className="rounded-[1.5rem] border border-[rgba(64,99,74,0.14)] bg-[var(--success-soft)]/80 p-4 text-sm text-[var(--muted-strong)]">
                   <SectionHeading
-                    title="Formación"
+                    title="Formación / Credenciales"
                     iconPath="M3 7l9-4 9 4-9 4-9-4Zm0 0v6l9 4 9-4V7M7 9.5v4.2"
                   />
                   <div className="mt-3 flex flex-wrap gap-2">
