@@ -7,9 +7,9 @@ import { TOWNS, type ResourceCategory, type ResourceItem } from "@/lib/module-1/
 
 const CATEGORY_ORDER: ResourceCategory[] = [
   "doula",
-  "apoyo_complementario",
   "hospicio",
   "servicio_funebre",
+  "apoyo_complementario",
 ];
 
 type DirectoryCounts = {
@@ -1154,7 +1154,7 @@ export function DirectoryBrowser({
               <select
                 value={selectedTown}
                 onChange={(event) => setSelectedTown(event.target.value)}
-                className="w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm text-[var(--ink)] outline-none transition focus:border-[var(--accent-strong)]"
+                className="min-w-[12rem] w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm text-[var(--ink)] outline-none transition focus:border-[var(--accent-strong)] sm:min-w-[13rem]"
               >
                 <option value="all">
                   {activeFilter === "hospicio" ? "Toda la cobertura" : "Todos los pueblos"}
@@ -1420,7 +1420,7 @@ export function DirectoryBrowser({
             </p>
             <p className="mt-2 text-sm leading-7 text-[var(--muted-strong)]">
               Pulsa Doulas de Final de Vida, Hospicios y Cuidados Paliativos,
-              Otros apoyos complementarios, Servicios Fúnebres o Todos los
+              Recursos adicionales, Servicios Fúnebres o Todos los
               recursos para abrir el listado.
             </p>
           </div>
