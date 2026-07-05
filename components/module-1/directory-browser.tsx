@@ -1146,15 +1146,15 @@ export function DirectoryBrowser({
             </p>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
-            <label className="space-y-2">
+          <div className="flex flex-wrap items-end gap-3">
+            <label className="min-w-0 flex-1 space-y-2 sm:min-w-[13rem]">
               <span className="text-sm font-semibold text-[var(--ink)]">
                 {activeFilter === "hospicio" ? "Cobertura o pueblo" : "Filtrar por pueblo"}
               </span>
               <select
                 value={selectedTown}
                 onChange={(event) => setSelectedTown(event.target.value)}
-                className="min-w-[12rem] w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm text-[var(--ink)] outline-none transition focus:border-[var(--accent-strong)] sm:min-w-[13rem]"
+                className="w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm text-[var(--ink)] outline-none transition focus:border-[var(--accent-strong)]"
               >
                 <option value="all">
                   {activeFilter === "hospicio" ? "Toda la cobertura" : "Todos los pueblos"}
@@ -1174,7 +1174,7 @@ export function DirectoryBrowser({
             </label>
 
             {activeFilter === "doula" ? (
-              <label className="space-y-2">
+              <label className="min-w-0 flex-1 space-y-2 sm:min-w-[13rem]">
                 <span className="text-sm font-semibold text-[var(--ink)]">
                   Filtrar doulas por región de servicio
                 </span>
@@ -1194,7 +1194,7 @@ export function DirectoryBrowser({
             ) : null}
 
             {activeFilter === "hospicio" ? (
-              <label className="space-y-2">
+              <label className="min-w-0 flex-1 space-y-2 sm:min-w-[13rem]">
                 <span className="text-sm font-semibold text-[var(--ink)]">
                   Rango de puntuación
                 </span>
@@ -1213,7 +1213,7 @@ export function DirectoryBrowser({
             ) : null}
 
             {activeFilter === "hospicio" ? (
-              <label className="space-y-2">
+              <label className="min-w-0 flex-1 space-y-2 sm:min-w-[13rem]">
                 <span className="text-sm font-semibold text-[var(--ink)]">
                   Certificado por Medicare
                 </span>
@@ -1230,7 +1230,7 @@ export function DirectoryBrowser({
             ) : null}
 
             {activeFilter === "hospicio" ? (
-              <label className="space-y-2">
+              <label className="min-w-0 flex-1 space-y-2 sm:min-w-[13rem]">
                 <span className="text-sm font-semibold text-[var(--ink)]">
                   Internado de hospicio
                 </span>
@@ -1246,7 +1246,7 @@ export function DirectoryBrowser({
               </label>
             ) : null}
 
-            <div className="flex items-end">
+            <div className="w-full sm:w-auto sm:min-w-[11rem]">
               <button
                 type="button"
                 onClick={() => {
