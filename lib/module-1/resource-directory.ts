@@ -41,6 +41,9 @@ function buildCounts(resources: ResourceItem[]): DirectoryCounts {
 }
 
 export const FALLBACK_DIRECTORY_COUNTS = buildCounts(FALLBACK_RESOURCE_DIRECTORY);
+const FALLBACK_HOSPICE_RESOURCES = FALLBACK_RESOURCE_DIRECTORY.filter(
+  (resource) => resource.category === "hospicio",
+);
 
 const TOWN_ALIASES: Record<string, { town: string; townSlug: string; region: string }> = {
   "hato-rey": {
@@ -136,7 +139,11 @@ export async function getResourceDirectory() {
     return mergeLiveDoulas(FALLBACK_RESOURCE_DIRECTORY);
   }
 
-  return mergeLiveDoulas(data.map((record) => normalizeSupabaseResource(record)));
+  const supabaseResources = data
+    .map((record) => normalizeSupabaseResource(record))
+    .filter((resource) => resource.category !== "hospicio");
+
+  return mergeLiveDoulas([...supabaseResources, ...FALLBACK_HOSPICE_RESOURCES]);
 }
 
 export async function getDirectoryCounts() {
