@@ -714,11 +714,11 @@
       "central"
     ],
     "phone": "787-829-2953",
-    "email": "agonzalez512@hotmail.com",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/adjuntas/servicios-de-hospicio-de-adjuntas-adjuntas",
+    "email": "info@hospiciodeadjuntas.com",
+    "website": "",
     "address": "CALLE RODULFO GONZALEZ 46 SUITE 1, 00601",
     "description": "This hospice’s quality score= 62.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 62/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 62/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -742,7 +742,7 @@
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/adjuntas",
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/adjuntas/servicios-de-hospicio-de-adjuntas-adjuntas"
     ],
-    "coverage": "Puerto Rico: Adjuntas, Ponce, Jayuya, Lares",
+    "coverage": "Puerto Rico: Adjuntas, Ponce, Jayuya, Lares, Camuy (toda el área sur)",
     "verification": "Exacta (NHL)",
     "details": {
       "qualityScore": "62/100",
@@ -770,7 +770,18 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/adjuntas/servicios-de-hospicio-de-adjuntas-adjuntas"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/adjuntas/servicios-de-hospicio-de-adjuntas-adjuntas",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "ceoAdministratorContact": {
+        "value": "agonzalez512@hotmail.com",
+        "emails": [
+          "agonzalez512@hotmail.com"
+        ],
+        "phones": []
+      }
     }
   },
   {
@@ -786,10 +797,10 @@
     ],
     "phone": "787-868-2920",
     "email": "aguadahsfa@yahoo.com",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/aguada/san-francisco-de-asis-hospice-aguada",
+    "website": "",
     "address": "CARR 441 KM 0 4 BO QUANIQUILLA, 00602",
     "description": "This hospice’s quality score= 50.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 50/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 50/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -813,7 +824,7 @@
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/aguada",
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/aguada/san-francisco-de-asis-hospice-aguada"
     ],
-    "coverage": "Puerto Rico: Aguada",
+    "coverage": "Puerto Rico: Aguada, Saban Grande, Lajas, San German, Hormigueros, Arecibo, Hatillo, Yeguada (toda el área noroeste)",
     "verification": "Exacta (NHL)",
     "details": {
       "qualityScore": "50/100",
@@ -821,7 +832,7 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1995",
-      "ceoAdministrator": "ENNELLY COFRESI",
+      "ceoAdministrator": "MAGNOLIA RODRIGUEZ",
       "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
@@ -841,7 +852,19 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/aguada/san-francisco-de-asis-hospice-aguada"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/aguada/san-francisco-de-asis-hospice-aguada",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "ceoAdministratorContact": {
+        "value": "787-868-2920",
+        "emails": [],
+        "phones": [
+          "787-868-2920"
+        ]
+      },
+      "capacityNotes": "Dependen de las visitas, como 2 veces en semana, no tienen una cantidad fija al dia"
     }
   },
   {
@@ -857,10 +880,10 @@
     ],
     "phone": "787-735-1955",
     "email": "mdbonilla@mghpr.org",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/aibonito/mennonite-hospice-aibonito",
+    "website": "https://www.sistemamenonita.com/",
     "address": "CALLE PEDRO ROSARIO SOLAR 4 Y 5 BO AIBONITO, 00705",
     "description": "This hospice’s quality score= 63.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 17.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 63/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 63/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -884,7 +907,7 @@
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/aibonito",
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/aibonito/mennonite-hospice-aibonito"
     ],
-    "coverage": "Puerto Rico: Aibonito",
+    "coverage": "Puerto Rico: Aibonito, Central, Oeste y Sur",
     "verification": "Exacta (NHL)",
     "details": {
       "qualityScore": "63/100",
@@ -892,7 +915,7 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1993",
-      "ceoAdministrator": "MARTA MERCADO",
+      "ceoAdministrator": "MARIANGELA ALVARADO",
       "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
@@ -912,7 +935,21 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Hospital based",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/aibonito/mennonite-hospice-aibonito"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/aibonito/mennonite-hospice-aibonito",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "ceoAdministratorContact": {
+        "value": "malvarad12@mghpr.org 787-380-3515",
+        "emails": [
+          "malvarad12@mghpr.org"
+        ],
+        "phones": [
+          "787-380-3515"
+        ]
+      },
+      "capacityNotes": "enfermeras 2 veces a la semana, los doctores 1 vez al mes visitan"
     }
   },
   {
@@ -927,11 +964,11 @@
       "norte"
     ],
     "phone": "787-878-1548",
-    "email": "hospiciolapaz@yahoo.com",
+    "email": "info@hospicio.com, hospiciolapaz@yahoo.com",
     "website": "www.hospiciolapaz.com",
     "address": "152 CALLE JOSE RODRIGUEZ IRIZ STE 201, 00612",
     "description": "This hospice’s quality score= 67.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 67/100 · Extra Large (200+ pts/day)",
+    "summary": "For-profit · 67/100 · Extra Large (200+ pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -955,7 +992,7 @@
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/arecibo",
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/arecibo/hospicio-la-paz-arecibo"
     ],
-    "coverage": "Puerto Rico: Ponce, Arecibo, San Juan, Guayama, Santa Isabel, Caguas, Yauco, Bayamon, Arroyo, Patillas",
+    "coverage": "Puerto Rico: Ponce, Arecibo, San Juan, Guayama, Santa Isabel, Caguas, Yauco, Bayamon, Arroyo, Patillas. Nivel isla: central es en Arecibo, Mayaguez, Ponce, Barranquitas, Guayama, Las Piedras, San juan (7 oficinas)",
     "verification": "Exacta (NHL)",
     "details": {
       "qualityScore": "67/100",
@@ -963,7 +1000,7 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1993",
-      "ceoAdministrator": "LUIS MONROUZEAU",
+      "ceoAdministrator": "Tamar E. Diaz Santiago (admin.), Doctor Torrado Frias (CEO)",
       "numberServedDaily": "Extra Large (200+ pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
@@ -983,7 +1020,19 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/arecibo/hospicio-la-paz-arecibo"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/arecibo/hospicio-la-paz-arecibo",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "ceoAdministratorContact": {
+        "value": "787-393-7361 (Tamar cel. corporativo)",
+        "emails": [],
+        "phones": [
+          "787-393-7361"
+        ]
+      },
+      "capacityNotes": "450 a nivel isla de 7 oficinas, 6 a 7 pacientes diario dependiendo la ruta geografica del paciente"
     }
   },
   {
@@ -998,10 +1047,10 @@
       "metro"
     ],
     "phone": "787-786-4626",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/bayamon/healthkeepers-hospice-bayamon",
+    "website": "",
     "address": "CALLE 1 B-14 URB SANTA CRUZ, 00961",
     "description": "This hospice’s quality score= 55.00. In detail, this hospice earned 14.00 / 20 points on Hospice Visits in the Last Days of Life; 8.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 55/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 55/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1025,7 +1074,7 @@
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/bayamon",
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/bayamon/healthkeepers-hospice-bayamon"
     ],
-    "coverage": "Puerto Rico: San Juan",
+    "coverage": "Puerto Rico: San Juan, Nivel Isla",
     "verification": "Exacta (NHL)",
     "details": {
       "qualityScore": "55/100",
@@ -1053,8 +1102,14 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/bayamon/healthkeepers-hospice-bayamon"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/bayamon/healthkeepers-hospice-bayamon",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "capacityNotes": "30-40 pacientes en la semana"
+    },
+    "email": "info@healthkeeperspr.com"
   },
   {
     "id": "hospicio-med-health-hospice-corp-cabo-rojo",
@@ -1068,10 +1123,10 @@
       "oeste"
     ],
     "phone": "787-254-4307",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/cabo-rojo/med-health-hospice-corp-cabo-rojo",
+    "website": "",
     "address": "CARR 102 KM 18 4 BO PARABUELLON, 00623",
     "description": "This hospice’s quality score= 59.00. In detail, this hospice earned 14.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 59/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 59/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1123,8 +1178,16 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/cabo-rojo/med-health-hospice-corp-cabo-rojo"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/cabo-rojo/med-health-hospice-corp-cabo-rojo",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "internalNotes": [
+        "ID field note from source sheet: 9 notas: joven varon se mostro indispuesto a dar/confirmar información del hospicio"
+      ]
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-luz-celeste-caguas",
@@ -1138,10 +1201,10 @@
       "este-central"
     ],
     "phone": "787-957-7273",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas/hospicio-luz-celeste-caguas",
+    "website": "https://www.facebook.com/p/Hospicio-Luz-Celeste-100063293344922/",
     "address": "H17A AVE LUIS MUNOZ MARIN VILLA DEL CARMEN, 00725",
     "description": "This hospice’s quality score= 54.50. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 7.50 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 55/100 · Medium (50-124 pts/day)",
+    "summary": "For-profit · 55/100 · Medium (50-124 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1165,7 +1228,7 @@
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas",
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas/hospicio-luz-celeste-caguas"
     ],
-    "coverage": "Puerto Rico: Caguas, San Juan, Bayamon, San Lorenzo",
+    "coverage": "Puerto Rico: Caguas, San Juan, Bayamon, San Lorenzo, Nivel Isla",
     "verification": "Exacta (NHL)",
     "details": {
       "qualityScore": "55/100",
@@ -1173,7 +1236,7 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2019",
-      "ceoAdministrator": "YOLIAN RIVERA",
+      "ceoAdministrator": "(Jefa) Yolian Rivera, (Admin.) Kareen Cartagena",
       "numberServedDaily": "Medium (50-124 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
@@ -1193,8 +1256,22 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas/hospicio-luz-celeste-caguas"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas/hospicio-luz-celeste-caguas",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "ceoAdministratorContact": {
+        "value": "kcartagena@hospicioluzceleste.com",
+        "emails": [
+          "kcartagena@hospicioluzceleste.com"
+        ],
+        "phones": []
+      },
+      "capacityNotes": "más de 100 (?)",
+      "socialNotes": "FaceBook: https://www.facebook.com/p/Hospicio-Luz-Celeste-100063293344922/ Instagram y Twitter: Hospicio Luz Celeste"
+    },
+    "email": "info@hospicioluzceleste.com"
   },
   {
     "id": "hospicio-hospicio-menonita-caguas",
@@ -1208,10 +1285,10 @@
       "este-central"
     ],
     "phone": "787-258-1628",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas/hospicio-menonita-caguas",
+    "website": "",
     "address": "CARR 1 KM 34 9 BARRIO BAIROA, 00726",
     "description": "This hospice’s quality score= 61.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 61/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 61/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1235,7 +1312,7 @@
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas",
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas/hospicio-menonita-caguas"
     ],
-    "coverage": "Puerto Rico: Caguas",
+    "coverage": "Puerto Rico: Caguas, Cidra, Cayey, Aibonito, Nivel Isla",
     "verification": "Exacta (NHL)",
     "details": {
       "qualityScore": "61/100",
@@ -1243,7 +1320,7 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1992",
-      "ceoAdministrator": "ANA TORRES",
+      "ceoAdministrator": "MARIANGELA ALVARADO",
       "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
@@ -1263,8 +1340,14 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas/hospicio-menonita-caguas"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas/hospicio-menonita-caguas",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "capacityNotes": "0-10 al día"
+    },
+    "email": "smontanez@mghpr.org"
   },
   {
     "id": "hospicio-hospicio-plena-serenidad-carolina",
@@ -1282,7 +1365,7 @@
     "website": "https://www.facebook.com/plena.serenidad",
     "address": "1 FIDALGO DIAZ AVE 30 URB VILLA AUSTURIAS, 00983",
     "description": "This hospice’s quality score= 72.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 20.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 72/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 72/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1334,7 +1417,11 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/carolina/hospicio-plena-serenidad-carolina"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/carolina/hospicio-plena-serenidad-carolina",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -1349,10 +1436,10 @@
       "metro"
     ],
     "phone": "787-781-2245",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/bo-palmas/advance-hospice-services-bo-palmas",
+    "website": "",
     "address": "CARR 869 URB PALMAS INDUSTRIAL PARK CALLE 19 BO PALMAS, 00962",
     "description": "This hospice’s quality score= 57.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 5.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 57/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 57/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1405,8 +1492,16 @@
       "memberVNAA": "No",
       "facilityType": "Freestanding",
       "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/bo-palmas/advance-hospice-services-bo-palmas",
-      "notes": "Dirección normalizada a partir del detalle/listado del NHL."
-    }
+      "notes": "Dirección normalizada a partir del detalle/listado del NHL.",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "internalNotes": [
+        "Dirección normalizada a partir del detalle/listado del NHL."
+      ]
+    },
+    "email": ""
   },
   {
     "id": "hospicio-sendero-de-luz-hospice-comerio",
@@ -1424,7 +1519,7 @@
     "website": "www.hospiciosenderodeluz.org",
     "address": "GEORGETTI STREET 9 ALTOS, 00782",
     "description": "This hospice’s quality score= 59.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 17.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 59/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 59/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1476,7 +1571,11 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/comerio/sendero-de-luz-hospice-comerio"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/comerio/sendero-de-luz-hospice-comerio",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -1492,10 +1591,10 @@
     ],
     "phone": "787-859-5755",
     "email": "evazquez@geminishomecare.com",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/corozal/programa-de-salud-en-el-hogar-y-hospicio-geminis-corozal",
+    "website": "",
     "address": "CARRETERA 159 KM 13 4 URB LOMA LINDA, 00783",
     "description": "This hospice’s quality score= 58.00. In detail, this hospice earned 14.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 58/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 58/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1547,7 +1646,11 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Home Health based",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/corozal/programa-de-salud-en-el-hogar-y-hospicio-geminis-corozal"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/corozal/programa-de-salud-en-el-hogar-y-hospicio-geminis-corozal",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -1562,10 +1665,10 @@
       "metro"
     ],
     "phone": "787-763-0091",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/hato-rey/hospicio-gregoria-auffant-hato-rey",
+    "website": "",
     "address": "114 ELEANOR ROOSEVELT 2ND FLOOR, 00918",
     "description": "This hospice’s quality score= 67.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 67/100 · Medium (50-124 pts/day)",
+    "summary": "For-profit · 67/100 · Medium (50-124 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1617,8 +1720,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/hato-rey/hospicio-gregoria-auffant-hato-rey"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/hato-rey/hospicio-gregoria-auffant-hato-rey",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-ryder-memorial-hospice-program-humacao",
@@ -1633,10 +1741,10 @@
     ],
     "phone": "787-852-2869",
     "email": "avazquez60@hotmail.com",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/humacao/ryder-memorial-hospice-program-humacao",
+    "website": "",
     "address": "355 FONT MARTELLO AVE, 00791",
     "description": "This hospice’s quality score= 61.00. In detail, this hospice earned 14.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "Nonprofit, Gov, or Other · score 61/100 · Extra Small (0-19 pts/day)",
+    "summary": "Nonprofit, Gov, or Other · 61/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1688,7 +1796,11 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Hospital based",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/humacao/ryder-memorial-hospice-program-humacao"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/humacao/ryder-memorial-hospice-program-humacao",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -1703,10 +1815,10 @@
       "oeste"
     ],
     "phone": "787-872-5458",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/isabela/s-r-hospice-corp-isabela",
+    "website": "",
     "address": "CARR #2 KM 111 5 BO ARENALES, 00662",
     "description": "This hospice’s quality score= 78.00. In detail, this hospice earned 17.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 20.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 78/100 · Large (125-199 pts/day)",
+    "summary": "For-profit · 78/100 · Large (125-199 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1758,8 +1870,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/isabela/s-r-hospice-corp-isabela"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/isabela/s-r-hospice-corp-isabela",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-quality-care-hospice-juana-diaz",
@@ -1773,10 +1890,10 @@
       "sur"
     ],
     "phone": "787-651-3620",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/juana-diaz/quality-care-hospice-juana-diaz",
+    "website": "",
     "address": "CARR 14 KM 21 3 BO RIO CANAS, 00795",
     "description": "This hospice’s quality score= 78.00. In detail, this hospice earned 20.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 78/100 · Extra Large (200+ pts/day)",
+    "summary": "For-profit · 78/100 · Extra Large (200+ pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1828,8 +1945,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/juana-diaz/quality-care-hospice-juana-diaz"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/juana-diaz/quality-care-hospice-juana-diaz",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-emmanuel-hospice-care-lares",
@@ -1843,10 +1965,10 @@
       "central"
     ],
     "phone": "787-897-7040",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/lares/emmanuel-hospice-care-lares",
+    "website": "",
     "address": "BO LARES CRUCE MIJAN K 0 INT 415, 00669",
     "description": "This hospice’s quality score= 59.00. In detail, this hospice earned 17.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 59/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 59/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1898,8 +2020,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/lares/emmanuel-hospice-care-lares"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/lares/emmanuel-hospice-care-lares",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-camino-de-luz-hospice-care-manati",
@@ -1913,10 +2040,10 @@
       "norte"
     ],
     "phone": "787-884-0786",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/camino-de-luz-hospice-care-manati",
+    "website": "",
     "address": "CARR NUM 670 KM 1 8 BO COTTO NORTE INTERIOR, 00674",
     "description": "This hospice’s quality score= 65.00. In detail, this hospice earned 14.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 65/100 · Medium (50-124 pts/day)",
+    "summary": "For-profit · 65/100 · Medium (50-124 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -1968,8 +2095,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/camino-de-luz-hospice-care-manati"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/camino-de-luz-hospice-care-manati",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-divinas-manos-manati",
@@ -1983,10 +2115,10 @@
       "norte"
     ],
     "phone": "787-884-8423",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-divinas-manos-manati",
+    "website": "",
     "address": "ROAD 2 KM 46 4 BO CAMPO ALEGRE, 00674",
     "description": "This hospice’s quality score= 41.50. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 5.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 7.50 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 42/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 42/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2038,8 +2170,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-divinas-manos-manati"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-divinas-manos-manati",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-luz-de-esperanza-manati",
@@ -2053,10 +2190,10 @@
       "norte"
     ],
     "phone": "787-921-7863",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-luz-de-esperanza-manati",
+    "website": "",
     "address": "126 BDA FELIX CORDOVA DAVILA STE 1, 00674",
     "description": "This hospice’s quality score= 53.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 53/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 53/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2108,8 +2245,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-luz-de-esperanza-manati"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-luz-de-esperanza-manati",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-toque-de-amor-manati",
@@ -2127,7 +2269,7 @@
     "website": "www.hospiciotoquedeamor.com",
     "address": "URB SAN SALVADOR A15 CALLE VENDING SUITE 1, 00674",
     "description": "This hospice’s quality score= 53.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 53/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 53/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2180,7 +2322,14 @@
       "memberVNAA": "No",
       "facilityType": "Freestanding",
       "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-toque-de-amor-manati",
-      "notes": "Teléfono conservado tal como aparece en el listado del NHL."
+      "notes": "Teléfono conservado tal como aparece en el listado del NHL.",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "internalNotes": [
+        "Teléfono conservado tal como aparece en el listado del NHL."
+      ]
     }
   },
   {
@@ -2195,10 +2344,10 @@
       "norte"
     ],
     "phone": "787-854-3793",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-en-el-hogar-fe-y-esperanza-de-puerto-rico-manati",
+    "website": "",
     "address": "CALLE HERNANDEZ CARRION J-9 URB ATENAS, 00674",
     "description": "This hospice’s quality score= 59.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 59/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 59/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2250,8 +2399,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-en-el-hogar-fe-y-esperanza-de-puerto-rico-manati"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-en-el-hogar-fe-y-esperanza-de-puerto-rico-manati",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-amor-y-tranquilidad-mayaguez",
@@ -2265,10 +2419,10 @@
       "oeste"
     ],
     "phone": "787-464-4766",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/hospicio-amor-y-tranquilidad-mayaguez",
+    "website": "",
     "address": "AVE MARTINEZ NADAL 59 EDIF PARK PLAZA 103 B, 00680",
     "description": "This hospice’s quality score= 49.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 8.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 49/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 49/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2320,8 +2474,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/hospicio-amor-y-tranquilidad-mayaguez"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/hospicio-amor-y-tranquilidad-mayaguez",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-krystal-mayaguez",
@@ -2335,10 +2494,10 @@
       "oeste"
     ],
     "phone": "787-805-6325",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/hospicio-krystal-mayaguez",
+    "website": "",
     "address": "155 CALLE RAMOS ANTONINI E, 00680",
     "description": "This hospice’s quality score= 58.50. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 17.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 7.50 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 59/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 59/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2390,8 +2549,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/hospicio-krystal-mayaguez"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/hospicio-krystal-mayaguez",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-santa-rita-hospice-mayaguez",
@@ -2405,10 +2569,10 @@
       "oeste"
     ],
     "phone": "787-652-1295",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/santa-rita-hospice-mayaguez",
+    "website": "",
     "address": "CARR 2 KM 1 59 EDIF MEDICAL EMPORIUM SUITE210, 00680",
     "description": "This hospice’s quality score= 78.00. In detail, this hospice earned 17.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 20.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 78/100 · Large (125-199 pts/day)",
+    "summary": "For-profit · 78/100 · Large (125-199 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2460,8 +2624,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/santa-rita-hospice-mayaguez"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/santa-rita-hospice-mayaguez",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-western-medical-hospice-mayaguez",
@@ -2476,10 +2645,10 @@
     ],
     "phone": "787-883-5898",
     "email": "lhruiz63@gmail.com",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/western-medical-hospice-mayaguez",
+    "website": "",
     "address": "CALLE B LOTE 30 NUM 4040 ZONA INDUSTRIAL GUANAJINO, 00682",
     "description": "This hospice’s quality score= 55.00. In detail, this hospice earned 14.00 / 20 points on Hospice Visits in the Last Days of Life; 8.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 55/100 · Medium (50-124 pts/day)",
+    "summary": "For-profit · 55/100 · Medium (50-124 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2531,7 +2700,11 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/western-medical-hospice-mayaguez"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/western-medical-hospice-mayaguez",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -2546,10 +2719,10 @@
       "central"
     ],
     "phone": "787-862-2048",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/morovis/hospicio-la-milagrosa-morovis",
+    "website": "",
     "address": "BO BARAHONA CARR 633 KM 4 9, 00687",
     "description": "This hospice’s quality score= 78.00. In detail, this hospice earned 20.00 / 20 points on Hospice Visits in the Last Days of Life; 17.00 / 20 points on Staffing Ratios; 10.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 78/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 78/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2601,8 +2774,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/morovis/hospicio-la-milagrosa-morovis"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/morovis/hospicio-la-milagrosa-morovis",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-la-montana-naranjito",
@@ -2616,10 +2794,10 @@
       "central"
     ],
     "phone": "787-869-5900",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/naranjito/hospicio-la-montana-naranjito",
+    "website": "",
     "address": "CARR 152 KM 12 2 BO CEDRO ARRIBA, 00719",
     "description": "This hospice’s quality score= 50.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 50/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 50/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2671,8 +2849,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/naranjito/hospicio-la-montana-naranjito"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/naranjito/hospicio-la-montana-naranjito",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-la-guadalupe-ponce",
@@ -2690,7 +2873,7 @@
     "website": "www.facebook.com/hospiciolaguadalupeinc/",
     "address": "1266 AVENIDA HOSTOS ESQUINA POWER, 00717",
     "description": "This hospice’s quality score= 62.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 62/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 62/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2742,7 +2925,11 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/hospicio-la-guadalupe-ponce"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/hospicio-la-guadalupe-ponce",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -2760,7 +2947,7 @@
     "email": "calor.hsj@gmail.com",
     "website": "www.facebook.com/Hospicio-San-Judas-Inc-578589138861502/",
     "address": "4836 Luna Street, Ponce, PR, 00717",
-    "summary": " · score  · ",
+    "summary": "",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2782,7 +2969,10 @@
     "sourceLabel": "Directorio_Hospicios_PR_AMORir_National Hospice Locator",
     "details": {
       "memberPRHPCA": "Yes"
-    }
+    },
+    "verification": "",
+    "coverage": "",
+    "sourceUrls": []
   },
   {
     "id": "hospicio-la-providencia-hospice-ponce",
@@ -2800,7 +2990,7 @@
     "website": "www.facebook.com/Hospicio-La-Providencia-1698234647132705/",
     "address": "1206 MUNOZ RIVERA AVE, 00717",
     "description": "This hospice’s quality score= 62.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 62/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 62/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2852,7 +3042,11 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/la-providencia-hospice-ponce"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/la-providencia-hospice-ponce",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -2868,10 +3062,10 @@
     ],
     "phone": "787-843-4185",
     "email": "isuanet.castillo@ssepr.org",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/st-lukes-espiscopal-church-home-care-program-ponce",
+    "website": "",
     "address": "EDICICIO A CUARTO PISO AVE TITO CASTRO 917 CARR 14, 00732",
     "description": "This hospice’s quality score= 85.00. In detail, this hospice earned 20.00 / 20 points on Hospice Visits in the Last Days of Life; 17.00 / 20 points on Staffing Ratios; 15.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "Nonprofit, Gov, or Other · score 85/100 · Extra Large (200+ pts/day)",
+    "summary": "Nonprofit, Gov, or Other · 85/100 · Extra Large (200+ pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2923,7 +3117,11 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Home Health based",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/st-lukes-espiscopal-church-home-care-program-ponce"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/st-lukes-espiscopal-church-home-care-program-ponce",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -2938,10 +3136,10 @@
       "este"
     ],
     "phone": "787-888-7700",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-rio-grande/hospicio-el-nuevo-amanecer-alt-rio-grande",
+    "website": "",
     "address": "CALLE B AA 14 ALTURAS DE RIO GRANDE, 00745",
     "description": "This hospice’s quality score= 62.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 62/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 62/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2965,7 +3163,7 @@
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-rio-grande",
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-rio-grande/hospicio-el-nuevo-amanecer-alt-rio-grande"
     ],
-    "coverage": "Puerto Rico: Loiza",
+    "coverage": "Puerto Rico: Loiza y de Naguabo hasta Bayamon",
     "verification": "Exacta (NHL)",
     "details": {
       "qualityScore": "62/100",
@@ -2993,8 +3191,14 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-rio-grande/hospicio-el-nuevo-amanecer-alt-rio-grande"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-rio-grande/hospicio-el-nuevo-amanecer-alt-rio-grande",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "capacityNotes": "depende de quienes vengan, 14-15, lo que ocurre en el momento"
+    },
+    "email": "h.nuevoamanecer@gmail.com"
   },
   {
     "id": "hospicio-divina-presencia-hospice-rio-piedras",
@@ -3008,10 +3212,10 @@
       "metro"
     ],
     "phone": "787-775-8000",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/rio-piedras/divina-presencia-hospice-rio-piedras",
+    "website": "",
     "address": "STREET 27 SO 876 ESQ AMERICO MIRANDA URB LAS LOMAS, 00921",
     "description": "This hospice’s quality score= 59.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 17.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 59/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 59/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -3063,8 +3267,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/rio-piedras/divina-presencia-hospice-rio-piedras"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/rio-piedras/divina-presencia-hospice-rio-piedras",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-la-monserrate-sabana-grande",
@@ -3078,10 +3287,10 @@
       "oeste"
     ],
     "phone": "787-873-5998",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/sabana-grande/hospicio-la-monserrate-sabana-grande",
+    "website": "",
     "address": "14 QUILINCHINI AVE SUITE 1, 00637",
     "description": "This hospice’s quality score= 57.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 57/100 · Medium (50-124 pts/day)",
+    "summary": "For-profit · 57/100 · Medium (50-124 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -3133,8 +3342,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/sabana-grande/hospicio-la-monserrate-sabana-grande"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/sabana-grande/hospicio-la-monserrate-sabana-grande",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-del-oeste-san-german",
@@ -3148,10 +3362,10 @@
       "oeste"
     ],
     "phone": "787-892-1820",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-german/hospicio-del-oeste-san-german",
+    "website": "",
     "address": "ROAD 2 KM 171-5 BO HOCONUCO BAJO, 00683",
     "description": "This hospice’s quality score= 67.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 67/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 67/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -3203,8 +3417,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-german/hospicio-del-oeste-san-german"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-german/hospicio-del-oeste-san-german",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-caribbean-hospice-corp-san-juan",
@@ -3222,7 +3441,7 @@
     "website": "www.facebook.com/caribbeanhospice",
     "address": "WINSTON CHURCHILL AVE # 153 CROWN HILLS, 00926",
     "description": "This hospice’s quality score= 61.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 17.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 61/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 61/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -3246,7 +3465,7 @@
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-de-san-juan",
       "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-de-san-juan/caribbean-hospice-corp-alt-de-san-juan"
     ],
-    "coverage": "Puerto Rico: San Juan",
+    "coverage": "Puerto Rico: San Juan, Vega Baja, Vega Alta, Manati, Este, Metropolitana, Norte y Noreste",
     "verification": "Exacta (NHL)",
     "details": {
       "qualityScore": "61/100",
@@ -3254,7 +3473,7 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1991",
-      "ceoAdministrator": "AMNERIS SANDOVAL",
+      "ceoAdministrator": "AMNERIS OMS DE SANDOVAL",
       "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
@@ -3274,7 +3493,12 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-de-san-juan/caribbean-hospice-corp-alt-de-san-juan"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-de-san-juan/caribbean-hospice-corp-alt-de-san-juan",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "capacityNotes": "Depende del censo, las visitas, los pacientes que tengan crisis, etc."
     }
   },
   {
@@ -3289,10 +3513,10 @@
       "metro"
     ],
     "phone": "787-758-4310",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/condado-hospice-program-san-juan",
+    "website": "",
     "address": "186 CALLE JUAN P DUARTE, 00917",
     "description": "This hospice’s quality score= 63.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 63/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 63/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -3344,8 +3568,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/condado-hospice-program-san-juan"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/condado-hospice-program-san-juan",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-cuidado-casero-hospice-san-juan",
@@ -3359,10 +3588,10 @@
       "metro"
     ],
     "phone": "787-287-4094",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/cuidado-casero-hospice-san-juan",
+    "website": "",
     "address": "580 AVE DE DIEGO, 00921",
     "description": "This hospice’s quality score= 56.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 56/100 · Extra Small (0-19 pts/day)",
+    "summary": "For-profit · 56/100 · Extra Small (0-19 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -3415,8 +3644,16 @@
       "memberVNAA": "No",
       "facilityType": "Freestanding",
       "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/cuidado-casero-hospice-san-juan",
-      "notes": "En listados alternos aparece a veces con Suite C y ZIP 00920."
-    }
+      "notes": "En listados alternos aparece a veces con Suite C y ZIP 00920.",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "internalNotes": [
+        "En listados alternos aparece a veces con Suite C y ZIP 00920."
+      ]
+    },
+    "email": ""
   },
   {
     "id": "hospicio-grace-hospice-of-puerto-rico-ascen-hospice-san-juan",
@@ -3430,10 +3667,10 @@
       "metro"
     ],
     "phone": "787-946-1048",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/grace-hospice-of-puerto-rico-san-juan",
+    "website": "",
     "address": "85 AVE DE DIEGO STE 231, 00927",
     "description": "This hospice’s quality score= 60.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 60/100 · Medium (50-124 pts/day)",
+    "summary": "For-profit · 60/100 · Medium (50-124 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -3486,8 +3723,16 @@
       "memberVNAA": "No",
       "facilityType": "Freestanding",
       "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/grace-hospice-of-puerto-rico-san-juan",
-      "notes": "En listados alternos puede aparecer como 'Ascen Hospice'."
-    }
+      "notes": "En listados alternos puede aparecer como 'Ascen Hospice'.",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "internalNotes": [
+        "En listados alternos puede aparecer como 'Ascen Hospice'."
+      ]
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-divina-misericordia-corp-vega-alta",
@@ -3501,10 +3746,10 @@
       "norte"
     ],
     "phone": "787-516-3107",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-alta/hospicio-divina-misericordia-corp-vega-alta",
+    "website": "",
     "address": "41 MUNOZ RIVERA AVE, 00692",
     "description": "This hospice’s quality score= 47.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 8.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 47/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 47/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -3556,8 +3801,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-alta/hospicio-divina-misericordia-corp-vega-alta"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-alta/hospicio-divina-misericordia-corp-vega-alta",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-las-brisas-vega-alta",
@@ -3575,7 +3825,7 @@
     "website": "www.hospiciolasbrisas.com",
     "address": "CALLE MUNOZ RIVERA #1 ALTOS VEGA ALTA PR, 00692",
     "description": "This hospice’s quality score= 67.00. In detail, this hospice earned 17.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 67/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 67/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -3627,7 +3877,11 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-alta/hospicio-las-brisas-vega-alta"
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-alta/hospicio-las-brisas-vega-alta",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -3642,10 +3896,10 @@
       "norte"
     ],
     "phone": "787-855-0411",
-    "website": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-baja/hospicio-divino-salvador-vega-baja",
+    "website": "",
     "address": "ROAD 2 KM 40 PLAZA JARDINES, 00694",
     "description": "This hospice’s quality score= 81.00. In detail, this hospice earned 20.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 20.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
-    "summary": "For-profit · score 81/100 · Small (20-49 pts/day)",
+    "summary": "For-profit · 81/100 · Small (20-49 pts/day)",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -3697,8 +3951,13 @@
       "memberNAHC": "No",
       "memberVNAA": "No",
       "facilityType": "Freestanding",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-baja/hospicio-divino-salvador-vega-baja"
-    }
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-baja/hospicio-divino-salvador-vega-baja",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "funebre-funeraria-san-francisco-aguada",
