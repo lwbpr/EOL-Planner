@@ -715,6 +715,7 @@
     ],
     "phone": "787-829-2953",
     "email": "info@hospiciodeadjuntas.com",
+    "website": "",
     "address": "CALLE RODULFO GONZALEZ 46 SUITE 1, 00601",
     "description": "This hospice’s quality score= 62.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 62/100 · Small (20-49 pts/day)",
@@ -749,8 +750,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1994",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "ADRIAN GONZALEZ FIGUEROA",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -758,13 +759,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Rural",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -773,12 +769,18 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
+      "facilityType": "Freestanding",
       "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/adjuntas/servicios-de-hospicio-de-adjuntas-adjuntas",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
       "ceoAdministratorContact": {
         "value": "agonzalez512@hotmail.com",
         "emails": [
           "agonzalez512@hotmail.com"
-        ]
+        ],
+        "phones": []
       }
     }
   },
@@ -795,6 +797,7 @@
     ],
     "phone": "787-868-2920",
     "email": "aguadahsfa@yahoo.com",
+    "website": "",
     "address": "CARR 441 KM 0 4 BO QUANIQUILLA, 00602",
     "description": "This hospice’s quality score= 50.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 50/100 · Extra Small (0-19 pts/day)",
@@ -829,9 +832,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1995",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "MAGNOLIA RODRIGUEZ",
-      "capacityNotes": "Dependen de las visitas, como 2 veces en semana, no tienen una cantidad fija al dia",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -839,13 +841,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -854,13 +851,20 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
+      "facilityType": "Freestanding",
       "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/aguada/san-francisco-de-asis-hospice-aguada",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
       "ceoAdministratorContact": {
         "value": "787-868-2920",
+        "emails": [],
         "phones": [
           "787-868-2920"
         ]
-      }
+      },
+      "capacityNotes": "Dependen de las visitas, como 2 veces en semana, no tienen una cantidad fija al dia"
     }
   },
   {
@@ -911,9 +915,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1993",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "MARIANGELA ALVARADO",
-      "capacityNotes": "enfermeras 2 veces a la semana, los doctores 1 vez al mes visitan",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -921,13 +924,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Hospital based",
       "accreditedJointCommission": "Yes",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -936,7 +934,12 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
+      "facilityType": "Hospital based",
       "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/aibonito/mennonite-hospice-aibonito",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
       "ceoAdministratorContact": {
         "value": "malvarad12@mghpr.org 787-380-3515",
         "emails": [
@@ -945,7 +948,8 @@
         "phones": [
           "787-380-3515"
         ]
-      }
+      },
+      "capacityNotes": "enfermeras 2 veces a la semana, los doctores 1 vez al mes visitan"
     }
   },
   {
@@ -996,9 +1000,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1993",
-      "numberServedDaily": "Extra Large (200+ pts/day)",
       "ceoAdministrator": "Tamar E. Diaz Santiago (admin.), Doctor Torrado Frias (CEO)",
-      "capacityNotes": "450 a nivel isla de 7 oficinas, 6 a 7 pacientes diario dependiendo la ruta geografica del paciente",
+      "numberServedDaily": "Extra Large (200+ pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1006,13 +1009,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1021,13 +1019,20 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
+      "facilityType": "Freestanding",
       "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/arecibo/hospicio-la-paz-arecibo",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
       "ceoAdministratorContact": {
         "value": "787-393-7361 (Tamar cel. corporativo)",
+        "emails": [],
         "phones": [
           "787-393-7361"
         ]
-      }
+      },
+      "capacityNotes": "450 a nivel isla de 7 oficinas, 6 a 7 pacientes diario dependiendo la ruta geografica del paciente"
     }
   },
   {
@@ -1042,7 +1047,7 @@
       "metro"
     ],
     "phone": "787-786-4626",
-    "email": "info@healthkeeperspr.com",
+    "website": "",
     "address": "CALLE 1 B-14 URB SANTA CRUZ, 00961",
     "description": "This hospice’s quality score= 55.00. In detail, this hospice earned 14.00 / 20 points on Hospice Visits in the Last Days of Life; 8.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 55/100 · Extra Small (0-19 pts/day)",
@@ -1077,9 +1082,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1996",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "NILDA DIAZ FONTAN",
-      "capacityNotes": "30-40 pacientes en la semana",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1087,13 +1091,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "Yes",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1102,8 +1101,15 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/bayamon/healthkeepers-hospice-bayamon"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/bayamon/healthkeepers-hospice-bayamon",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "capacityNotes": "30-40 pacientes en la semana"
+    },
+    "email": "info@healthkeeperspr.com"
   },
   {
     "id": "hospicio-med-health-hospice-corp-cabo-rojo",
@@ -1117,6 +1123,7 @@
       "oeste"
     ],
     "phone": "787-254-4307",
+    "website": "",
     "address": "CARR 102 KM 18 4 BO PARABUELLON, 00623",
     "description": "This hospice’s quality score= 59.00. In detail, this hospice earned 14.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 59/100 · Extra Small (0-19 pts/day)",
@@ -1151,8 +1158,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2008",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "LUIS MONTALVO",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1160,13 +1167,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1175,8 +1177,17 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/cabo-rojo/med-health-hospice-corp-cabo-rojo"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/cabo-rojo/med-health-hospice-corp-cabo-rojo",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "internalNotes": [
+        "ID field note from source sheet: 9 notas: joven varon se mostro indispuesto a dar/confirmar información del hospicio"
+      ]
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-luz-celeste-caguas",
@@ -1190,11 +1201,7 @@
       "este-central"
     ],
     "phone": "787-957-7273",
-    "email": "info@hospicioluzceleste.com",
     "website": "https://www.facebook.com/p/Hospicio-Luz-Celeste-100063293344922/",
-    "socials": [
-      "https://www.facebook.com/p/Hospicio-Luz-Celeste-100063293344922/"
-    ],
     "address": "H17A AVE LUIS MUNOZ MARIN VILLA DEL CARMEN, 00725",
     "description": "This hospice’s quality score= 54.50. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 7.50 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 55/100 · Medium (50-124 pts/day)",
@@ -1229,9 +1236,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2019",
-      "numberServedDaily": "Medium (50-124 pts/day)",
       "ceoAdministrator": "(Jefa) Yolian Rivera, (Admin.) Kareen Cartagena",
-      "capacityNotes": "más de 100 (?)",
+      "numberServedDaily": "Medium (50-124 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1239,13 +1245,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "Yes",
       "accreditedACHC": "No",
@@ -1254,14 +1255,23 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
+      "facilityType": "Freestanding",
       "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas/hospicio-luz-celeste-caguas",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
       "ceoAdministratorContact": {
         "value": "kcartagena@hospicioluzceleste.com",
         "emails": [
           "kcartagena@hospicioluzceleste.com"
-        ]
-      }
-    }
+        ],
+        "phones": []
+      },
+      "capacityNotes": "más de 100 (?)",
+      "socialNotes": "FaceBook: https://www.facebook.com/p/Hospicio-Luz-Celeste-100063293344922/ Instagram y Twitter: Hospicio Luz Celeste"
+    },
+    "email": "info@hospicioluzceleste.com"
   },
   {
     "id": "hospicio-hospicio-menonita-caguas",
@@ -1275,7 +1285,7 @@
       "este-central"
     ],
     "phone": "787-258-1628",
-    "email": "smontanez@mghpr.org",
+    "website": "",
     "address": "CARR 1 KM 34 9 BARRIO BAIROA, 00726",
     "description": "This hospice’s quality score= 61.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 61/100 · Extra Small (0-19 pts/day)",
@@ -1310,9 +1320,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1992",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "MARIANGELA ALVARADO",
-      "capacityNotes": "0-10 al día",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1320,13 +1329,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "Yes",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1335,8 +1339,15 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas/hospicio-menonita-caguas"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/caguas/hospicio-menonita-caguas",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "capacityNotes": "0-10 al día"
+    },
+    "email": "smontanez@mghpr.org"
   },
   {
     "id": "hospicio-hospicio-plena-serenidad-carolina",
@@ -1386,8 +1397,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2007",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "JUAN MUNTANER",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1395,13 +1406,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1410,7 +1416,12 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/carolina/hospicio-plena-serenidad-carolina"
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/carolina/hospicio-plena-serenidad-carolina",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -1425,6 +1436,7 @@
       "metro"
     ],
     "phone": "787-781-2245",
+    "website": "",
     "address": "CARR 869 URB PALMAS INDUSTRIAL PARK CALLE 19 BO PALMAS, 00962",
     "description": "This hospice’s quality score= 57.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 5.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 57/100 · Extra Small (0-19 pts/day)",
@@ -1459,8 +1471,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2015",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "AIXA CARDONA",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1468,13 +1480,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "Yes",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1483,8 +1490,18 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/bo-palmas/advance-hospice-services-bo-palmas"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/bo-palmas/advance-hospice-services-bo-palmas",
+      "notes": "Dirección normalizada a partir del detalle/listado del NHL.",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "internalNotes": [
+        "Dirección normalizada a partir del detalle/listado del NHL."
+      ]
+    },
+    "email": ""
   },
   {
     "id": "hospicio-sendero-de-luz-hospice-comerio",
@@ -1534,8 +1551,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1996",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "JUAN SANTIAGO",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1543,13 +1560,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1558,7 +1570,12 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/comerio/sendero-de-luz-hospice-comerio"
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/comerio/sendero-de-luz-hospice-comerio",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -1574,6 +1591,7 @@
     ],
     "phone": "787-859-5755",
     "email": "evazquez@geminishomecare.com",
+    "website": "",
     "address": "CARRETERA 159 KM 13 4 URB LOMA LINDA, 00783",
     "description": "This hospice’s quality score= 58.00. In detail, this hospice earned 14.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 58/100 · Extra Small (0-19 pts/day)",
@@ -1608,8 +1626,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2001",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "EMERITA VAZQUEZ LOPEZ",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1617,13 +1635,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Home Health based",
       "accreditedJointCommission": "Yes",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1632,7 +1645,12 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/corozal/programa-de-salud-en-el-hogar-y-hospicio-geminis-corozal"
+      "facilityType": "Home Health based",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/corozal/programa-de-salud-en-el-hogar-y-hospicio-geminis-corozal",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -1647,6 +1665,7 @@
       "metro"
     ],
     "phone": "787-763-0091",
+    "website": "",
     "address": "114 ELEANOR ROOSEVELT 2ND FLOOR, 00918",
     "description": "This hospice’s quality score= 67.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 67/100 · Medium (50-124 pts/day)",
@@ -1681,8 +1700,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1993",
-      "numberServedDaily": "Medium (50-124 pts/day)",
       "ceoAdministrator": "CARMEN MARTINO",
+      "numberServedDaily": "Medium (50-124 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1690,13 +1709,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1705,8 +1719,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/hato-rey/hospicio-gregoria-auffant-hato-rey"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/hato-rey/hospicio-gregoria-auffant-hato-rey",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-ryder-memorial-hospice-program-humacao",
@@ -1721,6 +1741,7 @@
     ],
     "phone": "787-852-2869",
     "email": "avazquez60@hotmail.com",
+    "website": "",
     "address": "355 FONT MARTELLO AVE, 00791",
     "description": "This hospice’s quality score= 61.00. In detail, this hospice earned 14.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "Nonprofit, Gov, or Other · 61/100 · Extra Small (0-19 pts/day)",
@@ -1755,8 +1776,8 @@
       "ownership": "Nonprofit, Gov, or Other",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1993",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "JOSE FELICIANO",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1764,13 +1785,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Hospital based",
       "accreditedJointCommission": "Yes",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1779,7 +1795,12 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/humacao/ryder-memorial-hospice-program-humacao"
+      "facilityType": "Hospital based",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/humacao/ryder-memorial-hospice-program-humacao",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -1794,6 +1815,7 @@
       "oeste"
     ],
     "phone": "787-872-5458",
+    "website": "",
     "address": "CARR #2 KM 111 5 BO ARENALES, 00662",
     "description": "This hospice’s quality score= 78.00. In detail, this hospice earned 17.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 20.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 78/100 · Large (125-199 pts/day)",
@@ -1828,8 +1850,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2001",
-      "numberServedDaily": "Large (125-199 pts/day)",
       "ceoAdministrator": "LICEDIA ROSADO",
+      "numberServedDaily": "Large (125-199 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1837,13 +1859,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1852,8 +1869,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/isabela/s-r-hospice-corp-isabela"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/isabela/s-r-hospice-corp-isabela",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-quality-care-hospice-juana-diaz",
@@ -1867,6 +1890,7 @@
       "sur"
     ],
     "phone": "787-651-3620",
+    "website": "",
     "address": "CARR 14 KM 21 3 BO RIO CANAS, 00795",
     "description": "This hospice’s quality score= 78.00. In detail, this hospice earned 20.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 78/100 · Extra Large (200+ pts/day)",
@@ -1901,8 +1925,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2015",
-      "numberServedDaily": "Extra Large (200+ pts/day)",
       "ceoAdministrator": "JAIME PANTOJA LOZADA",
+      "numberServedDaily": "Extra Large (200+ pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1910,13 +1934,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "Yes",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1925,8 +1944,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/juana-diaz/quality-care-hospice-juana-diaz"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/juana-diaz/quality-care-hospice-juana-diaz",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-emmanuel-hospice-care-lares",
@@ -1940,6 +1965,7 @@
       "central"
     ],
     "phone": "787-897-7040",
+    "website": "",
     "address": "BO LARES CRUCE MIJAN K 0 INT 415, 00669",
     "description": "This hospice’s quality score= 59.00. In detail, this hospice earned 17.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 59/100 · Extra Small (0-19 pts/day)",
@@ -1974,8 +2000,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1992",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "MOISES RIVERA",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -1983,13 +2009,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Rural",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -1998,8 +2019,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/lares/emmanuel-hospice-care-lares"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/lares/emmanuel-hospice-care-lares",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-camino-de-luz-hospice-care-manati",
@@ -2013,6 +2040,7 @@
       "norte"
     ],
     "phone": "787-884-0786",
+    "website": "",
     "address": "CARR NUM 670 KM 1 8 BO COTTO NORTE INTERIOR, 00674",
     "description": "This hospice’s quality score= 65.00. In detail, this hospice earned 14.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 65/100 · Medium (50-124 pts/day)",
@@ -2047,8 +2075,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2000",
-      "numberServedDaily": "Medium (50-124 pts/day)",
       "ceoAdministrator": "MANUEL CONCEPCION",
+      "numberServedDaily": "Medium (50-124 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2056,13 +2084,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2071,8 +2094,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/camino-de-luz-hospice-care-manati"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/camino-de-luz-hospice-care-manati",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-divinas-manos-manati",
@@ -2086,6 +2115,7 @@
       "norte"
     ],
     "phone": "787-884-8423",
+    "website": "",
     "address": "ROAD 2 KM 46 4 BO CAMPO ALEGRE, 00674",
     "description": "This hospice’s quality score= 41.50. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 5.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 7.50 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 42/100 · Extra Small (0-19 pts/day)",
@@ -2120,8 +2150,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2001",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "BRENDA GOODEN",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2129,13 +2159,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2144,8 +2169,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-divinas-manos-manati"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-divinas-manos-manati",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-luz-de-esperanza-manati",
@@ -2159,6 +2190,7 @@
       "norte"
     ],
     "phone": "787-921-7863",
+    "website": "",
     "address": "126 BDA FELIX CORDOVA DAVILA STE 1, 00674",
     "description": "This hospice’s quality score= 53.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 53/100 · Small (20-49 pts/day)",
@@ -2193,8 +2225,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2017",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "MANUEL SANTIAGO",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2202,13 +2234,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2217,8 +2244,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-luz-de-esperanza-manati"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-luz-de-esperanza-manati",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-toque-de-amor-manati",
@@ -2268,8 +2301,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1994",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "NICOLE NAVARRO",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2277,13 +2310,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2292,7 +2320,16 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-toque-de-amor-manati"
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-toque-de-amor-manati",
+      "notes": "Teléfono conservado tal como aparece en el listado del NHL.",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "internalNotes": [
+        "Teléfono conservado tal como aparece en el listado del NHL."
+      ]
     }
   },
   {
@@ -2307,6 +2344,7 @@
       "norte"
     ],
     "phone": "787-854-3793",
+    "website": "",
     "address": "CALLE HERNANDEZ CARRION J-9 URB ATENAS, 00674",
     "description": "This hospice’s quality score= 59.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 59/100 · Small (20-49 pts/day)",
@@ -2341,8 +2379,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1991",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "NELSON ORTIZ",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2350,13 +2388,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2365,8 +2398,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-en-el-hogar-fe-y-esperanza-de-puerto-rico-manati"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/manati/hospicio-en-el-hogar-fe-y-esperanza-de-puerto-rico-manati",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-amor-y-tranquilidad-mayaguez",
@@ -2380,6 +2419,7 @@
       "oeste"
     ],
     "phone": "787-464-4766",
+    "website": "",
     "address": "AVE MARTINEZ NADAL 59 EDIF PARK PLAZA 103 B, 00680",
     "description": "This hospice’s quality score= 49.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 8.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 49/100 · Small (20-49 pts/day)",
@@ -2414,8 +2454,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2014",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "ORLANDO LUGO",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2423,13 +2463,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "Yes",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2438,8 +2473,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/hospicio-amor-y-tranquilidad-mayaguez"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/hospicio-amor-y-tranquilidad-mayaguez",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-krystal-mayaguez",
@@ -2453,6 +2494,7 @@
       "oeste"
     ],
     "phone": "787-805-6325",
+    "website": "",
     "address": "155 CALLE RAMOS ANTONINI E, 00680",
     "description": "This hospice’s quality score= 58.50. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 17.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 7.50 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 59/100 · Extra Small (0-19 pts/day)",
@@ -2487,8 +2529,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2019",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "EYTHAN MORENU",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2496,13 +2538,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "Yes",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2511,8 +2548,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/hospicio-krystal-mayaguez"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/hospicio-krystal-mayaguez",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-santa-rita-hospice-mayaguez",
@@ -2526,6 +2569,7 @@
       "oeste"
     ],
     "phone": "787-652-1295",
+    "website": "",
     "address": "CARR 2 KM 1 59 EDIF MEDICAL EMPORIUM SUITE210, 00680",
     "description": "This hospice’s quality score= 78.00. In detail, this hospice earned 17.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 20.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 78/100 · Large (125-199 pts/day)",
@@ -2560,8 +2604,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1996",
-      "numberServedDaily": "Large (125-199 pts/day)",
       "ceoAdministrator": "OLGA DE JESUS",
+      "numberServedDaily": "Large (125-199 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2569,13 +2613,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2584,8 +2623,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/santa-rita-hospice-mayaguez"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/santa-rita-hospice-mayaguez",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-western-medical-hospice-mayaguez",
@@ -2600,6 +2645,7 @@
     ],
     "phone": "787-883-5898",
     "email": "lhruiz63@gmail.com",
+    "website": "",
     "address": "CALLE B LOTE 30 NUM 4040 ZONA INDUSTRIAL GUANAJINO, 00682",
     "description": "This hospice’s quality score= 55.00. In detail, this hospice earned 14.00 / 20 points on Hospice Visits in the Last Days of Life; 8.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 55/100 · Medium (50-124 pts/day)",
@@ -2634,8 +2680,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2001",
-      "numberServedDaily": "Medium (50-124 pts/day)",
       "ceoAdministrator": "LUIS RUIZ",
+      "numberServedDaily": "Medium (50-124 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2643,13 +2689,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "Yes",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2658,7 +2699,12 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/western-medical-hospice-mayaguez"
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/mayaguez/western-medical-hospice-mayaguez",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -2673,6 +2719,7 @@
       "central"
     ],
     "phone": "787-862-2048",
+    "website": "",
     "address": "BO BARAHONA CARR 633 KM 4 9, 00687",
     "description": "This hospice’s quality score= 78.00. In detail, this hospice earned 20.00 / 20 points on Hospice Visits in the Last Days of Life; 17.00 / 20 points on Staffing Ratios; 10.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 78/100 · Small (20-49 pts/day)",
@@ -2707,8 +2754,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2001",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "BRUNILDA OTERO",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2716,13 +2763,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2731,8 +2773,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/morovis/hospicio-la-milagrosa-morovis"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/morovis/hospicio-la-milagrosa-morovis",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-la-montana-naranjito",
@@ -2746,6 +2794,7 @@
       "central"
     ],
     "phone": "787-869-5900",
+    "website": "",
     "address": "CARR 152 KM 12 2 BO CEDRO ARRIBA, 00719",
     "description": "This hospice’s quality score= 50.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 50/100 · Extra Small (0-19 pts/day)",
@@ -2780,8 +2829,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1992",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "GLORIA AMADOR FERNANDEZ",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2789,13 +2838,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2804,8 +2848,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/naranjito/hospicio-la-montana-naranjito"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/naranjito/hospicio-la-montana-naranjito",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-la-guadalupe-ponce",
@@ -2855,8 +2905,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1994",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "LUZ GONZALEZ",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2864,13 +2914,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2879,7 +2924,12 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/hospicio-la-guadalupe-ponce"
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/hospicio-la-guadalupe-ponce",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -2897,6 +2947,7 @@
     "email": "calor.hsj@gmail.com",
     "website": "www.facebook.com/Hospicio-San-Judas-Inc-578589138861502/",
     "address": "4836 Luna Street, Ponce, PR, 00717",
+    "summary": "",
     "services": [
       "Hospicio",
       "Cuidado al final de vida"
@@ -2918,7 +2969,10 @@
     "sourceLabel": "Directorio_Hospicios_PR_AMORir_National Hospice Locator",
     "details": {
       "memberPRHPCA": "Yes"
-    }
+    },
+    "verification": "",
+    "coverage": "",
+    "sourceUrls": []
   },
   {
     "id": "hospicio-la-providencia-hospice-ponce",
@@ -2968,8 +3022,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1985",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "EYLEEN RODRIGUEZ",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -2977,13 +3031,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -2992,7 +3041,12 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/la-providencia-hospice-ponce"
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/la-providencia-hospice-ponce",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -3008,6 +3062,7 @@
     ],
     "phone": "787-843-4185",
     "email": "isuanet.castillo@ssepr.org",
+    "website": "",
     "address": "EDICICIO A CUARTO PISO AVE TITO CASTRO 917 CARR 14, 00732",
     "description": "This hospice’s quality score= 85.00. In detail, this hospice earned 20.00 / 20 points on Hospice Visits in the Last Days of Life; 17.00 / 20 points on Staffing Ratios; 15.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "Nonprofit, Gov, or Other · 85/100 · Extra Large (200+ pts/day)",
@@ -3042,8 +3097,8 @@
       "ownership": "Nonprofit, Gov, or Other",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1993",
-      "numberServedDaily": "Extra Large (200+ pts/day)",
       "ceoAdministrator": "ISUANET CASTILLO",
+      "numberServedDaily": "Extra Large (200+ pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -3051,13 +3106,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Home Health based",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "Yes",
       "accreditedACHC": "No",
@@ -3066,7 +3116,12 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/st-lukes-espiscopal-church-home-care-program-ponce"
+      "facilityType": "Home Health based",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/ponce/st-lukes-espiscopal-church-home-care-program-ponce",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -3081,7 +3136,7 @@
       "este"
     ],
     "phone": "787-888-7700",
-    "email": "h.nuevoamanecer@gmail.com",
+    "website": "",
     "address": "CALLE B AA 14 ALTURAS DE RIO GRANDE, 00745",
     "description": "This hospice’s quality score= 62.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 62/100 · Extra Small (0-19 pts/day)",
@@ -3116,9 +3171,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1993",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "EYLEEN RODRIGUEZ LUGO",
-      "capacityNotes": "depende de quienes vengan, 14-15, lo que ocurre en el momento",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -3126,13 +3180,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -3141,8 +3190,15 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-rio-grande/hospicio-el-nuevo-amanecer-alt-rio-grande"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-rio-grande/hospicio-el-nuevo-amanecer-alt-rio-grande",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "capacityNotes": "depende de quienes vengan, 14-15, lo que ocurre en el momento"
+    },
+    "email": "h.nuevoamanecer@gmail.com"
   },
   {
     "id": "hospicio-divina-presencia-hospice-rio-piedras",
@@ -3156,6 +3212,7 @@
       "metro"
     ],
     "phone": "787-775-8000",
+    "website": "",
     "address": "STREET 27 SO 876 ESQ AMERICO MIRANDA URB LAS LOMAS, 00921",
     "description": "This hospice’s quality score= 59.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 17.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 59/100 · Extra Small (0-19 pts/day)",
@@ -3190,8 +3247,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1994",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "NORMA WILLIAMS",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -3199,13 +3256,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -3214,8 +3266,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/rio-piedras/divina-presencia-hospice-rio-piedras"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/rio-piedras/divina-presencia-hospice-rio-piedras",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-la-monserrate-sabana-grande",
@@ -3229,6 +3287,7 @@
       "oeste"
     ],
     "phone": "787-873-5998",
+    "website": "",
     "address": "14 QUILINCHINI AVE SUITE 1, 00637",
     "description": "This hospice’s quality score= 57.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 11.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 57/100 · Medium (50-124 pts/day)",
@@ -3263,8 +3322,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2016",
-      "numberServedDaily": "Medium (50-124 pts/day)",
       "ceoAdministrator": "MAYRA MENDEZ",
+      "numberServedDaily": "Medium (50-124 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -3272,13 +3331,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "Yes",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -3287,8 +3341,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/sabana-grande/hospicio-la-monserrate-sabana-grande"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/sabana-grande/hospicio-la-monserrate-sabana-grande",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-del-oeste-san-german",
@@ -3302,6 +3362,7 @@
       "oeste"
     ],
     "phone": "787-892-1820",
+    "website": "",
     "address": "ROAD 2 KM 171-5 BO HOCONUCO BAJO, 00683",
     "description": "This hospice’s quality score= 67.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 67/100 · Extra Small (0-19 pts/day)",
@@ -3336,8 +3397,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1992",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "ANIBAL GONZALEZ",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -3345,13 +3406,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -3360,8 +3416,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-german/hospicio-del-oeste-san-german"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-german/hospicio-del-oeste-san-german",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-caribbean-hospice-corp-san-juan",
@@ -3411,9 +3473,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1991",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "AMNERIS OMS DE SANDOVAL",
-      "capacityNotes": "Depende del censo, las visitas, los pacientes que tengan crisis, etc.",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -3421,13 +3482,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -3436,7 +3492,13 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-de-san-juan/caribbean-hospice-corp-alt-de-san-juan"
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/alt-de-san-juan/caribbean-hospice-corp-alt-de-san-juan",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "capacityNotes": "Depende del censo, las visitas, los pacientes que tengan crisis, etc."
     }
   },
   {
@@ -3451,6 +3513,7 @@
       "metro"
     ],
     "phone": "787-758-4310",
+    "website": "",
     "address": "186 CALLE JUAN P DUARTE, 00917",
     "description": "This hospice’s quality score= 63.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 63/100 · Small (20-49 pts/day)",
@@ -3485,8 +3548,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1992",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "MARIA DE DE LEON",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -3494,13 +3557,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "Yes",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -3509,8 +3567,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/condado-hospice-program-san-juan"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/condado-hospice-program-san-juan",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-cuidado-casero-hospice-san-juan",
@@ -3524,6 +3588,7 @@
       "metro"
     ],
     "phone": "787-287-4094",
+    "website": "",
     "address": "580 AVE DE DIEGO, 00921",
     "description": "This hospice’s quality score= 56.00. In detail, this hospice earned 11.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 56/100 · Extra Small (0-19 pts/day)",
@@ -3558,8 +3623,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "1992",
-      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "ceoAdministrator": "CARMEN SANTIAGO",
+      "numberServedDaily": "Extra Small (0-19 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -3567,13 +3632,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -3582,8 +3642,18 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/cuidado-casero-hospice-san-juan"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/cuidado-casero-hospice-san-juan",
+      "notes": "En listados alternos aparece a veces con Suite C y ZIP 00920.",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "internalNotes": [
+        "En listados alternos aparece a veces con Suite C y ZIP 00920."
+      ]
+    },
+    "email": ""
   },
   {
     "id": "hospicio-grace-hospice-of-puerto-rico-ascen-hospice-san-juan",
@@ -3597,6 +3667,7 @@
       "metro"
     ],
     "phone": "787-946-1048",
+    "website": "",
     "address": "85 AVE DE DIEGO STE 231, 00927",
     "description": "This hospice’s quality score= 60.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 14.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 15.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 5.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 60/100 · Medium (50-124 pts/day)",
@@ -3631,8 +3702,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2015",
-      "numberServedDaily": "Medium (50-124 pts/day)",
       "ceoAdministrator": "YEWANDE EFODILI",
+      "numberServedDaily": "Medium (50-124 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -3640,13 +3711,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "Yes",
       "accreditedACHC": "No",
@@ -3655,8 +3721,18 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/grace-hospice-of-puerto-rico-san-juan"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/san-juan/grace-hospice-of-puerto-rico-san-juan",
+      "notes": "En listados alternos puede aparecer como 'Ascen Hospice'.",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No",
+      "internalNotes": [
+        "En listados alternos puede aparecer como 'Ascen Hospice'."
+      ]
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-divina-misericordia-corp-vega-alta",
@@ -3670,6 +3746,7 @@
       "norte"
     ],
     "phone": "787-516-3107",
+    "website": "",
     "address": "41 MUNOZ RIVERA AVE, 00692",
     "description": "This hospice’s quality score= 47.00. In detail, this hospice earned 8.00 / 20 points on Hospice Visits in the Last Days of Life; 8.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 10.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 47/100 · Small (20-49 pts/day)",
@@ -3704,8 +3781,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2016",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "WANDA MORENO",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -3713,13 +3790,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -3728,8 +3800,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-alta/hospicio-divina-misericordia-corp-vega-alta"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-alta/hospicio-divina-misericordia-corp-vega-alta",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "hospicio-hospicio-las-brisas-vega-alta",
@@ -3779,8 +3857,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2003",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "ITZALIA TIRADO VALENTIN",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -3788,13 +3866,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -3803,7 +3876,12 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-alta/hospicio-las-brisas-vega-alta"
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-alta/hospicio-las-brisas-vega-alta",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
     }
   },
   {
@@ -3818,6 +3896,7 @@
       "norte"
     ],
     "phone": "787-855-0411",
+    "website": "",
     "address": "ROAD 2 KM 40 PLAZA JARDINES, 00694",
     "description": "This hospice’s quality score= 81.00. In detail, this hospice earned 20.00 / 20 points on Hospice Visits in the Last Days of Life; 20.00 / 20 points on Staffing Ratios; 5.00 / 20 points on Levels of Care; 20.00 / 20 points on CAHPS Definitely Recommend This Hospice; 10.00 / 10 points on Stability; 3.00 / 5 points on Accreditation; 3.00 / 5 points on Health Equity; and 0.00 / -15 points as a fraud penalty. The sum of these points equals the total quality score.",
     "summary": "For-profit · 81/100 · Small (20-49 pts/day)",
@@ -3852,8 +3931,8 @@
       "ownership": "For-profit",
       "medicareCertified": "Yes",
       "yearMedicareCertification": "2001",
-      "numberServedDaily": "Small (20-49 pts/day)",
       "ceoAdministrator": "GUILLERMO REYES",
+      "numberServedDaily": "Small (20-49 pts/day)",
       "hospiceInpatientFacility": "No",
       "qualityProgramParticipant": "No",
       "circleOfLifeAward": "No",
@@ -3861,13 +3940,8 @@
       "veteranPrograms": "No",
       "faithBased": "No",
       "communityBereavement": "No",
-      "homePatients75Plus": "No",
-      "certifiedMDs75Plus": "No",
-      "certifiedRNs75Plus": "No",
-      "certifiedRNAides75Plus": "No",
       "urbanOrRural": "Urban",
       "prisonHospice": "No",
-      "facilityType": "Freestanding",
       "accreditedJointCommission": "No",
       "accreditedCHAP": "No",
       "accreditedACHC": "No",
@@ -3876,8 +3950,14 @@
       "memberNHPCO": "No",
       "memberNAHC": "No",
       "memberVNAA": "No",
-      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-baja/hospicio-divino-salvador-vega-baja"
-    }
+      "facilityType": "Freestanding",
+      "detailSource": "https://www.nationalhospicelocator.com/hospices/puerto-rico/vega-baja/hospicio-divino-salvador-vega-baja",
+      "homePatients75Plus": "No",
+      "certifiedMDs75Plus": "No",
+      "certifiedRNs75Plus": "No",
+      "certifiedRNAides75Plus": "No"
+    },
+    "email": ""
   },
   {
     "id": "funebre-funeraria-san-francisco-aguada",
@@ -3926,6 +4006,7 @@
       "traslados": "No especificado",
       "horario": "24 horas",
       "abierto247": "Sí",
+      "cobertura": "Aguada",
       "formasPago": [
         "American Express",
         "ATH",
@@ -3938,8 +4019,7 @@
       "fuentePrincipal": "Perfil detallado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/profile/aguada/funeraria-san-francisco/B4S10256452P153348",
       "nivelDetalle": "Alto",
-      "notas": "Incluida por funeraria, arreglos fúnebres y cremación.",
-      "cobertura": "Aguada"
+      "notas": "Incluida por funeraria, arreglos fúnebres y cremación."
     }
   },
   {
@@ -3992,6 +4072,7 @@
       "traslados": "Sí",
       "horario": "08:00 am - 5:00 pm",
       "abierto247": "No",
+      "cobertura": "Aguadilla; con traslado en toda la isla según sitio oficial",
       "formasPago": [
         "Efectivo",
         "cheque",
@@ -4002,8 +4083,7 @@
       "fuenteSecundaria": "Sitio oficial",
       "urlFuenteSecundaria": "https://www.cremcaribe.com/",
       "nivelDetalle": "Alto",
-      "notas": "Incluida por ser crematorio humano y de mascotas; sin enfoque principal de cementerio.",
-      "cobertura": "Aguadilla; con traslado en toda la isla según sitio oficial"
+      "notas": "Incluida por ser crematorio humano y de mascotas; sin enfoque principal de cementerio."
     }
   },
   {
@@ -4054,6 +4134,7 @@
       "traslados": "Sí",
       "horario": "24 horas",
       "abierto247": "Sí",
+      "cobertura": "Arecibo",
       "formasPago": [
         "American Express",
         "ATH",
@@ -4064,8 +4145,7 @@
       "fuentePrincipal": "Perfil detallado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/profile/arecibo/funeraria-cristo-rey/B5S11270929P152878",
       "nivelDetalle": "Alto",
-      "notas": "Incluida por funeraria y cremación; no se clasifica como cementerio.",
-      "cobertura": "Arecibo"
+      "notas": "Incluida por funeraria y cremación; no se clasifica como cementerio."
     }
   },
   {
@@ -4116,6 +4196,7 @@
       "traslados": "No especificado",
       "horario": "24 horas",
       "abierto247": "Sí",
+      "cobertura": "Cobertura amplia en Puerto Rico; la ficha enumera múltiples municipios",
       "formasPago": [
         "ATH",
         "ATH Móvil",
@@ -4130,8 +4211,7 @@
       "fuentePrincipal": "Perfil detallado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/profile/arecibo/funeraria-y-capilla-san-luis/B4S10266216P153876",
       "nivelDetalle": "Alto",
-      "notas": "Incluida por ofrecer funeraria, cremaciones y servicios complementarios.",
-      "cobertura": "Cobertura amplia en Puerto Rico; la ficha enumera múltiples municipios"
+      "notas": "Incluida por ofrecer funeraria, cremaciones y servicios complementarios."
     }
   },
   {
@@ -4179,11 +4259,11 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Bayamón",
       "fuentePrincipal": "Listado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/search/puerto-rico/c/cremacion-%3E-servicios?p=2",
       "nivelDetalle": "Básico",
-      "notas": "Registro tomado de directorio temático de cremación.",
-      "cobertura": "Bayamón"
+      "notas": "Registro tomado de directorio temático de cremación."
     }
   },
   {
@@ -4232,6 +4312,7 @@
       "traslados": "No especificado",
       "horario": "24 horas",
       "abierto247": "Sí",
+      "cobertura": "Cobertura amplia en Puerto Rico; la ficha enumera múltiples municipios",
       "formasPago": [
         "ATH",
         "efectivo",
@@ -4244,8 +4325,7 @@
       "fuentePrincipal": "Perfil detallado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/profile/bayamon/funeraria-asencio/B2S10122111P151153",
       "nivelDetalle": "Alto",
-      "notas": "Incluida por servicios funerarios y cremación.",
-      "cobertura": "Cobertura amplia en Puerto Rico; la ficha enumera múltiples municipios"
+      "notas": "Incluida por servicios funerarios y cremación."
     }
   },
   {
@@ -4298,14 +4378,14 @@
       "traslados": "No especificado",
       "horario": "Atención inmediata 24/7",
       "abierto247": "Sí",
+      "cobertura": "Bayamón y pueblos cercanos",
       "formasPago": [
         "No especificado"
       ],
       "fuentePrincipal": "Dignity Memorial",
       "urlFuente": "https://www.dignitymemorial.com/funeral-homes/puerto-rico/bayamon/funeraria-del-angel-alvarez/9535",
       "nivelDetalle": "Alto",
-      "notas": "Incluida por ser funeraria con cremación, no cementerio.",
-      "cobertura": "Bayamón y pueblos cercanos"
+      "notas": "Incluida por ser funeraria con cremación, no cementerio."
     }
   },
   {
@@ -4355,6 +4435,7 @@
       "traslados": "No especificado",
       "horario": "24 horas",
       "abierto247": "Sí",
+      "cobertura": "Cobertura amplia en Puerto Rico; la ficha enumera múltiples municipios",
       "formasPago": [
         "American Express",
         "ATH",
@@ -4366,8 +4447,7 @@
       "fuentePrincipal": "Perfil detallado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/profile/bayamon/funeraria-viner/B5S10118988P156424",
       "nivelDetalle": "Alto",
-      "notas": "Incluida por ofrecer servicios funerarios y cremación.",
-      "cobertura": "Cobertura amplia en Puerto Rico; la ficha enumera múltiples municipios"
+      "notas": "Incluida por ofrecer servicios funerarios y cremación."
     }
   },
   {
@@ -4415,11 +4495,11 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Caguas",
       "fuentePrincipal": "Listado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/search/puerto-rico/c/cremacion-%3E-servicios?p=2",
       "nivelDetalle": "Básico",
-      "notas": "Se recomienda validación adicional del nombre comercial y teléfono.",
-      "cobertura": "Caguas"
+      "notas": "Se recomienda validación adicional del nombre comercial y teléfono."
     }
   },
   {
@@ -4476,6 +4556,7 @@
       "traslados": "No especificado",
       "horario": "24 horas",
       "abierto247": "Sí",
+      "cobertura": "Caguas; Gurabo; Cidra; Aguas Buenas; Guaynabo; San Juan",
       "formasPago": [
         "No especificado"
       ],
@@ -4488,8 +4569,7 @@
       "fuenteSecundaria": "Directorios",
       "urlFuenteSecundaria": "https://www.estanciacelestial.com/translados-copy",
       "nivelDetalle": "Alto",
-      "notas": "Incluye columbarios, pero el registro se centra en la funeraria; no en cementerios.",
-      "cobertura": "Caguas; Gurabo; Cidra; Aguas Buenas; Guaynabo; San Juan"
+      "notas": "Incluye columbarios, pero el registro se centra en la funeraria; no en cementerios."
     }
   },
   {
@@ -4542,14 +4622,14 @@
       "traslados": "No especificado",
       "horario": "Atención inmediata",
       "abierto247": "Sí",
+      "cobertura": "Caguas y área central/oriental",
       "formasPago": [
         "No especificado"
       ],
       "fuentePrincipal": "Dignity Memorial",
       "urlFuente": "https://www.dignitymemorial.com/funeral-homes/puerto-rico/caguas/funeraria-del-angel-parque-de-luz/9536",
       "nivelDetalle": "Alto",
-      "notas": "Se excluyó el cementerio homónimo; aquí solo se recoge la funeraria.",
-      "cobertura": "Caguas y área central/oriental"
+      "notas": "Se excluyó el cementerio homónimo; aquí solo se recoge la funeraria."
     }
   },
   {
@@ -4606,6 +4686,7 @@
       "traslados": "No especificado",
       "horario": "24 horas",
       "abierto247": "Sí",
+      "cobertura": "Caguas y áreas limítrofes",
       "formasPago": [
         "Tarjeta de crédito",
         "ATH Móvil",
@@ -4621,8 +4702,7 @@
       "fuenteSecundaria": "Infopáginas / directorios",
       "urlFuenteSecundaria": "https://en.infopaginas.com/b/caguas/funeraria-el-roble",
       "nivelDetalle": "Alto",
-      "notas": "Incluida por ofrecer capillas y cremaciones; no se clasificó como cementerio.",
-      "cobertura": "Caguas y áreas limítrofes"
+      "notas": "Incluida por ofrecer capillas y cremaciones; no se clasificó como cementerio."
     }
   },
   {
@@ -4677,6 +4757,7 @@
       "traslados": "No especificado",
       "horario": "24 horas",
       "abierto247": "Sí",
+      "cobertura": "Caguas y todo Puerto Rico",
       "formasPago": [
         "Acepta Triple-S Vida según directorio"
       ],
@@ -4689,8 +4770,7 @@
       "fuenteSecundaria": "Infopáginas / directorios",
       "urlFuenteSecundaria": "https://en.infopaginas.com/b/caguas/funeraria-garcia-memorial",
       "nivelDetalle": "Alto",
-      "notas": "La dirección y el teléfono varían ligeramente entre directorios; se usó el dato más repetido.",
-      "cobertura": "Caguas y todo Puerto Rico"
+      "notas": "La dirección y el teléfono varían ligeramente entre directorios; se usó el dato más repetido."
     }
   },
   {
@@ -4738,11 +4818,11 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Caguas",
       "fuentePrincipal": "Listado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/search/puerto-rico/c/cremacion-%3E-servicios?p=2",
       "nivelDetalle": "Básico",
-      "notas": "Podría requerir validación adicional del nombre comercial completo.",
-      "cobertura": "Caguas"
+      "notas": "Podría requerir validación adicional del nombre comercial completo."
     }
   },
   {
@@ -4790,11 +4870,11 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Caguas",
       "fuentePrincipal": "Listado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/search/puerto-rico/c/cremacion-%3E-servicios?p=2",
       "nivelDetalle": "Básico",
-      "notas": "Registro tomado de directorio temático de cremación.",
-      "cobertura": "Caguas"
+      "notas": "Registro tomado de directorio temático de cremación."
     }
   },
   {
@@ -4849,6 +4929,7 @@
       "traslados": "Sí",
       "horario": "24 horas",
       "abierto247": "Sí",
+      "cobertura": "Canóvanas y área este; traslados internacionales",
       "formasPago": [
         "Débito",
         "crédito",
@@ -4866,8 +4947,7 @@
       "fuenteSecundaria": "Directorio telefónico",
       "urlFuenteSecundaria": "https://pr.eldirectorio.co/empresas/canovanas/servicios-funerales/funeraria-caridad-110666",
       "nivelDetalle": "Alto",
-      "notas": "No se incluyó ningún cementerio del mismo municipio.",
-      "cobertura": "Canóvanas y área este; traslados internacionales"
+      "notas": "No se incluyó ningún cementerio del mismo municipio."
     }
   },
   {
@@ -4921,6 +5001,7 @@
       "traslados": "Sí",
       "horario": "No especificado en el directorio; el sitio destaca traslados 24/7",
       "abierto247": "Sí",
+      "cobertura": "Puerto Rico",
       "formasPago": [
         "No especificado"
       ],
@@ -4929,8 +5010,7 @@
       "fuenteSecundaria": "Sitio oficial",
       "urlFuenteSecundaria": "https://celestiumpr.com/",
       "nivelDetalle": "Medio",
-      "notas": "Negocio enfocado en cremación; no se clasifica como cementerio.",
-      "cobertura": "Puerto Rico"
+      "notas": "Negocio enfocado en cremación; no se clasifica como cementerio."
     }
   },
   {
@@ -4980,6 +5060,7 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Carolina",
       "formasPago": [
         "No especificado"
       ],
@@ -4988,8 +5069,7 @@
       "fuenteSecundaria": "Listado general SuperPagesPR (posible equivalencia con otro nombre comercial)",
       "urlFuenteSecundaria": "https://superpagespr.com/es/business/search/puerto-rico/c/funerarias?p=4",
       "nivelDetalle": "Medio",
-      "notas": "Puede corresponder a un negocio listado también con nombre abreviado en otros directorios; conviene validación.",
-      "cobertura": "Carolina"
+      "notas": "Puede corresponder a un negocio listado también con nombre abreviado en otros directorios; conviene validación."
     }
   },
   {
@@ -5042,6 +5122,7 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Toda la isla",
       "formasPago": [
         "Cheque",
         "efectivo"
@@ -5051,8 +5132,7 @@
       "fuenteSecundaria": "Infopáginas",
       "urlFuenteSecundaria": "https://en.infopaginas.com/b/carolina/memory-cremations",
       "nivelDetalle": "Alto",
-      "notas": "Centro enfocado en cremación y documentación; sin componente de cementerio.",
-      "cobertura": "Toda la isla"
+      "notas": "Centro enfocado en cremación y documentación; sin componente de cementerio."
     }
   },
   {
@@ -5100,11 +5180,11 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Carolina",
       "fuentePrincipal": "Listado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/search/puerto-rico/c/cremacion-%3E-servicios?p=2",
       "nivelDetalle": "Básico",
-      "notas": "Registro tomado de directorio temático de cremación.",
-      "cobertura": "Carolina"
+      "notas": "Registro tomado de directorio temático de cremación."
     }
   },
   {
@@ -5152,11 +5232,11 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Guaynabo",
       "fuentePrincipal": "Listado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/search/puerto-rico/c/cremacion-%3E-servicios",
       "nivelDetalle": "Básico",
-      "notas": "Conviene validación adicional antes de publicar en un directorio público.",
-      "cobertura": "Guaynabo"
+      "notas": "Conviene validación adicional antes de publicar en un directorio público."
     }
   },
   {
@@ -5206,6 +5286,7 @@
       "traslados": "No especificado",
       "horario": "08:00 am - 5:00 pm",
       "abierto247": "No",
+      "cobertura": "Bayamón; Guaynabo; San Juan",
       "formasPago": [
         "American Express",
         "ATH",
@@ -5217,8 +5298,7 @@
       "fuentePrincipal": "Perfil detallado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/profile/guaynabo/funeraria-los-angeles/B4S12087190P151680",
       "nivelDetalle": "Alto",
-      "notas": "La categoría secundaria del directorio la ubica también bajo cremación/servicios.",
-      "cobertura": "Bayamón; Guaynabo; San Juan"
+      "notas": "La categoría secundaria del directorio la ubica también bajo cremación/servicios."
     }
   },
   {
@@ -5266,11 +5346,11 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Guaynabo",
       "fuentePrincipal": "Listado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/search/puerto-rico/c/cremacion-%3E-servicios?p=2",
       "nivelDetalle": "Básico",
-      "notas": "Registro tomado de directorio temático de cremación.",
-      "cobertura": "Guaynabo"
+      "notas": "Registro tomado de directorio temático de cremación."
     }
   },
   {
@@ -5319,6 +5399,7 @@
       "traslados": "No especificado",
       "horario": "24 horas",
       "abierto247": "Sí",
+      "cobertura": "Arecibo; Barceloneta; Camuy; Florida; Hatillo; Lares; Manatí; Quebradillas; Utuado",
       "formasPago": [
         "ATH Móvil",
         "Mastercard",
@@ -5330,8 +5411,7 @@
       "fuentePrincipal": "Perfil detallado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/profile/hatillo/campo-alegre-memorial/B4S13000971P154683",
       "nivelDetalle": "Alto",
-      "notas": "Incluida porque el negocio se presenta como servicio funerario y cremación; no como cementerio.",
-      "cobertura": "Arecibo; Barceloneta; Camuy; Florida; Hatillo; Lares; Manatí; Quebradillas; Utuado"
+      "notas": "Incluida porque el negocio se presenta como servicio funerario y cremación; no como cementerio."
     }
   },
   {
@@ -5379,11 +5459,11 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Mayagüez",
       "fuentePrincipal": "Listado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/search/puerto-rico/c/cremacion-%3E-servicios",
       "nivelDetalle": "Básico",
-      "notas": "El nombre aparece así en el directorio; conviene confirmar la ortografía oficial del negocio.",
-      "cobertura": "Mayagüez"
+      "notas": "El nombre aparece así en el directorio; conviene confirmar la ortografía oficial del negocio."
     }
   },
   {
@@ -5436,6 +5516,7 @@
       "traslados": "Sí",
       "horario": "24 horas",
       "abierto247": "Sí",
+      "cobertura": "Amplia cobertura en Puerto Rico; la ficha enumera múltiples municipios",
       "formasPago": [
         "American Express",
         "ATH",
@@ -5451,8 +5532,7 @@
       "fuenteSecundaria": "Sitio oficial",
       "urlFuenteSecundaria": "https://funerariamartellpr.com/",
       "nivelDetalle": "Alto",
-      "notas": "Registro incluido porque ofrece cremación y servicios funerarios; no se clasifica como cementerio.",
-      "cobertura": "Amplia cobertura en Puerto Rico; la ficha enumera múltiples municipios"
+      "notas": "Registro incluido porque ofrece cremación y servicios funerarios; no se clasifica como cementerio."
     }
   },
   {
@@ -5500,14 +5580,14 @@
       "traslados": "Sí",
       "horario": "24 horas",
       "abierto247": "Sí",
+      "cobertura": "Mayagüez",
       "redesSociales": [
         "Facebook"
       ],
       "fuentePrincipal": "Listado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/search/puerto-rico/c/cremacion-%3E-servicios",
       "nivelDetalle": "Medio",
-      "notas": "Detalle tomado del listado público; no se abrió ficha completa.",
-      "cobertura": "Mayagüez"
+      "notas": "Detalle tomado del listado público; no se abrió ficha completa."
     }
   },
   {
@@ -5559,6 +5639,7 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Mayagüez y oeste",
       "formasPago": [
         "No especificado"
       ],
@@ -5567,8 +5648,7 @@
       "fuenteSecundaria": "Página principal SFC",
       "urlFuenteSecundaria": "https://sfcpr.org/",
       "nivelDetalle": "Medio",
-      "notas": "Se incluyó por ser cremación/funeraria; no es cementerio.",
-      "cobertura": "Mayagüez y oeste"
+      "notas": "Se incluyó por ser cremación/funeraria; no es cementerio."
     }
   },
   {
@@ -5626,6 +5706,7 @@
       "traslados": "Sí",
       "horario": "Oficina lunes a viernes 8:00 am - 5:00 pm; servicio 24 horas",
       "abierto247": "Sí",
+      "cobertura": "Morovis y Puerto Rico; traslados internacionales",
       "formasPago": [
         "No especificado"
       ],
@@ -5638,8 +5719,7 @@
       "fuenteSecundaria": "Página de contacto / directorio",
       "urlFuenteSecundaria": "https://www.torrecillasmemorial.com/Contactanos.html",
       "nivelDetalle": "Alto",
-      "notas": "Se incluyó por servicios funerarios y cremación; sin incluir cementerios del municipio.",
-      "cobertura": "Morovis y Puerto Rico; traslados internacionales"
+      "notas": "Se incluyó por servicios funerarios y cremación; sin incluir cementerios del municipio."
     }
   },
   {
@@ -5694,6 +5774,7 @@
       "traslados": "Sí",
       "horario": "Lunes a domingo 24/7",
       "abierto247": "Sí",
+      "cobertura": "Ponce y Puerto Rico",
       "formasPago": [
         "Acepta mayoría de seguros y planes funerales"
       ],
@@ -5703,8 +5784,7 @@
       "fuentePrincipal": "Sitio oficial",
       "urlFuente": "https://www.funerariashalommemorial.com/",
       "nivelDetalle": "Alto",
-      "notas": "Se incluyó la funeraria; no el cementerio con el mismo apellido comercial del área.",
-      "cobertura": "Ponce y Puerto Rico"
+      "notas": "Se incluyó la funeraria; no el cementerio con el mismo apellido comercial del área."
     }
   },
   {
@@ -5759,6 +5839,7 @@
       "traslados": "Sí",
       "horario": "Oficina lunes a sábado 8:00 am - 4:00 pm; servicios disponibles 24 horas",
       "abierto247": "Sí",
+      "cobertura": "Sabana Grande y oeste",
       "formasPago": [
         "No especificado"
       ],
@@ -5770,8 +5851,7 @@
       "fuenteSecundaria": "Página de contacto oficial",
       "urlFuenteSecundaria": "https://javilesmemorial.com/contactanos/",
       "nivelDetalle": "Alto",
-      "notas": "Instalación ubicada al lado de cementerios municipales/masónicos, pero el registro corresponde a la funeraria.",
-      "cobertura": "Sabana Grande y oeste"
+      "notas": "Instalación ubicada al lado de cementerios municipales/masónicos, pero el registro corresponde a la funeraria."
     }
   },
   {
@@ -5824,6 +5904,7 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Arquidiócesis de San Juan y otras diócesis servidas por la organización",
       "formasPago": [
         "No especificado"
       ],
@@ -5832,8 +5913,7 @@
       "fuenteSecundaria": "Página principal SFC",
       "urlFuenteSecundaria": "https://sfcpr.org/",
       "nivelDetalle": "Medio",
-      "notas": "Se incluyó la instalación funeral; se excluyó el cementerio La Piedad del mismo sitio.",
-      "cobertura": "Arquidiócesis de San Juan y otras diócesis servidas por la organización"
+      "notas": "Se incluyó la instalación funeral; se excluyó el cementerio La Piedad del mismo sitio."
     }
   },
   {
@@ -5881,11 +5961,11 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "San Juan",
       "fuentePrincipal": "Listado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/search/puerto-rico/c/cremacion-%3E-servicios?p=2",
       "nivelDetalle": "Básico",
-      "notas": "Registro tomado de directorio temático de cremación.",
-      "cobertura": "San Juan"
+      "notas": "Registro tomado de directorio temático de cremación."
     }
   },
   {
@@ -5940,6 +6020,7 @@
       "traslados": "No especificado",
       "horario": "Atención inmediata 24/7",
       "abierto247": "Sí",
+      "cobertura": "Área metropolitana y familias de toda la isla",
       "formasPago": [
         "No especificado"
       ],
@@ -5948,8 +6029,7 @@
       "fuenteSecundaria": "Lista de precios Dignity Memorial",
       "urlFuenteSecundaria": "https://www.dignitymemorial.com/funeral-homes/puerto-rico/san-juan/funeraria-del-angel-puerto-rico-memorial/9525/costs/funeral-price-list",
       "nivelDetalle": "Alto",
-      "notas": "Se excluyeron del proyecto las propiedades Dignity cuyo nombre y foco principal es cementerio.",
-      "cobertura": "Área metropolitana y familias de toda la isla"
+      "notas": "Se excluyeron del proyecto las propiedades Dignity cuyo nombre y foco principal es cementerio."
     }
   },
   {
@@ -5999,6 +6079,7 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "Puerto Rico",
       "formasPago": [
         "No especificado"
       ],
@@ -6010,8 +6091,7 @@
       "fuenteSecundaria": "Listado general SuperPagesPR",
       "urlFuenteSecundaria": "https://superpagespr.com/es/business/search/puerto-rico/c/funerarias?p=4",
       "nivelDetalle": "Medio",
-      "notas": "No se encontró afirmación explícita de cremación en el snippet consultado; incluida como funeraria.",
-      "cobertura": "Puerto Rico"
+      "notas": "No se encontró afirmación explícita de cremación en el snippet consultado; incluida como funeraria."
     }
   },
   {
@@ -6060,11 +6140,11 @@
       "traslados": "Sí",
       "horario": "07:30 am - 7:00 pm",
       "abierto247": "No",
+      "cobertura": "San Juan",
       "fuentePrincipal": "Perfil detallado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/profile/rio-piedras%2C-san-juan/funeraria-villa-nevarez-inc/B5S12079397P152766",
       "nivelDetalle": "Alto",
-      "notas": "Incluida por ofrecer funeraria y cremación.",
-      "cobertura": "San Juan"
+      "notas": "Incluida por ofrecer funeraria y cremación."
     }
   },
   {
@@ -6117,14 +6197,14 @@
       "traslados": "No especificado",
       "horario": "Atención inmediata",
       "abierto247": "Sí",
+      "cobertura": "San Juan y área metropolitana",
       "formasPago": [
         "No especificado"
       ],
       "fuentePrincipal": "Dignity Memorial",
       "urlFuente": "https://www.dignitymemorial.com/funeral-homes/puerto-rico/san-juan/funeraria-y-columbario-del-angel-buxeda/9526",
       "nivelDetalle": "Alto",
-      "notas": "Aunque ofrece columbario, el negocio se presenta como funeraria; no se incluyó ningún cementerio separado.",
-      "cobertura": "San Juan y área metropolitana"
+      "notas": "Aunque ofrece columbario, el negocio se presenta como funeraria; no se incluyó ningún cementerio separado."
     }
   },
   {
@@ -6180,6 +6260,7 @@
       "traslados": "Sí",
       "horario": "Servicio telefónico 24/7",
       "abierto247": "Sí",
+      "cobertura": "San Juan y Puerto Rico",
       "formasPago": [
         "No especificado"
       ],
@@ -6191,8 +6272,7 @@
       "fuenteSecundaria": "Página de contacto oficial / directorio",
       "urlFuenteSecundaria": "https://marinfuneralhomepr.com/contactenos/",
       "nivelDetalle": "Alto",
-      "notas": "Registro enfocado en la funeraria; no en cementerios ni crematorios autónomos.",
-      "cobertura": "San Juan y Puerto Rico"
+      "notas": "Registro enfocado en la funeraria; no en cementerios ni crematorios autónomos."
     }
   },
   {
@@ -6241,11 +6321,11 @@
       "traslados": "No especificado",
       "horario": "08:00 am - 5:00 pm",
       "abierto247": "No",
+      "cobertura": "San Lorenzo",
       "fuentePrincipal": "Listado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/search/puerto-rico/c/cremacion-%3E-servicios",
       "nivelDetalle": "Medio",
-      "notas": "Detalle tomado del listado; se recomienda verificación directa si se usará para referidos.",
-      "cobertura": "San Lorenzo"
+      "notas": "Detalle tomado del listado; se recomienda verificación directa si se usará para referidos."
     }
   },
   {
@@ -6293,11 +6373,11 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "San Lorenzo",
       "fuentePrincipal": "Listado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/search/puerto-rico/c/cremacion-%3E-servicios?p=2",
       "nivelDetalle": "Básico",
-      "notas": "Registro tomado de directorio temático de cremación.",
-      "cobertura": "San Lorenzo"
+      "notas": "Registro tomado de directorio temático de cremación."
     }
   },
   {
@@ -6352,6 +6432,7 @@
       "traslados": "No especificado",
       "horario": "No especificado",
       "abierto247": "No especificado",
+      "cobertura": "San Lorenzo y zona central-oriental",
       "formasPago": [
         "No especificado"
       ],
@@ -6360,8 +6441,7 @@
       "fuenteSecundaria": "Subpágina de trámites",
       "urlFuenteSecundaria": "https://www.estanciacelestial.com/translados-copy",
       "nivelDetalle": "Medio",
-      "notas": "Se listó como instalación adicional del mismo grupo comercial.",
-      "cobertura": "San Lorenzo y zona central-oriental"
+      "notas": "Se listó como instalación adicional del mismo grupo comercial."
     }
   },
   {
@@ -6410,6 +6490,7 @@
       "traslados": "No especificado",
       "horario": "08:00 am - 5:00 pm",
       "abierto247": "No",
+      "cobertura": "Villalba",
       "formasPago": [
         "ATH",
         "ATH Móvil",
@@ -6423,8 +6504,7 @@
       "fuentePrincipal": "Perfil detallado SuperPagesPR",
       "urlFuente": "https://superpagespr.com/es/business/profile/villalba/funeraria-rodriguez/B3S10227402P151036",
       "nivelDetalle": "Alto",
-      "notas": "Incluida por ofrecer servicios fúnebres y cremación.",
-      "cobertura": "Villalba"
+      "notas": "Incluida por ofrecer servicios fúnebres y cremación."
     }
   },
   {
@@ -6433,8 +6513,6 @@
     "source": "older_adults_verified_directory",
     "name": "OPPEA",
     "town": "Puerto Rico",
-    "phone": "(787) 721-6121",
-    "website": "https://www.oppea.pr.gov/",
     "organization": "OPPEA",
     "description": "Oficina del Procurador de las Personas de Edad Avanzada; agencia principal de orientación, defensa de derechos y coordinación de servicios.",
     "summary": "Defensa de derechos y orientación",
@@ -6458,6 +6536,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "(787) 721-6121",
+    "website": "https://www.oppea.pr.gov/",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.oppea.pr.gov/"
@@ -6465,10 +6545,17 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Ombudsman",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Rights",
+      "sourceSubcategory": "Ombudsman",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Directorio de Oficinas / Programas OPPEA",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Portal oficial activo con teléfonos regionales y servicios vigentes.",
       "phoneSecondary": "Ponce (787) 841-1180; Guayama (787) 866-6971; Mayagüez (787) 986-7105",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6477,8 +6564,6 @@
     "source": "older_adults_verified_directory",
     "name": "OPPEA Contactos",
     "town": "Puerto Rico",
-    "phone": "(787) 721-6121",
-    "website": "https://www.oppea.pr.gov/contactenos",
     "organization": "OPPEA",
     "description": "Página oficial con oficinas de San Juan, Ponce, Guayama y Mayagüez y números actualizados.",
     "summary": "Contacto oficial",
@@ -6501,6 +6586,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "(787) 721-6121",
+    "website": "https://www.oppea.pr.gov/contactenos",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.oppea.pr.gov/contactenos"
@@ -6508,10 +6595,17 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Contact",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Rights",
+      "sourceSubcategory": "Contact",
+      "sourceInOppea2022": "No",
+      "originalSection": "N/A",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Incluye dirección física de oficinas satélite y múltiples extensiones / teléfonos.",
       "phoneSecondary": "1-800-981-4899; 1-800-981-0056",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6520,9 +6614,6 @@
     "source": "older_adults_verified_directory",
     "name": "OPPEA – Oficina de Asuntos Legales",
     "town": "Puerto Rico",
-    "phone": "(787) 721-6121",
-    "email": "asuntoslegales@oppea.pr.gov",
-    "website": "https://www.oppea.pr.gov/oficinas/oficina-de-asuntos-legales",
     "organization": "OPPEA",
     "description": "Atiende asuntos legales, referidos y orientación sobre derechos de personas adultas mayores.",
     "summary": "Orientación legal y querellas",
@@ -6546,6 +6637,9 @@
       "hospicio",
       "otro"
     ],
+    "phone": "(787) 721-6121",
+    "email": "asuntoslegales@oppea.pr.gov",
+    "website": "https://www.oppea.pr.gov/oficinas/oficina-de-asuntos-legales",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.oppea.pr.gov/oficinas/oficina-de-asuntos-legales"
@@ -6553,9 +6647,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Legal / complaints",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Rights",
+      "sourceSubcategory": "Legal / complaints",
+      "sourceInOppea2022": "No",
+      "originalSection": "Asuntos Legales / Programas",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "La página oficial identifica correo y cuadro telefónico vigente.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6564,8 +6665,6 @@
     "source": "older_adults_verified_directory",
     "name": "OPPEA – Oficina de Oficiales Examinadores",
     "town": "Puerto Rico",
-    "email": "foro@oppea.pr.gov",
-    "website": "https://www.oppea.pr.gov/procuradorias/oficina-de-oficiales-examinadores",
     "organization": "OPPEA",
     "description": "Recepción de querellas y foro administrativo.",
     "summary": "Querellas administrativas",
@@ -6587,6 +6686,8 @@
       "hospicio",
       "otro"
     ],
+    "email": "foro@oppea.pr.gov",
+    "website": "https://www.oppea.pr.gov/procuradorias/oficina-de-oficiales-examinadores",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.oppea.pr.gov/procuradorias/oficina-de-oficiales-examinadores"
@@ -6594,9 +6695,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Administrative complaints",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Rights",
+      "sourceSubcategory": "Administrative complaints",
+      "sourceInOppea2022": "No",
+      "originalSection": "Programas OPPEA",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "La página indica correo oficial y PO Box para querellas.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6605,8 +6713,6 @@
     "source": "older_adults_verified_directory",
     "name": "OPPEA – Directorio de servicios actual",
     "town": "Puerto Rico",
-    "phone": "(787) 721-6121",
-    "website": "https://www.oppea.pr.gov/directorio-de-servicios-copy",
     "organization": "OPPEA",
     "description": "Buscador/directorio vigente por municipio dentro del portal oficial.",
     "summary": "Directorio oficial por municipio",
@@ -6630,6 +6736,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "(787) 721-6121",
+    "website": "https://www.oppea.pr.gov/directorio-de-servicios-copy",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.oppea.pr.gov/directorio-de-servicios-copy"
@@ -6637,9 +6745,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Current directory",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Services",
+      "sourceSubcategory": "Current directory",
+      "sourceInOppea2022": "No",
+      "originalSection": "N/A",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Importante para validar o sustituir entradas del PDF 2022 municipio por municipio.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6648,8 +6763,6 @@
     "source": "older_adults_verified_directory",
     "name": "ADFAN – Administración de Servicios a Personas de Edad Avanzada y Adultos con Impedimentos",
     "town": "Puerto Rico",
-    "phone": "(787) 294-4900",
-    "website": "https://adfan.pr.gov/AdministracionesAuxiliares/ServiciosEdadAvanzada/Pages/default.aspx",
     "organization": "ADFAN",
     "description": "Programa del Departamento de la Familia con servicios de protección, información, referidos y apoyo.",
     "summary": "Protección y referidos",
@@ -6674,6 +6787,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "(787) 294-4900",
+    "website": "https://adfan.pr.gov/AdministracionesAuxiliares/ServiciosEdadAvanzada/Pages/default.aspx",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://adfan.pr.gov/AdministracionesAuxiliares/ServiciosEdadAvanzada/Pages/default.aspx"
@@ -6681,9 +6796,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Older adults services",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Family services",
+      "sourceSubcategory": "Older adults services",
+      "sourceInOppea2022": "No",
+      "originalSection": "Directorio por Agencias",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Página oficial vigente con información programática actual.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6692,8 +6814,6 @@
     "source": "older_adults_verified_directory",
     "name": "Departamento de la Familia",
     "town": "Puerto Rico",
-    "phone": "(787) 294-4900",
-    "website": "https://www.familia.pr.gov/",
     "organization": "Departamento de la Familia",
     "description": "Agencia con servicios a poblaciones vulnerables y contacto central actualizado.",
     "summary": "Agencia principal de servicios",
@@ -6717,6 +6837,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "(787) 294-4900",
+    "website": "https://www.familia.pr.gov/",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.familia.pr.gov/"
@@ -6724,9 +6846,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Main agency",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Family services",
+      "sourceSubcategory": "Main agency",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Directorio por Agencias",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Portal oficial vigente con dirección y cuadro telefónico actual.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6735,8 +6864,6 @@
     "source": "older_adults_verified_directory",
     "name": "ADFAN – líneas de maltrato y orientación",
     "town": "Puerto Rico",
-    "phone": "(787) 749-1333",
-    "website": "https://adfan.pr.gov/Pages/default.aspx",
     "organization": "ADFAN",
     "description": "Líneas oficiales de maltrato y orientación del Departamento de la Familia.",
     "summary": "Maltrato y orientación",
@@ -6761,6 +6888,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "(787) 749-1333",
+    "website": "https://adfan.pr.gov/Pages/default.aspx",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://adfan.pr.gov/Pages/default.aspx"
@@ -6768,10 +6897,17 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Abuse reporting",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Family services",
+      "sourceSubcategory": "Abuse reporting",
+      "sourceInOppea2022": "No",
+      "originalSection": "Líneas de Ayuda",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Recurso clave para maltrato, negligencia y orientación.",
       "phoneSecondary": "1-800-981-8333; (787) 977-8022; 1-888-359-7777",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6780,7 +6916,6 @@
     "source": "older_adults_verified_directory",
     "name": "Registro de Centros Licenciados y Certificados para Adultos Mayores y Adultos con Impedimentos",
     "town": "Puerto Rico",
-    "website": "https://adfan.pr.gov/AdministracionesAuxiliares/ServiciosEdadAvanzada/Pages/default.aspx",
     "organization": "ADFAN",
     "description": "Listado oficial de centros licenciados/certificados para cotejar hogares, centros diurnos y capacidad.",
     "summary": "Verificación de hogares y centros",
@@ -6804,6 +6939,7 @@
       "hospicio",
       "otro"
     ],
+    "website": "https://adfan.pr.gov/AdministracionesAuxiliares/ServiciosEdadAvanzada/Pages/default.aspx",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://adfan.pr.gov/AdministracionesAuxiliares/ServiciosEdadAvanzada/Pages/default.aspx"
@@ -6811,9 +6947,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Licensed centers registry",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Registry",
+      "sourceSubcategory": "Licensed centers registry",
+      "sourceInOppea2022": "No",
+      "originalSection": "N/A",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "La página oficial refiere un registro actualizado; útil para verificación institucional.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6822,8 +6965,6 @@
     "source": "older_adults_verified_directory",
     "name": "Registro de Cuidadores Informales",
     "town": "Puerto Rico",
-    "phone": "(787) 294-4900",
-    "website": "https://cuidadoresinformales.familia.pr.gov/servicios",
     "organization": "Departamento de la Familia",
     "description": "Portal oficial sobre registro y servicios para personas cuidadoras.",
     "summary": "Apoyo a personas cuidadoras",
@@ -6848,6 +6989,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "(787) 294-4900",
+    "website": "https://cuidadoresinformales.familia.pr.gov/servicios",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://cuidadoresinformales.familia.pr.gov/servicios"
@@ -6855,9 +6998,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Caregiver registry",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Government / Caregiver support",
+      "sourceSubcategory": "Caregiver registry",
+      "sourceInOppea2022": "No",
+      "originalSection": "N/A",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Útil para apoyo a cuidadoras y coordinación comunitaria.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6866,7 +7016,6 @@
     "source": "older_adults_verified_directory",
     "name": "Puerto Rico SHIP",
     "town": "Puerto Rico",
-    "website": "https://www.shiphelp.org/ships/puerto-rico/",
     "organization": "Puerto Rico SHIP",
     "description": "Programa oficial de consejería imparcial sobre Medicare.",
     "summary": "Consejería sobre Medicare",
@@ -6888,6 +7037,7 @@
       "hospicio",
       "otro"
     ],
+    "website": "https://www.shiphelp.org/ships/puerto-rico/",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.shiphelp.org/ships/puerto-rico/"
@@ -6895,9 +7045,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Counseling",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Medicare / Insurance",
+      "sourceSubcategory": "Counseling",
+      "sourceInOppea2022": "No",
+      "originalSection": "Programas OPPEA / Seguros",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Directorio oficial nacional SHIP activo para Puerto Rico.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6906,8 +7063,6 @@
     "source": "older_adults_verified_directory",
     "name": "2-1-1 Puerto Rico",
     "town": "Puerto Rico",
-    "phone": "211",
-    "website": "https://www.211pr.org/",
     "organization": "United Way Puerto Rico",
     "description": "Servicio gratuito y confidencial de información y referido de United Way.",
     "summary": "Información y referidos multiservicio",
@@ -6931,6 +7086,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "211",
+    "website": "https://www.211pr.org/",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.211pr.org/"
@@ -6938,9 +7095,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Community referrals",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Referral / Navigation",
+      "sourceSubcategory": "Community referrals",
+      "sourceInOppea2022": "No",
+      "originalSection": "N/A",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Base de datos investigable y canal de referido multiservicio.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6949,7 +7113,6 @@
     "source": "older_adults_verified_directory",
     "name": "Sistema 9-1-1",
     "town": "Puerto Rico",
-    "phone": "911",
     "description": "Número de emergencias.",
     "summary": "Emergencias",
     "services": [
@@ -6969,6 +7132,7 @@
       "hospicio",
       "otro"
     ],
+    "phone": "911",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.pr.gov/"
@@ -6976,9 +7140,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Emergency",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Emergency",
+      "sourceSubcategory": "Emergency",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Líneas de Ayuda",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Número de emergencia vigente.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -6987,8 +7158,6 @@
     "source": "older_adults_verified_directory",
     "name": "988 Suicide & Crisis Lifeline",
     "town": "Puerto Rico / EE.UU.",
-    "phone": "988",
-    "website": "https://988lifeline.org/",
     "organization": "988 Lifeline",
     "description": "Línea 24/7 para crisis emocional y suicidio.",
     "summary": "Crisis emocional y suicidio",
@@ -7012,6 +7181,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "988",
+    "website": "https://988lifeline.org/",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://988lifeline.org/"
@@ -7019,9 +7190,16 @@
     "coverage": "Puerto Rico / EE.UU.",
     "verification": "Alto",
     "details": {
-      "subcategory": "Hotline",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Mental health / crisis",
+      "sourceSubcategory": "Hotline",
+      "sourceInOppea2022": "No",
+      "originalSection": "N/A",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "No aparecía claramente en el directorio 2022; hoy es esencial.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "Yes",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -7030,8 +7208,6 @@
     "source": "older_adults_verified_directory",
     "name": "Línea PAS de ASSMCA",
     "town": "Puerto Rico",
-    "phone": "1-800-981-0023",
-    "website": "https://prevencionsuicidio.salud.pr.gov/en/directorio/",
     "organization": "ASSMCA",
     "description": "Apoyo en salud mental y uso de sustancias.",
     "summary": "Salud mental y sustancias",
@@ -7055,6 +7231,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "1-800-981-0023",
+    "website": "https://prevencionsuicidio.salud.pr.gov/en/directorio/",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://prevencionsuicidio.salud.pr.gov/en/directorio/"
@@ -7062,10 +7240,17 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Hotline",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Mental health / crisis",
+      "sourceSubcategory": "Hotline",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Líneas de Ayuda",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "La Comisión para la Prevención del Suicidio en PR la publica como línea vigente.",
       "phoneSecondary": "988",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -7074,8 +7259,6 @@
     "source": "older_adults_verified_directory",
     "name": "Seguro Social",
     "town": "Puerto Rico / EE.UU.",
-    "phone": "1-800-772-1213",
-    "website": "https://www.ssa.gov/",
     "organization": "Social Security Administration",
     "description": "Administración del Seguro Social.",
     "summary": "Beneficios federales",
@@ -7099,6 +7282,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "1-800-772-1213",
+    "website": "https://www.ssa.gov/",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.ssa.gov/"
@@ -7106,10 +7291,17 @@
     "coverage": "Puerto Rico / EE.UU.",
     "verification": "Alto",
     "details": {
-      "subcategory": "Federal benefits",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Benefits / income",
+      "sourceSubcategory": "Federal benefits",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Líneas de Ayuda / Programas",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Recurso esencial para beneficios y gestiones.",
       "phoneSecondary": "TTY 1-800-325-0778",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -7118,7 +7310,6 @@
     "source": "older_adults_verified_directory",
     "name": "Rama Judicial de Puerto Rico",
     "town": "Puerto Rico",
-    "website": "https://www.ramajudicial.pr/",
     "organization": "Rama Judicial de Puerto Rico",
     "description": "Portal principal de tribunales y servicios judiciales.",
     "summary": "Tribunales y servicios judiciales",
@@ -7141,6 +7332,7 @@
       "hospicio",
       "otro"
     ],
+    "website": "https://www.ramajudicial.pr/",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.ramajudicial.pr/"
@@ -7148,9 +7340,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Courts",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Legal",
+      "sourceSubcategory": "Courts",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Asuntos Legales",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Sustituye parcialmente listados viejos de salas y regiones que requieren confirmación individual.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -7159,7 +7358,6 @@
     "source": "older_adults_verified_directory",
     "name": "Servicios Legales de Puerto Rico",
     "town": "Puerto Rico",
-    "website": "https://www.slpr.org/",
     "organization": "Servicios Legales de Puerto Rico",
     "description": "Servicios legales civiles para personas elegibles.",
     "summary": "Asistencia legal civil",
@@ -7181,6 +7379,7 @@
       "hospicio",
       "otro"
     ],
+    "website": "https://www.slpr.org/",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.slpr.org/"
@@ -7188,9 +7387,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Civil legal aid",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Legal",
+      "sourceSubcategory": "Civil legal aid",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Asuntos Legales",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Entidad activa con oficinas regionales.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -7199,7 +7405,6 @@
     "source": "older_adults_verified_directory",
     "name": "Sociedad para Asistencia Legal de Puerto Rico",
     "town": "Puerto Rico",
-    "website": "https://www.salpr.org/",
     "organization": "Sociedad para Asistencia Legal de Puerto Rico",
     "description": "Acceso a justicia para personas indigentes.",
     "summary": "Defensa legal para personas indigentes",
@@ -7221,6 +7426,7 @@
       "hospicio",
       "otro"
     ],
+    "website": "https://www.salpr.org/",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.salpr.org/"
@@ -7228,9 +7434,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Criminal / defense",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Legal",
+      "sourceSubcategory": "Criminal / defense",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Asuntos Legales",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Portal activo con oficinas y personal.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -7239,8 +7452,6 @@
     "source": "older_adults_verified_directory",
     "name": "Pro-Bono, Inc.",
     "town": "Puerto Rico",
-    "phone": "1-800-981-5801",
-    "website": "https://www.probonopr.org/",
     "organization": "Pro-Bono, Inc.",
     "description": "Servicios legales gratuitos y orientación para personas elegibles.",
     "summary": "Orientación legal gratuita",
@@ -7263,6 +7474,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "1-800-981-5801",
+    "website": "https://www.probonopr.org/",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.probonopr.org/"
@@ -7270,9 +7483,16 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Pro bono",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Legal",
+      "sourceSubcategory": "Pro bono",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Asuntos Legales",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Organización activa con oficinas regionales.",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
     }
   },
   {
@@ -7281,8 +7501,6 @@
     "source": "older_adults_verified_directory",
     "name": "Oficina del Procurador del Paciente (OPP)",
     "town": "Puerto Rico",
-    "phone": "(787) 977-0909",
-    "website": "https://www.opp.pr.gov/",
     "organization": "Oficina del Procurador del Paciente",
     "description": "Orienta y atiende reclamaciones sobre derechos de pacientes.",
     "summary": "Derechos del paciente",
@@ -7305,6 +7523,8 @@
       "hospicio",
       "otro"
     ],
+    "phone": "(787) 977-0909",
+    "website": "https://www.opp.pr.gov/",
     "sourceLabel": "Directorio de servicios para personas de edad avanzada (verificado 2026)",
     "sourceUrls": [
       "https://www.opp.pr.gov/"
@@ -7312,10 +7532,17 @@
     "coverage": "Puerto Rico",
     "verification": "Alto",
     "details": {
-      "subcategory": "Health advocacy",
+      "importBatch": "older-adults-phase-1",
+      "sourceSheet": "Verified_Updated_Directory",
+      "sourceCategory": "Patient rights",
+      "sourceSubcategory": "Health advocacy",
+      "sourceInOppea2022": "Yes",
+      "originalSection": "Directorio por Agencias",
+      "verifiedAsOf": "2026-03-26",
       "currentSourceNotes": "Portal oficial vigente con oficinas satélite.",
       "phoneSecondary": "1-800-981-0031",
-      "verifiedAsOf": "2026-03-26"
+      "additionalResource": "No",
+      "priorityForAmorir": "Alta"
     }
   }
 ]
