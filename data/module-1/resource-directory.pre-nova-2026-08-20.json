@@ -7317,59 +7317,5 @@
       "phoneSecondary": "1-800-981-0031",
       "verifiedAsOf": "2026-03-26"
     }
-  },
-  {
-    "id": "hospicio-nova-hospice-san-juan",
-    "category": "hospicio",
-    "source": "hospicios_pr",
-    "name": "Nova Hospice",
-    "town": "San Juan",
-    "townSlug": "san-juan",
-    "region": "metro",
-    "regions": [
-      "metro"
-    ],
-    "phone": "787-287-4094",
-    "email": "jedavila@novainfusion.com",
-    "address": "CALLE DALMACIA 1304, San Juan, PR 00920",
-    "summary": "For-profit · Autoreportada · censo diario ~40 (autoreportado)",
-    "services": [
-      "Hospicio",
-      "Cuidado al final de vida"
-    ],
-    "needs": [
-      "hospicio",
-      "cuidado_en_casa",
-      "apoyo_familiar"
-    ],
-    "stages": [
-      "final_de_vida",
-      "planificando"
-    ],
-    "careSettings": [
-      "hogar"
-    ],
-    "sourceLabel": "Formulario AMORir – Directorio de Hospicios de Puerto Rico",
-    "coverage": "Puerto Rico: San Juan y área metro",
-    "verification": "Autoreportada (formulario AMORir 2026-08-20)",
-    "details": {
-      "ownership": "For-profit",
-      "medicareCertified": "Yes",
-      "yearMedicareCertification": "2025",
-      "numberServedDaily": "Small (20-49 pts/day)",
-      "ceoAdministrator": "Jose E Davila Perez",
-      "hospiceInpatientFacility": "No",
-      "veteranPrograms": "Yes",
-      "homePatients75Plus": "Yes",
-      "urbanOrRural": "Urban",
-      "prisonHospice": "No",
-      "detailSource": "Autoreportado via formulario AMORir 2026-08-20",
-      "ceoAdministratorContact": {
-        "value": "jedavila@novainfusion.com",
-        "emails": [
-          "jedavila@novainfusion.com"
-        ]
-      }
-    }
   }
 ]
